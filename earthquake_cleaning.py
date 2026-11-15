@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-Earthquake_raw = pd.read_csv('/Users/guxuana/Desktop/Data Processing Workshop I /ProjectData/07earthquake.csv')
+Earthquake_raw = pd.read_csv('data/07earthquake.csv')
 
 earthquake = Earthquake_raw.copy()
 
@@ -30,7 +30,7 @@ print()
 print(earthquake.groupby("Type")["Magnitude"].count())
 print()
 
-earthquake_only = earthquake.loc[earthquake["Type"] == "Earthquake"]
+earthquake_only = earthquake.loc[earthquake["Type"] == "Earthquake"].copy()
 print(earthquake_only.shape)
 print(earthquake_only)
 print()
@@ -49,4 +49,3 @@ for idx in earthquake_only.index:
         new_date = date[5:7] + "/" + date[8:10]+ "/" + date[0:4]
         earthquake_only.loc[idx, "Date"] = new_date
         print(earthquake_only.loc[idx, ["Date", "Time", "Latitude", "Longitude", "Type", "Depth", "Magnitude"]])
-    

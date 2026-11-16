@@ -71,6 +71,7 @@ USGS 只作对照和延伸，不与本地目录简单拼接：
 - `impact/`：NOAA NCEI 显著地震与海啸目录
 - `context/`：板块边界（PB2002）、GEM 全球活动断层、Global CMT 震源机制
 - `nbs/`：国家统计局年鉴「地震灾害情况」、分省人口和地区生产总值，以及环境统计资料中的地震灾害表。尚未转录成分析表。
+- `china/`：中国优先补充，位于 `07_external/china/`。含中国地震台网正式目录（2009 年起）、CN-block 地块与 CN-faults 活动断层；国家地震台网整包目录因需登录未收入。说明见 `07_external/china/SOURCES.md`。
 
 ### mapdata/
 

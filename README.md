@@ -1,41 +1,110 @@
 # Earthquake Data Processing Workshop I Project
 
-使用课程中的 Python、NumPy 和 Pandas 语法，逐步练习地震数据检查和清理。项目仍在学习与完善中。
+BNBU DS 2043 数据处理工作坊 I（2026 秋）选题 07：全球地震数据的清洗、外部数据补充与时空分析。
 
-## 文件结构
+本分支 `Aliwu` 由吴宇轩整理并上传，对应桌面项目文件夹中已经完成的精细清洗、外部数据收集和时空分析。`main` 上原有的练习脚本 `earthquake_cleaning.py` 和课程原始表 `data/07earthquake.csv` 全部保留，互不覆盖。
 
-- `earthquake_cleaning.py`：数据检查、筛选与日期格式整理脚本。
-- `data/07earthquake.csv`：课程提供的原始数据，保持原样。
-- `requirements.txt`：验证运行时使用的依赖版本。
+## 目录结构
 
-## 运行方法
+```
+.
+├── README.md
+├── earthquake_cleaning.py          # 组内原有的入门练习脚本（保留）
+├── data/07earthquake.csv           # 课程提供的原始表（保留）
+├── requirements.txt
+├── mapdata/ne_50m_land/            # Natural Earth 50m 陆地底图，供地图复现
+├── 07_fine_clean/                  # 精细清洗笔记本与清洗结果
+├── 07_analysis/                    # 分析样本、对照目录、时空平面图与立体图
+└── 07_external/                    # 外部数据原文（只保存、未清洗）
+```
 
-使用 Python 3.11 或更新版本，在本仓库根目录运行：
+## 主数据口径
+
+后续分析以精细清洗后的本地长序列为主，主分析只取构造地震（`is_earthquake`）。
+
+- 本地主样本 23,232 条，时间范围 1965-01-02 至 2016-12-30，震级 5.5–9.1。
+- 非构造事件 180 条只做计数，不进入主样本。
+- 无效坐标不进入空间图，震级异常不进入震级统计；本样本中这两类均为 0 条。
+- 负深度 3 条、疑似重复 98 条保留在主样本中，并加标记说明；深度图会排除缺失深度的记录。
+- 日期只新增 `Date_parsed`（按混合格式解析为 UTC），不改原日期列。
+- 中国子集按 `Country == "CN"` 登记：主样本 358 条。
+
+USGS 只作对照和延伸，不与本地目录简单拼接：
+
+- 1965–2016 年 M≥5.5：同期对照
+- 2017 年后 M≥5：时间延伸
+- 2022–2023 年已做过精细清洗；其余外部 USGS 在 `07_analysis/` 中另存标记副本，不删行
+
+板块边界、活动断层和 Global CMT 目前只作为背景数据收齐，构造背景分析笔记本尚未开写。国家统计局灾害、人口和 GDP 表只保存官网原文，尚未转录。
+
+## 各文件夹说明
+
+### 07_fine_clean/
+
+对课程原始表和 USGS 2022–2023 年目录做精细清洗：标记与派生列，不改已导出的原始值（负深度除外：加标记后在分析副本中置空）。输出在 `cleaned/`：
+
+- `07_earthquake_fine_cleaned.csv`（本地 23,412 行）
+- `07_usgs_quakes_fine_cleaned.csv`（USGS 2022–2023，3,503 行）
+- `07_geocode_corrections.csv`（逆地理校正表）
+
+课程原始表在本仓库中位于 `data/07earthquake.csv`（与桌面项目里的 `ProjectData/07earthquake.csv` 为同一份数据）。
+
+### 07_analysis/
+
+在精细清洗结果上做样本界定和时空格局，新开笔记本，不覆盖旧的升级图。
+
+- `07_earthquake_analysis_sample.ipynb`：样本界定与质量清点
+- `07_earthquake_analysis_sample.csv`：本地主样本（23,232 条）
+- `07_analysis_sample_quality.csv`：清点表
+- `07_usgs_*_flagged.csv`：各时段 USGS 标记副本
+- `07_earthquake_analysis_spatiotemporal.ipynb`：时空平面图（年度/十年频次、全球密度与 M≥7、按深度分层）
+- `figures/`：平面图；`figures/3d/`：按板块分张的紫金立体图（52 张）
+- `07_st_annual_counts.csv`、`07_st_decade_counts.csv`、`07_st_3d_plate_counts.csv`：配套计数表
+
+立体图规则：每个板块单独一张，地图斜铺在底部，每场地震在震中立柱，柱高 `h = M − 5.0`；同一张图内 9.1 明显高于 5.5，不同板块之间的柱高不能直接比较。板块归属使用 `07_external/context/tectonicplates/` 中的 PB2002 多边形，点在多边形内则归该板块，落在边界上则就近归属。本样本 23,232 条全部归属，未归属 0 条。
+
+### 07_external/
+
+按三层收集的公开数据，只保存原文，不做清洗。来源、许可、抓取参数和缺口记在 `07_external/SOURCES.md` 和 `07_external/nbs/SOURCES.md`。
+
+- `catalogs/`：USGS 目录（1965–2016 年 M≥5.5 同期对照，2017–2021、2022–2023、2024 至抓取日的 M≥5）
+- `impact/`：NOAA NCEI 显著地震与海啸目录
+- `context/`：板块边界（PB2002）、GEM 全球活动断层、Global CMT 震源机制
+- `nbs/`：国家统计局年鉴「地震灾害情况」、分省人口和地区生产总值，以及环境统计资料中的地震灾害表。尚未转录成分析表。
+
+### mapdata/
+
+复现地图所需的 Natural Earth 50m 陆地底图。笔记本里也预留了桌面路径回退。
+
+## 运行说明
+
+建议使用 Python 3.11 或更新版本。组内原有练习：
 
 ```bash
 python -m pip install -r requirements.txt
 python earthquake_cleaning.py
 ```
 
-如果已在 `python-common` Conda 环境中安装依赖，可以激活环境后直接运行脚本。
+精细清洗与分析笔记本在 `07_fine_clean/` 和 `07_analysis/` 中，需额外安装 `geopandas`、`matplotlib`、`seaborn`、`pyproj`。地图基于 Natural Earth 50m，立体图使用 matplotlib 的三维坐标。读取 `Date_parsed` 时请使用：
 
-## 当前处理流程
+```python
+pd.to_datetime(..., format="ISO8601", utc=True)
+```
 
-1. 读取原始数据，建立工作副本。
-2. 查看数据维度、前几行、列类型和描述性统计。
-3. 统计缺失值，定位负深度记录供后续核查。
-4. 按事件类型统计记录数，并筛选 `Earthquake` 事件。
-5. 用循环、字符串切片和 `.loc` 将三条完整时间戳形式的日期整理为 `MM/DD/YYYY`。
+布尔标记从 CSV 读入后可能变成字符串，使用前需再转成布尔值。
 
-原始数据包含 23,412 条记录和 7 列，筛选后保留 23,232 条 `Earthquake` 记录。日期整理只修改内存中的工作表，脚本目前输出检查结果，没有导出清理后的 CSV。
+## 当前进度与未做事项
 
-## 后续练习
+已完成：精细清洗、外部数据与统计局原文收集、分析样本界定、时空平面图、分板块立体图。
 
-- 检查和规范 `Time` 列中的完整时间戳，保留小数秒等原始信息。
-- 核查负深度记录，明确处理依据。
-- 验证日期有效性及清理前后的记录数量。
-- 按分析需求完成汇总，并导出清理结果。
+尚未开始（需先确认技术细节再写）：
+
+- 构造背景分析（板块边界、断层、CMT 与板缘/板内差异）
+- 本地目录与 USGS 的对照分析
+- 国家统计局表转录，以及中国分省活动与灾情、人口、GDP 暴露的深挖
+- 机器学习
 
 ## 数据来源
 
-Data Processing Workshop I 课程提供的 `ProjectData/07earthquake.csv`。仓库记录本人的学习代码与处理过程；数据集的原始发布来源和说明待补充。
+- 本地长序列：课程提供的 `ProjectData/07earthquake.csv`，本仓库副本为 `data/07earthquake.csv`
+- USGS、NCEI、GEM、Global CMT、板块边界与国家统计局数据的出处和许可见 `07_external/SOURCES.md` 与 `07_external/nbs/SOURCES.md`

@@ -1,0 +1,988 @@
+<!DOCTYPE htm PUBLIC "-//W3C//DTD htm 4.0 Transitional//EN">
+
+<head>
+<style>
+<!--
+#foldheader{cursor:hand ; font-weight:bold ;
+list-style-image:url('fold.gif'); letter-spacing:-1pt; text-align:left; margin-left:-10; margin-top:0; font-size:11pt; font-family:宋体}
+#foldinglist{list-style-image:url('list.gif'); text-align:left; margin-right:1; word-spacing:0}
+#arrowheader{list-style-image:url('arrow.gif'); text-align:left; margin-right:1; word-spacing:0}
+//-->
+</style>
+<script language="JavaScript1.2">
+var head="display:''"
+img1=new Image()
+img1.src="image/fold.gif"
+img2=new Image()
+img2.src="image/open.gif"
+function change(){
+
+//if(!document.all)
+//return
+if (event.srcElement.id=="foldheader"){
+		alert(event.srcElement.id);
+var srcIndex = event.srcElement.sourceIndex
+alert(srcIndex);
+var nested = document.all[srcIndex+1]
+alert(nested);
+if (nested.style.display=="none"){
+nested.style.display=''
+event.srcElement.style.listStyleImage="url(image/open.gif)"
+}
+else {
+nested.style.display="none"
+event.srcElement.style.listStyleImage="url(image/fold.gif)"
+}
+}
+}
+
+//document.onclick=change
+
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+		$("[id='foldheader']").click( function () {
+		
+		
+		var nested = $(this).next("[id='foldinglist']");
+		
+		if (nested.css("display")=="none"){
+			nested.css("display","block");
+			event.srcElement.style.listStyleImage="url(image/open.gif)"
+			}
+			else {
+				nested.css("display","none");
+			event.srcElement.style.listStyleImage="url(image/fold.gif)"
+			}
+		});
+});
+</script>
+<STYLE type=text/css>
+BODY {
+	MARGIN-TOP: 0px; FONT-SIZE: 11pt; MARGIN-LEFT: 4px; MARGIN-RIGHT: 0px; FONT-FAMILY: "宋体"
+}
+A {
+	FONT-WEIGHT: 400; FONT-SIZE: 11pt; COLOR: black; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: 400; FONT-SIZE: 11pt; COLOR: red; TEXT-DECORATION: underline
+}
+A:active {
+	FONT: 11pt "宋体"; CURSOR: hand; COLOR: #ff0033
+}
+div.Section1
+	{page:Section1;}
+.style7 {font-size: 12px}
+.style8 {font-family: Arial, Helvetica, sans-serif}
+.style9 {font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+</STYLE>
+
+<META http-equiv=Content-Type content="text/htm; charset=gb2312">
+<META content="Microsoft FrontPage 6.0" name=GENERATOR>
+<base target="main">
+<title>中国统计年鉴—2007</title>
+</HEAD>
+<BODY bgColor=#c7daf7 topmargin="3" leftmargin="0" style="text-align: left" >
+<CENTER>
+<div align="left">
+<TABLE borderColor=#0066FF border=2 borderlight="green" width="215" style="border:2 ridge #6699FF; padding-top: 2; padding-bottom: 2" cellspacing="0" align="left" height="2021">
+  <TBODY>
+ <TR>
+    <TD width="212" bgcolor="#6699FF" bordercolor="#C7DAF7" style="border-style: ridge" height="1">
+      <p align="center">
+		<a target="_parent" href="indexce.htm">
+		<img border="0" src="image/LEFTTOPe.bmp" width="210" height="33"></a></TD></TR>   	         
+<CENTER>
+<TR><TD width="212" bordercolor="#C7DAF7" valign="top" height="1"> 
+ <br>  &nbsp;
+<a href="notepyrightC.HTM"><b>版权声明</b></a><br> &nbsp;  
+<a href="note.htm"><b>编者说明</b></a><br>&nbsp; 
+       <a href="editorC.HTM"><b>编委会和编辑出版人员</b>  </a><br> &nbsp; 
+   <a href="sm.htm"><b>最新资料图书简目</b> </a>
+     </TD></TR>
+<TR><th width="212" bordercolor="#C7DAF7" valign="top" height="1969" align="left"> 
+<hr size="1" width="100%" color=blues> <br> 
+
+
+<ul>
+<li id="foldheader">一、行政区划和自然资源</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn01b.htm'>简要说明</a></li>
+<li><a href='html/A0101C.HTM'>1-1  全国行政区划 (2006年底)</a></li>
+<li><a href='html/A0102C.HTM'>1-2  自    然    状    况</a></li>
+<li><a href='html/A0103C.HTM'>1-3  自    然    资    源</a></li>
+<li><a href='html/A0104C.HTM'>1-4  土  地  状  况</a></li>
+<li><a href='html/A0105C.HTM'>1-5  主要山脉基本情况</a></li>
+<li><a href='html/A0106C.HTM'>1-6  主要河流基本情况</a></li>
+<li><a href='html/A0107C.HTM'>1-7  河  流  流  域  面  积</a></li>
+<li><a href='html/A0108C.HTM'>1-8  内陆水域面积</a></li>
+<li><a href='html/A0109C.HTM'>1-9  湖泊面积</a></li>
+<li><a href='html/A0110C.HTM'>1-10  海区海域及渔场面积</a></li>
+<li><a href='html/A0111C.HTM'>1-11  浅海滩涂海湾可养殖面积</a></li>
+<li><a href='html/A0112C.HTM'>1-12  主要矿产基础储量</a></li>
+<li><a href='html/A0113C.HTM'>1-13  各地区主要能源、黑色金属矿产基础储量 (2006年)</a></li>
+<li><a href='html/A0114C.HTM'>1-14  各地区主要有色金属、非金属矿产基础储量 (2006年)</a></li>
+<li><a href='html/A0115C.HTM'>1-15  主要城市平均气温 (2006年)</a></li>
+<li><a href='html/A0116C.HTM'>1-16  主要城市平均相对湿度(2006年)</a></li>
+<li><a href='html/A0117C.HTM'>1-17  主要城市降水量 (2006年)</a></li>
+<li><a href='html/A0118C.HTM'>1-18  主要城市日照时数 (2006年)</a></li>
+<li><a href='html/cn01i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">二、综合</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn02b.htm'>简要说明</a></li>
+<li><a href='html/B0201C.HTM'>2-1  各 部 门 机 构 数</a></li>
+<li><a href='html/B0202C.HTM'>2-2  平均每天主要社会经济活动</a></li>
+<li><a href='html/B0203C.HTM'>2-3  国民经济和社会发展总量与速度指标</a></li>
+<li><a href='html/B0204C.HTM'>2-4  国民经济和社会发展结构指标</a></li>
+<li><a href='html/B0205C.HTM'>2-5  国民经济和社会发展比例和效益指标</a></li>
+<li><a href='html/B0206C.HTM'>2-6  人均主要工农业产品产量</a></li>
+<li><a href='html/B0207C.HTM'>2-7  按区域分的国民经济和社会发展主要指标 (2006年)</a></li>
+<li><a href='html/B0208C.HTM'>2-8  民族自治地方自然资源</a></li>
+<li><a href='html/B0209C.HTM'>2-9  民族自治地方行政区划和人口 (2006年)</a></li>
+<li><a href='html/B0210C.HTM'>2-10  少数民族分布的主要地区</a></li>
+<li><a href='html/B0211C.HTM'>2-11  民族自治地方国民经济与社会发展主要指标</a></li>
+<li><a href='html/cn02i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">三、国民经济核算</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn03b.htm'>简要说明</a></li>
+<li><a href='html/C0301C.HTM'>3-1  国内生产总值</a></li>
+<li><a href='html/C0302C.HTM'>3-2  国内生产总值构成</a></li>
+<li><a href='html/C0303C.HTM'>3-3  国内生产总值指数</a></li>
+<li><a href='html/C0304C.HTM'>3-4  国内生产总值指数</a></li>
+<li><a href='html/C0305C.HTM'>3-5  第三产业增加值</a></li>
+<li><a href='html/C0306C.HTM'>3-6  第三产业增加值构成</a></li>
+<li><a href='html/C0307C.HTM'>3-7  第三产业增加值指数</a></li>
+<li><a href='html/C0308C.HTM'>3-8  第三产业增加值指数</a></li>
+<li><a href='html/C0309C.HTM'>3-9  分行业增加值及构成 (2005年)</a></li>
+<li><a href='html/C0310C.HTM'>3-10  三次产业贡献率</a></li>
+<li><a href='html/C0311C.HTM'>3-11  三次产业对国内生产总值增长的拉动</a></li>
+<li><a href='html/C0312C.HTM'>3-12  地区生产总值和指数</a></li>
+<li><a href='html/C0313C.HTM'>3-13  地区生产总值 (2006年)</a></li>
+<li><a href='html/C0314C.HTM'>3-14  地区生产总值收入法构成项目 (2006年)</a></li>
+<li><a href='html/C0315C.HTM'>3-15  支出法国内生产总值</a></li>
+<li><a href='html/C0316C.HTM'>3-16  支出法国内生产总值结构</a></li>
+<li><a href='html/C0317C.HTM'>3-17  居民消费支出</a></li>
+<li><a href='html/C0318C.HTM'>3-18  三大需求对国内生产总值增长的贡献率和拉动</a></li>
+<li><a href='html/C0319C.HTM'>3-19  支出法地区生产总值 (2006年)</a></li>
+<li><a href='html/C0320C.HTM'>3-20  各地区资本形成总额及构成 (2006年)</a></li>
+<li><a href='html/C0321C.HTM'>3-21  各地区最终消费支出及构成 (2006年)</a></li>
+<li><a href='html/C0322C.HTM'>3-22  居  民  消  费  水  平</a></li>
+<li><a href='html/C0323C.HTM'>3-23  各地区居民消费水平 (2006年)</a></li>
+<li><a href='html/C0324C.HTM'>3-24  2002年投入产出基本流量表(中间使用部分)</a></li>
+<li><a href='html/C0325C.HTM'>3-25  2002年投入产出基本流量表(最终使用部分)</a></li>
+<li><a href='html/C0326C.HTM'>3-26  投入产出直接消耗系数表 (2002年)</a></li>
+<li><a href='html/C0327C.HTM'>3-27  投入产出完全消耗系数表 (2002年)</a></li>
+<li><a href='html/C0328C.HTM'>3-28  资金流量表 (实物交易，2004年)</a></li>
+<li><a href='html/C0329C.HTM'>3-29  资金流量表 (金融交易，2004年)</a></li>
+<li><a href='html/C0330C.HTM'>3-30  国 际 收 支 平 衡 表 (2006年)</a></li>
+<li><a href='html/cn03i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">四、人口</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn04b.htm'>简要说明</a></li>
+<li><a href='html/D0401C.HTM'>4-1  人  口  数  及  构  成</a></li>
+<li><a href='html/D0402C.HTM'>4-2  人口出生率、死亡率和自然增长率</a></li>
+<li><a href='html/D0403C.HTM'>4-3  各地区人口数和出生率、死亡率、自然增长率 (2006年)</a></li>
+<li><a href='html/D0404C.HTM'>4-4  各地区人口的城乡构成 (2006年)</a></li>
+<li><a href='html/D0405C.HTM'>4-5  五次全国人口普查人口基本情况</a></li>
+<li><a href='html/D0406C.HTM'>4-6  各地区人口平均预期寿命</a></li>
+<li><a href='html/D0407C.HTM'>4-7  按年龄和性别分人口数 (2006年)</a></li>
+<li><a href='html/D0408C.HTM'>4-8  各地区户数、人口数、性别比和户规模 (2006年)</a></li>
+<li><a href='html/D0409C.HTM'>4-9  各地区分性别、户口登记状况的人口 (2006年)</a></li>
+<li><a href='html/D0410C.HTM'>4-10  各地区人口年龄构成和抚养比 (2006年)</a></li>
+<li><a href='html/D0411C.HTM'>4-11  各地区按性别和婚姻状况分的人口(2006年)</a></li>
+<li><a href='html/D0412C.HTM'>4-12  各地区按性别和受教育程度分的人口 (2006年)</a></li>
+<li><a href='html/D0413C.HTM'>4-13  各地区按性别分的15岁及15岁以上文盲人口 (2006年)</a></li>
+<li><a href='html/D0414C.HTM'>4-14  各地区按家庭户规模分的户数 (2006年)</a></li>
+<li><a href='html/D0415C.HTM'>4-15  育龄妇女分年龄、孩次的生育状况(2005年11月1日至2006年10月31日)</a></li>
+<li><a href='html/cn04i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">五、就业人员和职工工资</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn05b.htm'>简要说明</a></li>
+<li><a href='html/E0501C.HTM'>5-1  就 业 基 本 情 况</a></li>
+<li><a href='html/E0502C.HTM'>5-2  按城乡分就业人员数 (年底数)</a></li>
+<li><a href='html/E0503C.HTM'>5-3  按三次产业分就业人员数 (年底数)</a></li>
+<li><a href='html/E0504C.HTM'>5-4  按行业分就业人员数（年底数）</a></li>
+<li><a href='html/E0505C.HTM'>5-5  按登记注册类型和细行业分城镇单位就业人员数 (2006年底)</a></li>
+<li><a href='html/E0506C.HTM'>5-6  各地区按行业分城镇单位就业人员数(年底数)</a></li>
+<li><a href='html/E0507C.HTM'>5-7  各地区按登记注册类型分职工人数</a></li>
+<li><a href='html/E0508C.HTM'>5-8  按登记注册类型和细行业分职工人数 (2006年底)</a></li>
+<li><a href='html/E0509C.HTM'>5-9  各地区按行业分职工人数(年底数)</a></li>
+<li><a href='html/E0510C.HTM'>5-10  各地区按行业分城镇单位专业技术人员数(年底数)</a></li>
+<li><a href='html/E0511C.HTM'>5-11  各地区按行业分私营企业和个体就业人数(2006年底)</a></li>
+<li><a href='html/E0512C.HTM'>5-12  各地区按行业分城镇私营企业和个体就业人数(2006年底)</a></li>
+<li><a href='html/E0513C.HTM'>5-13  各地区私营企业就业人数(2006年底)</a></li>
+<li><a href='html/E0514C.HTM'>5-14  各地区个体就业人数(2006年底)</a></li>
+<li><a href='html/E0515C.HTM'>5-15  城镇单位就业人员劳动报酬和指数</a></li>
+<li><a href='html/E0516C.HTM'>5-16  城镇单位就业人员平均劳动报酬和指数</a></li>
+<li><a href='html/E0517C.HTM'>5-17  各地区按登记注册类型分城镇单位就业人员平均劳动报酬</a></li>
+<li><a href='html/E0518C.HTM'>5-18  各地区按行业分城镇单位就业人员劳动报酬</a></li>
+<li><a href='html/E0519C.HTM'>5-19  按细行业分城镇单位就业人员平均劳动报酬 (2006年)</a></li>
+<li><a href='html/E0520C.HTM'>5-20  各地区按行业分城镇单位就业人员平均劳动报酬</a></li>
+<li><a href='html/E0521C.HTM'>5-21  职工工资总额和指数</a></li>
+<li><a href='html/E0522C.HTM'>5-22  职工平均工资及指数</a></li>
+<li><a href='html/E0523C.HTM'>5-23  各地区按登记注册类型分职工平均工资</a></li>
+<li><a href='html/E0524C.HTM'>5-24  各地区按行业分职工工资总额</a></li>
+<li><a href='html/E0525C.HTM'>5-25  按细行业分职工平均工资(2006年)</a></li>
+<li><a href='html/E0526C.HTM'>5-26  各地区按行业分职工平均工资</a></li>
+<li><a href='html/E0527C.HTM'>5-27  各地区国有及国有控股企业就业人数和劳动报酬(2006年)</a></li>
+<li><a href='html/E0528C.HTM'>5-28  各地区职业介绍工作情况(2006年)</a></li>
+<li><a href='html/E0529C.HTM'>5-29  各地区城镇登记失业人员及失业率</a></li>
+<li><a href='html/cn05i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">六、固定资产投资</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn06b.htm'>简要说明</a></li>
+<li><a href='html/F0601C.HTM'>6-1  全社会固定资产投资</a></li>
+<li><a href='html/F0602C.HTM'>6-2  按城乡分全社会固定资产投资</a></li>
+<li><a href='html/F0603C.HTM'>6-3  各地区按登记注册类型分全社会固定资产投资(2006年)</a></li>
+<li><a href='html/F0604C.HTM'>6-4  全社会固定资产投资资金来源和按构成分固定资产投资</a></li>
+<li><a href='html/F0605C.HTM'>6-5  各地区全社会固定资产投资资金来源</a></li>
+<li><a href='html/F0606C.HTM'>6-6  各地区全社会住宅投资</a></li>
+<li><a href='html/F0607C.HTM'>6-7  各地区按主要行业分的全社会固定资产投资</a></li>
+<li><a href='html/F0608C.HTM'>6-8  各地区全社会建设总规模</a></li>
+<li><a href='html/F0609C.HTM'>6-9  各地区全社会施工、竣工房屋面积和价值</a></li>
+<li><a href='html/F0610C.HTM'>6-10  按资金来源和隶属关系分城镇固定资产投资</a></li>
+<li><a href='html/F0611C.HTM'>6-11  按构成和建设性质分城镇固定资产投资</a></li>
+<li><a href='html/F0612C.HTM'>6-12  城镇固定资产投资建设总规模</a></li>
+<li><a href='html/F0613C.HTM'>6-13  按行业分城镇固定资产投资和建设总规模(2006年)</a></li>
+<li><a href='html/F0614C.HTM'>6-14  按行业、隶属关系和注册类型分城镇固定资产投资(2006年)</a></li>
+<li><a href='html/F0615C.HTM'>6-15  城镇各行业投资资金来源和新增固定资产 (2006年)</a></li>
+<li><a href='html/F0616C.HTM'>6-16  各地区按行业分城镇固定资产投资</a></li>
+<li><a href='html/F0617C.HTM'>6-17  各地区按项目规模分城镇固定资产投资</a></li>
+<li><a href='html/F0618C.HTM'>6-18  各地区城镇能源工业投资</a></li>
+<li><a href='html/F0619C.HTM'>6-19  各地区城镇施工、竣工房屋建筑面积和价值</a></li>
+<li><a href='html/F0620C.HTM'>6-20  各地区按行业分城镇新增固定资产</a></li>
+<li><a href='html/F0621C.HTM'>6-21  城镇50万元以上施工、投产项目个数</a></li>
+<li><a href='html/F0622C.HTM'>6-22  城镇新增固定资产及交付使用率</a></li>
+<li><a href='html/F0623C.HTM'>6-23  按行业分城镇50万元以上施工、投产项目个数 (2006年)</a></li>
+<li><a href='html/F0624C.HTM'>6-24  新增主要产品生产能力</a></li>
+<li><a href='html/F0625C.HTM'>6-25  全社会主要产品建设规模 (2006年)</a></li>
+<li><a href='html/F0626C.HTM'>6-26  农村农户固定资产投资和建房</a></li>
+<li><a href='html/F0627C.HTM'>6-27  房地产开发企业(单位)主要指标</a></li>
+<li><a href='html/F0628C.HTM'>6-28  房地产开发企业(单位)个数</a></li>
+<li><a href='html/F0629C.HTM'>6-29  房地产开发企业(单位)从业人员数</a></li>
+<li><a href='html/F0630C.HTM'>6-30  房地产开发企业 (单位)土地开发及购置</a></li>
+<li><a href='html/F0631C.HTM'>6-31  房地产开发企业(单位)建设投资总规模及完成投资(2006年)</a></li>
+<li><a href='html/F0632C.HTM'>6-32  按用途分房地产开发企业(单位)投资完成额</a></li>
+<li><a href='html/F0633C.HTM'>6-33  房地产开发企业(单位)资金来源</a></li>
+<li><a href='html/F0634C.HTM'>6-34  房地产开发企业(单位)建设房屋建筑面积和造价</a></li>
+<li><a href='html/F0635C.HTM'>6-35  按用途分房地产开发企业(单位)新开工房屋面积</a></li>
+<li><a href='html/F0636C.HTM'>6-36  商品房屋销售情况</a></li>
+<li><a href='html/F0637C.HTM'>6-37  按用途分商品房屋销售面积</a></li>
+<li><a href='html/F0638C.HTM'>6-38  按用途分商品房屋平均销售价格</a></li>
+<li><a href='html/F0639C.HTM'>6-39  房地产开发企业(单位)资产负债</a></li>
+<li><a href='html/F0640C.HTM'>6-40  房地产开发企业(单位)经营情况</a></li>
+<li><a href='html/F0641C.HTM'>6-41  按规模分房地产开发企业(单位)完成投资 (2006年)</a></li>
+<li><a href='html/F0642C.HTM'>6-42  房地产开发企业(单位)建设成套住宅竣工与销售情况</a></li>
+<li><a href='html/F0643C.HTM'>6-43  35个大中城市主要指标完成情况 (2006年)</a></li>
+<li><a href='html/F0644C.HTM'>6-44  在建大型项目基本情况（2006年）</a></li>
+<li><a href='html/cn06i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">七、能源</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn07b.htm'>简要说明</a></li>
+<li><a href='html/G0701C.HTM'>7-1  能源生产总量及构成</a></li>
+<li><a href='html/G0702C.HTM'>7-2  能源消费总量及构成</a></li>
+<li><a href='html/G0703C.HTM'>7-3  综 合 能 源 平 衡 表</a></li>
+<li><a href='html/G0704C.HTM'>7-4  石 油 平 衡 表</a></li>
+<li><a href='html/G0705C.HTM'>7-5  煤 炭 平 衡 表</a></li>
+<li><a href='html/G0706C.HTM'>7-6  电 力 平 衡 表</a></li>
+<li><a href='html/G0707C.HTM'>7-7  能源生产弹性系数</a></li>
+<li><a href='html/G0708C.HTM'>7-8  能源消费弹性系数</a></li>
+<li><a href='html/G0709C.HTM'>7-9  按行业分能源消费量 (2006年)</a></li>
+<li><a href='html/G0710C.HTM'>7-10  能源加工转换效率</a></li>
+<li><a href='html/G0711C.HTM'>7-11  平均每天能源消费量</a></li>
+<li><a href='html/G0712C.HTM'>7-12  生活能源消费量</a></li>
+<li><a href='html/G0713C.HTM'>7-13  人均生活能源消费量</a></li>
+<li><a href='html/G0714C.HTM'>7-14  各地区电力消费量</a></li>
+<li><a href='html/G0715C.HTM'>7-15  各地区能源消耗指标(2006年)</a></li>
+<li><a href='html/cn07i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">八、财政</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn08b.htm'>简要说明</a></li>
+<li><a href='html/H0801C.HTM'>8-1  国家财政收支总额及增长速度</a></li>
+<li><a href='html/H0802C.HTM'>8-2  国家财政分项目收入</a></li>
+<li><a href='html/H0803C.HTM'>8-3  各  项  税  收</a></li>
+<li><a href='html/H0804C.HTM'>8-4  国家财政主要支出项目</a></li>
+<li><a href='html/H0805C.HTM'>8-5  国家财政按功能性质分类的支出</a></li>
+<li><a href='html/H0806C.HTM'>8-6  国家财政用于农业的支出</a></li>
+<li><a href='html/H0807C.HTM'>8-7  国家财政用于科学研究的支出</a></li>
+<li><a href='html/H0808C.HTM'>8-8  中央财政债务余额情况</a></li>
+<li><a href='html/H0809C.HTM'>8-9  政策性补贴支出</a></li>
+<li><a href='html/H0810C.HTM'>8-10  中央和地方财政收入及比重</a></li>
+<li><a href='html/H0811C.HTM'>8-11  中央和地方财政支出及比重</a></li>
+<li><a href='html/H0812C.HTM'>8-12  中央和地方财政主要收入项目 (2006年)</a></li>
+<li><a href='html/H0813C.HTM'>8-13  中央和地方财政主要支出项目 (2006年)</a></li>
+<li><a href='html/H0814C.HTM'>8-14  各地区财政收入 (2006年)</a></li>
+<li><a href='html/H0815C.HTM'>8-15  各地区财政支出 (2006年)</a></li>
+<li><a href='html/H0816C.HTM'>8-16  预算外资金分项目收入</a></li>
+<li><a href='html/H0817C.HTM'>8-17  预算外资金分项目支出</a></li>
+<li><a href='html/H0818C.HTM'>8-18  中央和地方预算外资金收支及比重</a></li>
+<li><a href='html/H0819C.HTM'>8-19  外  债  余  额</a></li>
+<li><a href='html/H0820C.HTM'>8-20  外 债 风 险 指 标</a></li>
+<li><a href='html/cn08i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">九、价格指数</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn09b.htm'>简要说明</a></li>
+<li><a href='html/I0901C.HTM'>9-1  各 种 价 格 指 数</a></li>
+<li><a href='html/I0902C.HTM'>9-2  各种价格定基指数</a></li>
+<li><a href='html/I0903C.HTM'>9-3  居民消费价格分类指数 (2006年)</a></li>
+<li><a href='html/I0904C.HTM'>9-4  商品零售价格分类指数 (2006年)</a></li>
+<li><a href='html/I0905C.HTM'>9-5  居民消费价格指数和商品零售价格指数</a></li>
+<li><a href='html/I0906C.HTM'>9-6  各地区居民消费价格分类指数</a></li>
+<li><a href='html/I0907C.HTM'>9-7  商品零售价格分类指数</a></li>
+<li><a href='html/I0908C.HTM'>9-8  各地区农业生产资料价格分类指数</a></li>
+<li><a href='html/I0909C.HTM'>9-9  农产品生产价格指数</a></li>
+<li><a href='html/I0910C.HTM'>9-10  各地区农产品生产价格指数</a></li>
+<li><a href='html/I0911C.HTM'>9-11  各地区工业品出厂价格指数</a></li>
+<li><a href='html/I0912C.HTM'>9-12  按工业部门分工业品出厂价格指数</a></li>
+<li><a href='html/I0913C.HTM'>9-13  工业品出厂价格分类指数</a></li>
+<li><a href='html/I0914C.HTM'>9-14  原材料、燃料、动力购进价格指数</a></li>
+<li><a href='html/I0915C.HTM'>9-15  各地区固定资产投资价格指数</a></li>
+<li><a href='html/I0916C.HTM'>9-16  按工业行业分工业品出厂价格指数</a></li>
+<li><a href='html/I0917C.HTM'>9-17  房地产价格指数</a></li>
+<li><a href='html/I0918C.HTM'>9-18  全国和35个大中城市房地产价格指数</a></li>
+<li><a href='html/cn09i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">十、人民生活</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn10b.htm'>简要说明</a></li>
+<li><a href='html/J1001C.HTM'>10-1  人民生活基本情况</a></li>
+<li><a href='html/J1002C.HTM'>10-2  城乡居民家庭人均收入及恩格尔系数</a></li>
+<li><a href='html/J1003C.HTM'>10-3  城乡居民人民币储蓄存款</a></li>
+<li><a href='html/J1004C.HTM'>10-4  各地区城乡居民人民币储蓄存款 (年底余额)</a></li>
+<li><a href='html/J1005C.HTM'>10-5  城镇居民家庭基本情况</a></li>
+<li><a href='html/J1006C.HTM'>10-6  城镇居民家庭基本情况 (2006年)</a></li>
+<li><a href='html/J1007C.HTM'>10-7  城镇居民家庭平均每人全年消费性支出 (2006年)</a></li>
+<li><a href='html/J1008C.HTM'>10-8  东、中、西部及东北地区城镇居民家庭基本情况 (2006年)</a></li>
+<li><a href='html/J1009C.HTM'>10-9  城镇居民家庭平均每人全年购买主要商品数量</a></li>
+<li><a href='html/J1010C.HTM'>10-10  城镇居民家庭平均每百户年底耐用消费品拥有量</a></li>
+<li><a href='html/J1011C.HTM'>10-11  东、中、西部及东北地区城镇居民家庭平均每人全年购买的主要商品数量 (2006年)</a></li>
+<li><a href='html/J1012C.HTM'>10-12  东、中、西部及东北地区城镇居民家庭平均每百户年底耐用消费品拥有量 (2006年)</a></li>
+<li><a href='html/J1013C.HTM'>10-13  按收入等级分城镇居民家庭平均每人全年购买主要商品数量 (2006年)</a></li>
+<li><a href='html/J1014C.HTM'>10-14  按收入等级分城镇居民家庭平均每百户年底耐用消费品拥有量 (2006年)</a></li>
+<li><a href='html/J1015C.HTM'>10-15  各地区城镇居民平均每人全年家庭收入来源 (2006年)</a></li>
+<li><a href='html/J1016C.HTM'>10-16  各地区城镇居民家庭平均每人全年消费性支出 (2006年)</a></li>
+<li><a href='html/J1017C.HTM'>10-17  各地区城镇居民家庭平均每百户耐用消费品拥有量 (2006年底)</a></li>
+<li><a href='html/J1018C.HTM'>10-18  农村居民家庭基本情况</a></li>
+<li><a href='html/J1019C.HTM'>10-19  农村居民按纯收入分组的户数占调查户比重</a></li>
+<li><a href='html/J1020C.HTM'>10-20  农村居民家庭平均每人纯收入</a></li>
+<li><a href='html/J1021C.HTM'>10-21  各地区农村居民家庭人均纯收入</a></li>
+<li><a href='html/J1022C.HTM'>10-22  各地区按来源分农村居民家庭人均纯收入 (2006年)</a></li>
+<li><a href='html/J1023C.HTM'>10-23  按收入五等份分农村居民家庭基本情况 (2006年)</a></li>
+<li><a href='html/J1024C.HTM'>10-24  按收入五等份分农村居民家庭平均每人生活消费支出 (2006年)</a></li>
+<li><a href='html/J1025C.HTM'>10-25  农村居民家庭平均每人生活消费支出构成</a></li>
+<li><a href='html/J1026C.HTM'>10-26  各地区农村居民家庭平均每人生活消费支出 (2006年)</a></li>
+<li><a href='html/J1027C.HTM'>10-27  各地区农村居民家庭平均每人生活消费现金支出 (2006年)</a></li>
+<li><a href='html/J1028C.HTM'>10-28  东、中、西部及东北地区农村居民家庭基本情况 (2006年)</a></li>
+<li><a href='html/J1029C.HTM'>10-29  农村居民家庭平均每人主要食品消费量</a></li>
+<li><a href='html/J1030C.HTM'>10-30  农村居民家庭平均每百户年底耐用消费品拥有量</a></li>
+<li><a href='html/J1031C.HTM'>10-31  东、中、西部及东北地区农村居民家庭平均每人主要食品消费量 (2006年)</a></li>
+<li><a href='html/J1032C.HTM'>10-32  东、中、西部及东北地区农村居民家庭平均每百户年底耐用消费品拥有量 (2006年)</a></li>
+<li><a href='html/J1033C.HTM'>10-33  各地区农村居民家庭平均每人主要食品消费量 (2006年)</a></li>
+<li><a href='html/J1034C.HTM'>10-34  各地区农村居民家庭平均每百户主要耐用消费品拥有量 (2006年底)</a></li>
+<li><a href='html/J1035C.HTM'>10-35  城乡新建住宅面积和居民住房情况</a></li>
+<li><a href='html/J1036C.HTM'>10-36  农村居民家庭住房情况</a></li>
+<li><a href='html/J1037C.HTM'>10-37  各地区农村居民家庭住房情况 (2006年)</a></li>
+<li><a href='html/cn10i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">十一、城市概况</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn11b.htm'>简要说明</a></li>
+<li><a href='html/K1101C.HTM'>11-1  全部地级城市数(2006年)</a></li>
+<li><a href='html/K1102C.HTM'>11-2  沿海开放城市和经济特区城市社会经济指标 (2006年)</a></li>
+<li><a href='html/K1103C.HTM'>11-3  省会城市和计划单列市主要经济指标 (2006年)</a></li>
+<li><a href='html/K1104C.HTM'>11-4  地级及以上城市国民经济和社会发展主要指标(2006年)</a></li>
+<li><a href='html/K1105C.HTM'>11-5  城市公用事业基本情况</a></li>
+<li><a href='html/K1106C.HTM'>11-6  各地区城市建设情况 (2006年)</a></li>
+<li><a href='html/K1107C.HTM'>11-7  各地区城市供水情况 (2006年)</a></li>
+<li><a href='html/K1108C.HTM'>11-8  各地区城市燃气情况 (2006年)</a></li>
+<li><a href='html/K1109C.HTM'>11-9  各地区城市集中供热情况 (2006年)</a></li>
+<li><a href='html/K1110C.HTM'>11-10  各地区城市市政设施 (2006年)</a></li>
+<li><a href='html/K1111C.HTM'>11-11  各地区城市公共交通情况 (2006年)</a></li>
+<li><a href='html/K1112C.HTM'>11-12  各地区城市绿地和园林(2006年)</a></li>
+<li><a href='html/K1113C.HTM'>11-13  各地区城市市容环境卫生情况 (2006年)</a></li>
+<li><a href='html/K1114C.HTM'>11-14  各地区城市设施水平 (2006年)</a></li>
+<li><a href='html/cn11i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">十二、环境保护</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn12b.htm'>简要说明</a></li>
+<li><a href='html/L1201C.HTM'>12-1  环境保护基本情况</a></li>
+<li><a href='html/L1202C.HTM'>12-2  水  资  源  情  况</a></li>
+<li><a href='html/L1203C.HTM'>12-3  供水用水情况</a></li>
+<li><a href='html/L1204C.HTM'>12-4  各地区废水排放及处理情况 (2006年)</a></li>
+<li><a href='html/L1205C.HTM'>12-5  工业按行业分废水排放及处理情况 (2006年)</a></li>
+<li><a href='html/L1206C.HTM'>12-6  主要城市工业废水排放及处理情况 (2006年)</a></li>
+<li><a href='html/L1207C.HTM'>12-7  全海域海水水质评价结果 (2006年)</a></li>
+<li><a href='html/L1208C.HTM'>12-8  主要城市空气质量指标 (2006年)</a></li>
+<li><a href='html/L1209C.HTM'>12-9  各地区废气排放及处理情况 (2006年)</a></li>
+<li><a href='html/L1210C.HTM'>12-10  主要城市工业废气排放及处理情况 (2006年)</a></li>
+<li><a href='html/L1211C.HTM'>12-11  工业按行业分废气排放及处理情况 (2006年)</a></li>
+<li><a href='html/L1212C.HTM'>12-12  各地区工业固体废物产生及处理利用情况 (2006年)</a></li>
+<li><a href='html/L1213C.HTM'>12-13  按行业分工业固体废物产生及处理利用情况 (2006年)</a></li>
+<li><a href='html/L1214C.HTM'>12-14  主要城市工业固体废物产生及处理利用情况 (2006年)</a></li>
+<li><a href='html/L1215C.HTM'>12-15  各地区城市生活垃圾清运和处理情况 (2006年)</a></li>
+<li><a href='html/L1216C.HTM'>12-16  主要城市道路交通噪声监测情况 (2006年)</a></li>
+<li><a href='html/L1217C.HTM'>12-17  国控主要城市区域环境噪声监测情况 (2006年)</a></li>
+<li><a href='html/L1218C.HTM'>12-18  各地区土地利用情况 (2006年)</a></li>
+<li><a href='html/L1219C.HTM'>12-19  各地区森林资源情况</a></li>
+<li><a href='html/L1220C.HTM'>12-20  造    林    面    积</a></li>
+<li><a href='html/L1221C.HTM'>12-21  林业重点工程造林面积</a></li>
+<li><a href='html/L1222C.HTM'>12-22  各地区湿地面积</a></li>
+<li><a href='html/L1223C.HTM'>12-23  红树林各地类面积</a></li>
+<li><a href='html/L1224C.HTM'>12-24  各地区自然保护基本情况 (2006年)</a></li>
+<li><a href='html/L1225C.HTM'>12-25  地质灾害及防治情况</a></li>
+<li><a href='html/L1226C.HTM'>12-26  森林火灾情况</a></li>
+<li><a href='html/L1227C.HTM'>12-27  森林病虫鼠害防治情况</a></li>
+<li><a href='html/L1228C.HTM'>12-28  环境污染与破坏事故情况</a></li>
+<li><a href='html/L1229C.HTM'>12-29  地震灾害情况</a></li>
+<li><a href='html/L1230C.HTM'>12-30  主要海洋灾害情况 (2006年)</a></li>
+<li><a href='html/L1231C.HTM'>12-31  环境污染治理投资</a></li>
+<li><a href='html/L1232C.HTM'>12-32  工业污染治理投资来源</a></li>
+<li><a href='html/L1233C.HTM'>12-33  工业污染治理投资完成情况</a></li>
+<li><a href='html/L1234C.HTM'>12-34  林业系统营林固定资产投资资金来源</a></li>
+<li><a href='html/L1235C.HTM'>12-35  林业系统营林固定资产投资完成情况</a></li>
+<li><a href='html/cn12i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">十三、农业</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn13b.htm'>简要说明</a></li>
+<li><a href='html/M1301C.HTM'>13-1  农村基层组织和农业基本情况</a></li>
+<li><a href='html/M1302C.HTM'>13-2  主要农牧渔业生产情况</a></li>
+<li><a href='html/M1303C.HTM'>13-3  农村基层组织情况</a></li>
+<li><a href='html/M1304C.HTM'>13-4  乡村从业人员 (年底数)</a></li>
+<li><a href='html/M1305C.HTM'>13-5  各  地  区  耕  地  面  积</a></li>
+<li><a href='html/M1306C.HTM'>13-6  农、林、牧、渔业总产值及指数</a></li>
+<li><a href='html/M1307C.HTM'>13-7  主要农业机械拥有量 (年底数)</a></li>
+<li><a href='html/M1308C.HTM'>13-8  有效灌溉面积、农用化肥施用量、农村水电站及用电量</a></li>
+<li><a href='html/M1309C.HTM'>13-9  农村水电建设和发电量</a></li>
+<li><a href='html/M1310C.HTM'>13-10  灌溉、水库和除涝、治水、治碱情况</a></li>
+<li><a href='html/M1311C.HTM'>13-11  各地区水利设施和除涝、治碱面积 (2006年)</a></li>
+<li><a href='html/M1312C.HTM'>13-12  农村居民家庭生产性固定资产原值 (年底数)</a></li>
+<li><a href='html/M1313C.HTM'>13-13  农村居民家庭平均每百户拥有主要生产性固定资产数量 (年底数)</a></li>
+<li><a href='html/M1314C.HTM'>13-14  各地区农村居民家庭土地经营情况 (2006年底)</a></li>
+<li><a href='html/M1315C.HTM'>13-15  农作物总播种面积</a></li>
+<li><a href='html/M1316C.HTM'>13-16  主要农作物种植结构</a></li>
+<li><a href='html/M1317C.HTM'>13-17  主 要 农 产 品 产 量</a></li>
+<li><a href='html/M1318C.HTM'>13-18  主要农产品单位面积产量</a></li>
+<li><a href='html/M1319C.HTM'>13-19  主 要 林 产 品 产 量</a></li>
+<li><a href='html/M1320C.HTM'>13-20  牲 畜 饲 养 情 况</a></li>
+<li><a href='html/M1321C.HTM'>13-21  畜  产  品  产  量</a></li>
+<li><a href='html/M1322C.HTM'>13-22  水  产  品  产  量</a></li>
+<li><a href='html/M1323C.HTM'>13-23  主要农产品人均占有量</a></li>
+<li><a href='html/M1324C.HTM'>13-24  农村居民家庭平均每人出售主要农产品</a></li>
+<li><a href='html/M1325C.HTM'>13-25  农村居民家庭平均每人出售主要畜产品及水产品</a></li>
+<li><a href='html/M1326C.HTM'>13-26  主要农产品产量与解放前最高年产量比较</a></li>
+<li><a href='html/M1327C.HTM'>13-27  受灾面积和成灾面积</a></li>
+<li><a href='html/M1328C.HTM'>13-28  国有农场基本情况</a></li>
+<li><a href='html/cn13i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">十四、工业</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn14b.htm'>简要说明</a></li>
+<li><a href='html/N1401C.HTM'>14-1  全部国有及规模以上非国有工业企业主要经济指标 (2006年)</a></li>
+<li><a href='html/N1402C.HTM'>14-2  按行业分全部国有及规模以上非国有工业企业主要指标 (2006年)</a></li>
+<li><a href='html/N1403C.HTM'>14-3  按行业分全部国有及规模以上非国有工业企业主要经济效益指标 (2006年)</a></li>
+<li><a href='html/N1404C.HTM'>14-4  全部国有及规模以上非国有工业企业主要指标(2006年)</a></li>
+<li><a href='html/N1405C.HTM'>14-5  各地区全部国有及规模以上非国有工业企业主要经济效益指标(2006年)</a></li>
+<li><a href='html/N1406C.HTM'>14-6  按行业分国有及国有控股工业企业主要指标 (2006年)</a></li>
+<li><a href='html/N1407C.HTM'>14-7  按行业分国有及国有控股工业企业主要经济效益指标 (2006年)</a></li>
+<li><a href='html/N1408C.HTM'>14-8  国有及国有控股工业企业主要指标(2006年)</a></li>
+<li><a href='html/N1409C.HTM'>14-9  各地区国有及国有控股工业企业主要经济效益指标 (2006年)</a></li>
+<li><a href='html/N1410C.HTM'>14-10  按行业分私营工业企业主要指标 (2006年)</a></li>
+<li><a href='html/N1411C.HTM'>14-11  按行业分私营工业企业主要经济效益指标 (2006年)</a></li>
+<li><a href='html/N1412C.HTM'>14-12  私营工业企业主要指标</a></li>
+<li><a href='html/N1413C.HTM'>14-13  各地区私营工业企业主要经济效益指标 (2006年)</a></li>
+<li><a href='html/N1414C.HTM'>14-14  按行业分“三资”工业企业主要指标 (2006年)</a></li>
+<li><a href='html/N1415C.HTM'>14-15  按行业分“三资”工业企业主要经济效益指标 (2006年)</a></li>
+<li><a href='html/N1416C.HTM'>14-16  “三资”工业企业主要指标(2006年)</a></li>
+<li><a href='html/N1417C.HTM'>14-17  各地区“三资”工业企业主要经济效益指标 (2006年)</a></li>
+<li><a href='html/N1418C.HTM'>14-18  按行业分大中型工业企业主要指标 (2006年)</a></li>
+<li><a href='html/N1419C.HTM'>14-19  按行业分大中型工业企业主要经济效益指标 (2006年)</a></li>
+<li><a href='html/N1420C.HTM'>14-20  大中型工业企业主要指标</a></li>
+<li><a href='html/N1421C.HTM'>14-21  各地区大中型工业企业主要经济效益指标 (2006年)</a></li>
+<li><a href='html/N1422C.HTM'>14-22  主 要 工 业 产 品 产 量</a></li>
+<li><a href='html/N1423C.HTM'>14-23  工  业  产  品  产  量</a></li>
+<li><a href='html/cn14i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">十五、建筑业</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn15b.htm'>简要说明</a></li>
+<li><a href='html/O1501C.HTM'>15-1  建 筑 业 企 业 概 况</a></li>
+<li><a href='html/O1502C.HTM'>15-2  按登记注册类型分建筑业企业主要经济指标 (2006年)</a></li>
+<li><a href='html/O1503C.HTM'>15-3  建筑业企业主要经济指标</a></li>
+<li><a href='html/O1504C.HTM'>15-4  各地区总承包建筑业企业主要经济指标 (2006年)</a></li>
+<li><a href='html/O1505C.HTM'>15-5  各地区专业承包建筑业企业主要经济指标 (2006年)</a></li>
+<li><a href='html/O1506C.HTM'>15-6  各地区建筑业总产值</a></li>
+<li><a href='html/O1507C.HTM'>15-7  各地区建筑业增加值</a></li>
+<li><a href='html/O1508C.HTM'>15-8  各地区建筑业企业利税总额</a></li>
+<li><a href='html/O1509C.HTM'>15-9  各地区建筑业企业利润总额</a></li>
+<li><a href='html/O1510C.HTM'>15-10  各地区建筑业劳动生产率</a></li>
+<li><a href='html/O1511C.HTM'>15-11  各地区按登记注册类型分建筑业企业单位数 (2006年)</a></li>
+<li><a href='html/O1512C.HTM'>15-12  各地区按登记注册类型分建筑业企业从业人员 (2006年)</a></li>
+<li><a href='html/O1513C.HTM'>15-13  建筑业企业技术装备情况</a></li>
+<li><a href='html/O1514C.HTM'>15-14  国有建筑业企业技术装备情况</a></li>
+<li><a href='html/O1515C.HTM'>15-15  各地区建筑业总产值 (2006年)</a></li>
+<li><a href='html/O1516C.HTM'>15-16  各地区按登记注册类型分建筑业总产值 (2006年)</a></li>
+<li><a href='html/O1517C.HTM'>15-17  各地区按行业分建筑业总产值 (2006年)</a></li>
+<li><a href='html/O1518C.HTM'>15-18  各地区按资质等级分总承包建筑业总产值 (2006年)</a></li>
+<li><a href='html/O1519C.HTM'>15-19  各地区按资质等级分专业承包建筑业总产值 (2006年)</a></li>
+<li><a href='html/O1520C.HTM'>15-20  各地区建筑业企业签订合同情况 (2006年)</a></li>
+<li><a href='html/O1521C.HTM'>15-21  各地区建筑业企业承包工程完成情况 (2006年)</a></li>
+<li><a href='html/O1522C.HTM'>15-22  各地区按登记注册类型分建筑业企业实收资本 (2006年)</a></li>
+<li><a href='html/O1523C.HTM'>15-23  各地区建筑业企业资产 (2006年)</a></li>
+<li><a href='html/O1524C.HTM'>15-24  各地区按登记注册类型分建筑业企业资产 (2006年)</a></li>
+<li><a href='html/O1525C.HTM'>15-25  各地区建筑业企业负债及所有者权益 (2006年)</a></li>
+<li><a href='html/O1526C.HTM'>15-26  各地区按登记注册类型分建筑业企业所有者权益 (2006年)</a></li>
+<li><a href='html/O1527C.HTM'>15-27  各地区按登记注册类型分建筑业企业负债 (2006年)</a></li>
+<li><a href='html/O1528C.HTM'>15-28  各地区建筑业企业总收入 (2006年)</a></li>
+<li><a href='html/O1529C.HTM'>15-29  各地区按登记注册类型分建筑业企业总收入 (2006年)</a></li>
+<li><a href='html/O1530C.HTM'>15-30  各地区建筑业企业利税总额 (2006年)</a></li>
+<li><a href='html/O1531C.HTM'>15-31  各地区按登记注册类型分建筑业企业税金总额 (2006年)</a></li>
+<li><a href='html/O1532C.HTM'>15-32  各地区按登记注册类型分建筑业企业利润总额 (2006年)</a></li>
+<li><a href='html/O1533C.HTM'>15-33  各地区按资质等级分总承包建筑业企业利润总额 (2006年)</a></li>
+<li><a href='html/O1534C.HTM'>15-34  各地区按资质等级分专业承包建筑业企业利润总额 (2006年)</a></li>
+<li><a href='html/O1535C.HTM'>15-35  各地区按登记注册类型分建筑业企业工程结算利润 (2006年)</a></li>
+<li><a href='html/O1536C.HTM'>15-36  各地区建筑业劳动生产率 (2006年)</a></li>
+<li><a href='html/O1537C.HTM'>15-37  建筑业房屋建筑面积</a></li>
+<li><a href='html/O1538C.HTM'>15-38  各地区劳务分包建筑业企业主要指标 (2006年)</a></li>
+<li><a href='html/O1539C.HTM'>15-39  勘察设计机构和人员数 (2006年)</a></li>
+<li><a href='html/O1540C.HTM'>15-40  勘察设计单位营业收入情况 (2006年)</a></li>
+<li><a href='html/O1541C.HTM'>15-41  建设工程监理企业和人员数(2006年)</a></li>
+<li><a href='html/O1542C.HTM'>15-42  建设工程监理营业收入(2006年)</a></li>
+<li><a href='html/cn15i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">十六、运输和邮电</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn16b.htm'>简要说明</a></li>
+<li><a href='html/P1601C.HTM'>16-1  各地区交通运输、邮电通信业职工人数(2006年底)</a></li>
+<li><a href='html/P1602C.HTM'>16-2  交通运输业基本情况</a></li>
+<li><a href='html/P1603C.HTM'>16-3  各地区运输线路长度 (2006年底)</a></li>
+<li><a href='html/P1604C.HTM'>16-4  运 输 线 路 长 度</a></li>
+<li><a href='html/P1605C.HTM'>16-5  运 输 线 路 质 量</a></li>
+<li><a href='html/P1606C.HTM'>16-6  客   运   量</a></li>
+<li><a href='html/P1607C.HTM'>16-7  旅  客  周  转  量</a></li>
+<li><a href='html/P1608C.HTM'>16-8  货   运   量</a></li>
+<li><a href='html/P1609C.HTM'>16-9  货  物  周  转  量</a></li>
+<li><a href='html/P1610C.HTM'>16-10  旅 客 运 输 平 均 运 距</a></li>
+<li><a href='html/P1611C.HTM'>16-11  货 物 运 输 平 均 运 距</a></li>
+<li><a href='html/P1612C.HTM'>16-12  各 地 区 客 运 量 (2006年)</a></li>
+<li><a href='html/P1613C.HTM'>16-13  各地区旅客周转量 (2006年)</a></li>
+<li><a href='html/P1614C.HTM'>16-14  各 地 区 货 运 量 (2006年)</a></li>
+<li><a href='html/P1615C.HTM'>16-15  各地区货物周转量 (2006年)</a></li>
+<li><a href='html/P1616C.HTM'>16-16  国家营业铁路基本情况</a></li>
+<li><a href='html/P1617C.HTM'>16-17  铁路机车拥有量</a></li>
+<li><a href='html/P1618C.HTM'>16-18  国家铁路客、货车拥有量</a></li>
+<li><a href='html/P1619C.HTM'>16-19  国家铁路运输固定资产</a></li>
+<li><a href='html/P1620C.HTM'>16-20  按货类分国家铁路货物运输量</a></li>
+<li><a href='html/P1621C.HTM'>16-21  铁路主要干线客货运输量 (2006年)</a></li>
+<li><a href='html/P1622C.HTM'>16-22  国家铁路主要车站旅客发送量</a></li>
+<li><a href='html/P1623C.HTM'>16-23  国家铁路主要车站货物发送量</a></li>
+<li><a href='html/P1624C.HTM'>16-24  国家铁路运输主要财务指标</a></li>
+<li><a href='html/P1625C.HTM'>16-25  国家铁路运输主要技术经济指标</a></li>
+<li><a href='html/P1626C.HTM'>16-26  民 用 汽 车 拥 有 量</a></li>
+<li><a href='html/P1627C.HTM'>16-27  私 人 汽 车 拥 有 量</a></li>
+<li><a href='html/P1628C.HTM'>16-28  新注册民用汽车数量</a></li>
+<li><a href='html/P1629C.HTM'>16-29  公路运输汽车拥有量</a></li>
+<li><a href='html/P1630C.HTM'>16-30  民用运输船舶拥有量</a></li>
+<li><a href='html/P1631C.HTM'>16-31  私人运输船舶拥有量</a></li>
+<li><a href='html/P1632C.HTM'>16-32  沿海主要港口分货类吞吐量</a></li>
+<li><a href='html/P1633C.HTM'>16-33  沿海主要港口货物吞吐量</a></li>
+<li><a href='html/P1634C.HTM'>16-34  沿海主要港口码头泊位数 (2006年底)</a></li>
+<li><a href='html/P1635C.HTM'>16-35  内河主要港口码头泊位数 (2006年底)</a></li>
+<li><a href='html/P1636C.HTM'>16-36  民用航空航线及飞机架数</a></li>
+<li><a href='html/P1637C.HTM'>16-37  民用航空运输量及通用飞行时间</a></li>
+<li><a href='html/P1638C.HTM'>16-38  邮电业务基本情况</a></li>
+<li><a href='html/P1639C.HTM'>16-39  邮 电 业 务 量</a></li>
+<li><a href='html/P1640C.HTM'>16-40  邮政局所数及邮递线路(年底数)</a></li>
+<li><a href='html/P1641C.HTM'>16-41  电信主要通信能力 (年底数)</a></li>
+<li><a href='html/P1642C.HTM'>16-42  邮电通信服务水平</a></li>
+<li><a href='html/cn16i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">十七、国内贸易</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn17b.htm'>简要说明</a></li>
+<li><a href='html/Q1701C.HTM'>17-1  国内贸易基本情况</a></li>
+<li><a href='html/Q1702C.HTM'>17-2  消费品市场交易情况</a></li>
+<li><a href='html/Q1703C.HTM'>17-3  社会消费品零售总额</a></li>
+<li><a href='html/Q1704C.HTM'>17-4  按登记注册类型分限额以上批发和零售业、住宿和餐饮业基本情况(2006年)</a></li>
+<li><a href='html/Q1705C.HTM'>17-5  限额以上批发和零售业、住宿和餐饮业法人企业数</a></li>
+<li><a href='html/Q1706C.HTM'>17-6  限额以上批发和零售业、住宿和餐饮业产业活动单位数</a></li>
+<li><a href='html/Q1707C.HTM'>17-7  限额以上批发和零售业、住宿和餐饮业年末从业人数</a></li>
+<li><a href='html/Q1708C.HTM'>17-8  按登记注册类型分限额以上批发和零售业商品购、销、存总额(2006年)</a></li>
+<li><a href='html/Q1709C.HTM'>17-9  按行业分限额以上批发和零售业商品购、销、存总额 (2006年)</a></li>
+<li><a href='html/Q1710C.HTM'>17-10  限额以上批发和零售业商品购、销、存总额</a></li>
+<li><a href='html/Q1711C.HTM'>17-11  限额以上批发和零售业主要商品分类销售额</a></li>
+<li><a href='html/Q1712C.HTM'>17-12  星级住宿业经营情况</a></li>
+<li><a href='html/Q1713C.HTM'>17-13  限额以上餐饮业经营情况</a></li>
+<li><a href='html/Q1714C.HTM'>17-14  按登记注册类型分限额以上批发和零售业资产及负债 (2006年)</a></li>
+<li><a href='html/Q1715C.HTM'>17-15  按行业分限额以上批发和零售业资产及负债(2006年)</a></li>
+<li><a href='html/Q1716C.HTM'>17-16  限额以上批发和零售业资产及负债</a></li>
+<li><a href='html/Q1717C.HTM'>17-17  限额以上批发业资产及负债</a></li>
+<li><a href='html/Q1718C.HTM'>17-18  限额以上零售业资产及负债</a></li>
+<li><a href='html/Q1719C.HTM'>17-19  按登记注册类型和行业分限额以上餐饮业资产及负债(2006年)</a></li>
+<li><a href='html/Q1720C.HTM'>17-20  限额以上餐饮业资产及负债</a></li>
+<li><a href='html/Q1721C.HTM'>17-21  按登记注册类型分限额以上批发和零售业主要财务指标(2006年)</a></li>
+<li><a href='html/Q1722C.HTM'>17-22  按行业分限额以上批发和零售业主要财务指标(2006年)</a></li>
+<li><a href='html/Q1723C.HTM'>17-23  限额以上批发和零售业主要财务指标</a></li>
+<li><a href='html/Q1724C.HTM'>17-24  限额以上批发业主要财务指标</a></li>
+<li><a href='html/Q1725C.HTM'>17-25  限额以上零售业主要财务指标</a></li>
+<li><a href='html/Q1726C.HTM'>17-26  按登记注册类型和行业分限额以上餐饮业主要财务指标(2006年)</a></li>
+<li><a href='html/Q1727C.HTM'>17-27  限额以上餐饮业主要财务指标</a></li>
+<li><a href='html/Q1728C.HTM'>17-28  按业态分限额以上连锁零售企业基本情况</a></li>
+<li><a href='html/Q1729C.HTM'>17-29  按登记注册类型分限额以上连锁零售企业基本情况</a></li>
+<li><a href='html/Q1730C.HTM'>17-30  按行业分限额以上连锁零售企业基本情况</a></li>
+<li><a href='html/Q1731C.HTM'>17-31  分地区限额以上连锁零售企业基本情况</a></li>
+<li><a href='html/Q1732C.HTM'>17-32  按业态分限额以上连锁餐饮企业基本情况</a></li>
+<li><a href='html/Q1733C.HTM'>17-33  按登记注册类型分限额以上连锁餐饮企业基本情况</a></li>
+<li><a href='html/Q1734C.HTM'>17-34  按行业分限额以上连锁餐饮企业基本情况</a></li>
+<li><a href='html/Q1735C.HTM'>17-35  分地区限额以上连锁餐饮企业基本情况</a></li>
+<li><a href='html/Q1736C.HTM'>17-36  亿元以上商品交易市场基本情况(2006年)</a></li>
+<li><a href='html/Q1737C.HTM'>17-37  亿元以上商品交易市场摊位分类情况 (2006年)</a></li>
+<li><a href='html/Q1738C.HTM'>17-38  各地区亿元以上商品交易市场基本情况</a></li>
+<li><a href='html/cn17i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">十八、对外经济贸易</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn18b.htm'>简要说明</a></li>
+<li><a href='html/R1801C.HTM'>18-1  对外经济贸易基本情况</a></li>
+<li><a href='html/R1802C.HTM'>18-2  人民币汇率 (中间价)</a></li>
+<li><a href='html/R1803C.HTM'>18-3  货物进出口总额</a></li>
+<li><a href='html/R1804C.HTM'>18-4  按贸易方式分货物进出口总额</a></li>
+<li><a href='html/R1805C.HTM'>18-5  历年出口货物分类金额</a></li>
+<li><a href='html/R1806C.HTM'>18-6  历年进口货物分类金额</a></li>
+<li><a href='html/R1807C.HTM'>18-7  进出口货物分类金额</a></li>
+<li><a href='html/R1808C.HTM'>18-8  我国同各国(地区)海关货物进出口总额</a></li>
+<li><a href='html/R1809C.HTM'>18-9  出口主要货物数量和金额</a></li>
+<li><a href='html/R1810C.HTM'>18-10  进口主要货物数量和金额</a></li>
+<li><a href='html/R1811C.HTM'>18-11  各地区按经营单位所在地分货物进出口总额</a></li>
+<li><a href='html/R1812C.HTM'>18-12  各地区按境内目的地和货源地分货物进出口总额</a></li>
+<li><a href='html/R1813C.HTM'>18-13  各地区外商投资企业货物进出口总额</a></li>
+<li><a href='html/R1814C.HTM'>18-14  利 用 外 资 概 况</a></li>
+<li><a href='html/R1815C.HTM'>18-15  按国别(地区)分实际外商投资额</a></li>
+<li><a href='html/R1816C.HTM'>18-16  按方式分外商投资额</a></li>
+<li><a href='html/R1817C.HTM'>18-17  按行业分外商直接投资 (2006年)</a></li>
+<li><a href='html/R1818C.HTM'>18-18  按行业分外商投资企业年底注册登记情况 (2006年)</a></li>
+<li><a href='html/R1819C.HTM'>18-19  各地区外商投资企业年底注册登记情况</a></li>
+<li><a href='html/R1820C.HTM'>18-20  按主要国别(地区)分对外直接投资(非金融类)</a></li>
+<li><a href='html/R1821C.HTM'>18-21  按行业分对外直接投资 (非金融类)</a></li>
+<li><a href='html/R1822C.HTM'>18-22  对 外 经 济 合 作</a></li>
+<li><a href='html/R1823C.HTM'>18-23  按国别(地区)分对外经济合作完成营业额</a></li>
+<li><a href='html/cn18i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">十九、旅游</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn19b.htm'>简要说明</a></li>
+<li><a href='html/S1901C.HTM'>19-1  旅游业发展情况</a></li>
+<li><a href='html/S1902C.HTM'>19-2  国际旅游(外汇)收入及构成</a></li>
+<li><a href='html/S1903C.HTM'>19-3  按性别、年龄和事由分外国入境旅游人数</a></li>
+<li><a href='html/S1904C.HTM'>19-4  按国别分外国入境旅游人数</a></li>
+<li><a href='html/S1905C.HTM'>19-5  各地区国际旅游(外汇)收入</a></li>
+<li><a href='html/S1906C.HTM'>19-6  各地区接待入境旅游人数</a></li>
+<li><a href='html/S1907C.HTM'>19-7  国 内 旅 游 情 况</a></li>
+<li><a href='html/cn19i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">二十、金融业</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn20b.htm'>简要说明</a></li>
+<li><a href='html/T2001C.HTM'>20-1  金融机构人民币信贷资金平衡表 (资金来源)</a></li>
+<li><a href='html/T2002C.HTM'>20-2  金融机构人民币信贷资金平衡表 (资金运用)</a></li>
+<li><a href='html/T2003C.HTM'>20-3  金融机构现金收入</a></li>
+<li><a href='html/T2004C.HTM'>20-4  金融机构现金支出</a></li>
+<li><a href='html/T2005C.HTM'>20-5  金融机构现金投放与回笼</a></li>
+<li><a href='html/T2006C.HTM'>20-6  货币供应量 (年底余额)</a></li>
+<li><a href='html/T2007C.HTM'>20-7  货币供应量同比增长率</a></li>
+<li><a href='html/T2008C.HTM'>20-8  金融机构法定存款利率</a></li>
+<li><a href='html/T2009C.HTM'>20-9  金融机构法定贷款利率</a></li>
+<li><a href='html/T2010C.HTM'>20-10  黄 金 和 外 汇 储 备</a></li>
+<li><a href='html/T2011C.HTM'>20-11  国有商业银行资产负债表 (年底余额)</a></li>
+<li><a href='html/T2012C.HTM'>20-12  外资银行资产负债表 (年底余额)</a></li>
+<li><a href='html/T2013C.HTM'>20-13  国内有价证券分类发行情况</a></li>
+<li><a href='html/T2014C.HTM'>20-14  证券市场基本情况</a></li>
+<li><a href='html/T2015C.HTM'>20-15  上  市  公  司  数  量</a></li>
+<li><a href='html/T2016C.HTM'>20-16  股票发行量和筹资额</a></li>
+<li><a href='html/T2017C.HTM'>20-17  股  票  交  易  情  况</a></li>
+<li><a href='html/T2018C.HTM'>20-18  保险系统机构、人员数 (年底数)</a></li>
+<li><a href='html/T2019C.HTM'>20-19  保险公司业务经济技术指标</a></li>
+<li><a href='html/cn20i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">二十一、教育和科技</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn21b.htm'>简要说明</a></li>
+<li><a href='html/U2101C.HTM'>21-1  学校、教职工和专任教师情况 (2006年)</a></li>
+<li><a href='html/U2102C.HTM'>21-2  各级各类学历教育学生情况 (2006年)</a></li>
+<li><a href='html/U2103C.HTM'>21-3  各级各类学校数</a></li>
+<li><a href='html/U2104C.HTM'>21-4  各级各类学校专任教师数</a></li>
+<li><a href='html/U2105C.HTM'>21-5  各级各类学校招生数</a></li>
+<li><a href='html/U2106C.HTM'>21-6  各级各类学校在校学生数</a></li>
+<li><a href='html/U2107C.HTM'>21-7  各级各类学校毕业生数</a></li>
+<li><a href='html/U2108C.HTM'>21-8  研究生和留学生数</a></li>
+<li><a href='html/U2109C.HTM'>21-9  分学科研究生情况 (2006年)</a></li>
+<li><a href='html/U2110C.HTM'>21-10  高等教育学校(机构)数(2006年)</a></li>
+<li><a href='html/U2111C.HTM'>21-11  高等学校 (机构)学生数 (2006年)</a></li>
+<li><a href='html/U2112C.HTM'>21-12  成人本、专科分学科学生数 (2006年)</a></li>
+<li><a href='html/U2113C.HTM'>21-13  普通本、专科分学科学生数 (2006年)</a></li>
+<li><a href='html/U2114C.HTM'>21-14  网络本、专科分学科学生数 (2006年)</a></li>
+<li><a href='html/U2115C.HTM'>21-15  中等职业学校(机构)数 (2006年)</a></li>
+<li><a href='html/U2116C.HTM'>21-16  中等职业学校 (机构)学生分科类情况 (2006年)</a></li>
+<li><a href='html/U2117C.HTM'>21-17  职业技术培训机构基本情况 (2006年)</a></li>
+<li><a href='html/U2118C.HTM'>21-18  普通高中学校和学生情况 (2006年)</a></li>
+<li><a href='html/U2119C.HTM'>21-19  普通初中学校和学生情况 (2006年)</a></li>
+<li><a href='html/U2120C.HTM'>21-20  职业初中学校和学生情况 (2006年)</a></li>
+<li><a href='html/U2121C.HTM'>21-21  普通小学学校和学生情况 (2006年)</a></li>
+<li><a href='html/U2122C.HTM'>21-22  技工学校数、学生数和教职工数</a></li>
+<li><a href='html/U2123C.HTM'>21-23  各类技工学校情况 (2006年)</a></li>
+<li><a href='html/U2124C.HTM'>21-24  学龄儿童入学率和各级普通学校毕业生升学率</a></li>
+<li><a href='html/U2125C.HTM'>21-25  各地区高等学校普通本、专科学生数 (2006年)</a></li>
+<li><a href='html/U2126C.HTM'>21-26  各地区普通高等学校 (机构) 教职工情况 (2006年)</a></li>
+<li><a href='html/U2127C.HTM'>21-27  各地区中等职业学校 (机构)学生情况 (2006年)</a></li>
+<li><a href='html/U2128C.HTM'>21-28  各地区中等职业学校 (机构)教职工数(2006年)</a></li>
+<li><a href='html/U2129C.HTM'>21-29  各地区普通高中基本情况 (2006年)</a></li>
+<li><a href='html/U2130C.HTM'>21-30  各地区普通初中基本情况 (2006年)</a></li>
+<li><a href='html/U2131C.HTM'>21-31  各地区职业初中基本情况 (2006年)</a></li>
+<li><a href='html/U2132C.HTM'>21-32  各地区普通小学基本情况 (2006年)</a></li>
+<li><a href='html/U2133C.HTM'>21-33  各地区特殊教育基本情况 (2006年)</a></li>
+<li><a href='html/U2134C.HTM'>21-34  各地区各级普通学校生师比</a></li>
+<li><a href='html/U2135C.HTM'>21-35  每十万人口各级学校平均在校生数</a></li>
+<li><a href='html/U2136C.HTM'>21-36  各地区教育经费情况</a></li>
+<li><a href='html/U2137C.HTM'>21-37  各类学校教育经费情况 (2005年)</a></li>
+<li><a href='html/U2138C.HTM'>21-38  科技活动基本情况</a></li>
+<li><a href='html/U2139C.HTM'>21-39  科学研究与开发机构基本情况</a></li>
+<li><a href='html/U2140C.HTM'>21-40  高等学校科技活动情况</a></li>
+<li><a href='html/U2141C.HTM'>21-41  大中型工业企业科技活动基本情况</a></li>
+<li><a href='html/U2142C.HTM'>21-42  按登记注册类型分大中型工业企业研究与试验发展(R&D)活动情况(2006年)</a></li>
+<li><a href='html/U2143C.HTM'>21-43  按行业分大中型工业企业研究与试验发展(R&D)活动情况(2006年)</a></li>
+<li><a href='html/U2144C.HTM'>21-44  高技术产业大中型工业企业科技活动投入情况(2006年)</a></li>
+<li><a href='html/U2145C.HTM'>21-45  高技术产业大中型工业企业科技活动产出情况(2006年)</a></li>
+<li><a href='html/U2146C.HTM'>21-46  国内、外三种专利申请受理数</a></li>
+<li><a href='html/U2147C.HTM'>21-47  国内、外三种专利申请授权数</a></li>
+<li><a href='html/U2148C.HTM'>21-48  按地区分国内三种专利申请受理数和授权数 (2006年)</a></li>
+<li><a href='html/U2149C.HTM'>21-49  按国别(地区)分国外专利申请受理数及授权数 (2006年)</a></li>
+<li><a href='html/U2150C.HTM'>21-50  按国际标准分类的发明、实用新型专利申请受理、申请授权</a></li>
+<li><a href='html/U2151C.HTM'>21-51  国外主要检索工具收录我国科技论文按学科分布(2005年)</a></li>
+<li><a href='html/U2152C.HTM'>21-52  高技术产品、工业制成品、初级产品的进出口贸易额</a></li>
+<li><a href='html/U2153C.HTM'>21-53  国有企事业单位专业技术人员数(年底数)</a></li>
+<li><a href='html/U2154C.HTM'>21-54  开发区高新技术企业主要经济指标 (2006年)</a></li>
+<li><a href='html/U2155C.HTM'>21-55  各地区技术市场成交额</a></li>
+<li><a href='html/U2156C.HTM'>21-56  各地区测绘部门生产完成情况 (2006年)</a></li>
+<li><a href='html/U2157C.HTM'>21-57  各地区测绘资料提供情况 (2006年)</a></li>
+<li><a href='html/U2158C.HTM'>21-58  各地区气象业务站点及观测项目情况 (2006年)</a></li>
+<li><a href='html/U2159C.HTM'>21-59  各地区地震监测情况 (2006年)</a></li>
+<li><a href='html/U2160C.HTM'>21-60  国家监督抽查产品质量情况</a></li>
+<li><a href='html/U2161C.HTM'>21-61  各地区产品质量情况 (2006年)</a></li>
+<li><a href='html/U2162C.HTM'>21-62  产品质量监督检查情况 (2006年)</a></li>
+<li><a href='html/U2163C.HTM'>21-63  各地区出入境货物检验检疫情况(2006年)</a></li>
+<li><a href='html/U2164C.HTM'>21-64  中国科协系统科技活动情况 (2006年)</a></li>
+<li><a href='html/cn21i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">二十二、文化、体育和卫生</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn22b.htm'>简要说明</a></li>
+<li><a href='html/V2201C.HTM'>22-1  文化、文物机构数、从业人员数 (2006年)</a></li>
+<li><a href='html/V2202C.HTM'>22-2  文化、文物单位数</a></li>
+<li><a href='html/V2203C.HTM'>22-3  艺术表演团体演出情况 (2006年)</a></li>
+<li><a href='html/V2204C.HTM'>22-4  艺术表演团体收支情况 (2006年)</a></li>
+<li><a href='html/V2205C.HTM'>22-5  群众艺术馆、文化馆站业务活动及经费情况 (2006年)</a></li>
+<li><a href='html/V2206C.HTM'>22-6  公共图书馆业务活动及经费情况 (2006年)</a></li>
+<li><a href='html/V2207C.HTM'>22-7  博物馆、文物机构业务活动及经费情况 (2006年)</a></li>
+<li><a href='html/V2208C.HTM'>22-8  摄 制 电 影 片 产 量</a></li>
+<li><a href='html/V2209C.HTM'>22-9  广播电视事业发展情况</a></li>
+<li><a href='html/V2210C.HTM'>22-10  广播电视节目制作情况</a></li>
+<li><a href='html/V2211C.HTM'>22-11  广播电视节目播出情况 (2006年)</a></li>
+<li><a href='html/V2212C.HTM'>22-12  图书出版分类构成情况 (2006年)</a></li>
+<li><a href='html/V2213C.HTM'>22-13  图书、期刊和报纸出版情况</a></li>
+<li><a href='html/V2214C.HTM'>22-14  各地区少年儿童读物类图书和课本出版情况 (2006年)</a></li>
+<li><a href='html/V2215C.HTM'>22-15  课本出版情况(2006年)</a></li>
+<li><a href='html/V2216C.HTM'>22-16  各地区录像制品出版情况 (2006年)</a></li>
+<li><a href='html/V2217C.HTM'>22-17  各地区录音制品出版情况 (2006年)</a></li>
+<li><a href='html/V2218C.HTM'>22-18  档案馆机构和人员情况</a></li>
+<li><a href='html/V2219C.HTM'>22-19  国家综合档案馆基本情况</a></li>
+<li><a href='html/V2220C.HTM'>22-20  我国与外国体育活动交往情况</a></li>
+<li><a href='html/V2221C.HTM'>22-21  群众体育活动情况</a></li>
+<li><a href='html/V2222C.HTM'>22-22  体委系统职工人数 (2006年)</a></li>
+<li><a href='html/V2223C.HTM'>22-23  运动员分项创世界纪录情况 (2006年)</a></li>
+<li><a href='html/V2224C.HTM'>22-24  运动员获世界冠军情况</a></li>
+<li><a href='html/V2225C.HTM'>22-25  卫  生  机  构  数</a></li>
+<li><a href='html/V2226C.HTM'>22-26  卫生机构人员数</a></li>
+<li><a href='html/V2227C.HTM'>22-27  卫生机构床位数</a></li>
+<li><a href='html/V2228C.HTM'>22-28  按市县分卫生机构床位数和卫生技术人员</a></li>
+<li><a href='html/V2229C.HTM'>22-29  医院、卫生院平均每院床位和人员数</a></li>
+<li><a href='html/V2230C.HTM'>22-30  各地区卫生机构数、医疗机构床位数 (2006年)</a></li>
+<li><a href='html/V2231C.HTM'>22-31  各地区卫生机构人员数(2006年)</a></li>
+<li><a href='html/V2232C.HTM'>22-32  卫生机构各类人员数</a></li>
+<li><a href='html/V2233C.HTM'>22-33  各类医疗机构诊疗人次及入院人数 (2006年)</a></li>
+<li><a href='html/V2234C.HTM'>22-34  医疗机构病床使用情况 (2006年)</a></li>
+<li><a href='html/V2235C.HTM'>22-35  城市前十位疾病死亡原因及构成 (2006年)</a></li>
+<li><a href='html/V2236C.HTM'>22-36  农村前十位疾病死亡原因及构成 (2006年)</a></li>
+<li><a href='html/V2237C.HTM'>22-37  法定报告传染病发病及死亡情况 (2006年)</a></li>
+<li><a href='html/V2238C.HTM'>22-38  卫  生  总  费  用</a></li>
+<li><a href='html/cn22i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">二十三、其他社会活动</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn23b.htm'>简要说明</a></li>
+<li><a href='html/W2301C.HTM'>23-1  历届全国人民代表大会代表人数</a></li>
+<li><a href='html/W2302C.HTM'>23-2  历届全国政治协商会议委员人数</a></li>
+<li><a href='html/W2303C.HTM'>23-3  妇 联 干 部 情 况</a></li>
+<li><a href='html/W2304C.HTM'>23-4  工会组织情况</a></li>
+<li><a href='html/W2305C.HTM'>23-5  劳动争议处理情况</a></li>
+<li><a href='html/W2306C.HTM'>23-6  律师、公证和调解工作基本情况</a></li>
+<li><a href='html/W2307C.HTM'>23-7  国内公证文书分类</a></li>
+<li><a href='html/W2308C.HTM'>23-8  涉外公证文书分类</a></li>
+<li><a href='html/W2309C.HTM'>23-9  调解民间纠纷分类</a></li>
+<li><a href='html/W2310C.HTM'>23-10  在押服刑人员基本情况</a></li>
+<li><a href='html/W2311C.HTM'>23-11  公安机关立案的刑事案件及构成</a></li>
+<li><a href='html/W2312C.HTM'>23-12  公安机关受理、查处治安案件数(2006年)</a></li>
+<li><a href='html/W2313C.HTM'>23-13  交 通 事 故 情 况 (2006年)</a></li>
+<li><a href='html/W2314C.HTM'>23-14  火 灾 事 故 情 况 (2006年)</a></li>
+<li><a href='html/W2315C.HTM'>23-15  各地区交通事故情况 (2006年)</a></li>
+<li><a href='html/W2316C.HTM'>23-16  各地区火灾事故情况 (2006年)</a></li>
+<li><a href='html/W2317C.HTM'>23-17  检察机关直接立案侦查案件情况 (2006年)</a></li>
+<li><a href='html/W2318C.HTM'>23-18  检察机关审查批准、决定逮捕犯罪嫌疑人和提起公诉被告人情况 (2006年)</a></li>
+<li><a href='html/W2319C.HTM'>23-19  检察机关处理申诉案件情况 (2006年)</a></li>
+<li><a href='html/W2320C.HTM'>23-20  人民法院审理一审案件情况</a></li>
+<li><a href='html/W2321C.HTM'>23-21  人民法院审理刑事一审案件收结案情况 (2006年)</a></li>
+<li><a href='html/W2322C.HTM'>23-22  人民法院审理刑事案件罪犯情况</a></li>
+<li><a href='html/W2323C.HTM'>23-23  人民法院审理婚姻家庭、继承一审案件收结案情况 (2006年)</a></li>
+<li><a href='html/W2324C.HTM'>23-24  人民法院审理合同纠纷一审案件收结案情况 (2006年)</a></li>
+<li><a href='html/W2325C.HTM'>23-25  人民法院审理权属、侵权纠纷及其他民事一审收结案情况 (2006年)</a></li>
+<li><a href='html/W2326C.HTM'>23-26  人民法院行政一审案件收结案情况 (2006年)</a></li>
+<li><a href='html/W2327C.HTM'>23-27  收养、救助类单位情况</a></li>
+<li><a href='html/W2328C.HTM'>23-28  民政行业单位基本情况</a></li>
+<li><a href='html/W2329C.HTM'>23-29  享受补助、救济人员情况</a></li>
+<li><a href='html/W2330C.HTM'>23-30  社会福利企业基本情况</a></li>
+<li><a href='html/W2331C.HTM'>23-31  各地区城镇社区服务设施基本情况(2006年)</a></li>
+<li><a href='html/W2332C.HTM'>23-32  社会保险基金收支及累计结余</a></li>
+<li><a href='html/W2333C.HTM'>23-33  参加基本养老保险人数</a></li>
+<li><a href='html/W2334C.HTM'>23-34  社会保险基本情况</a></li>
+<li><a href='html/W2335C.HTM'>23-35  各地区基本养老保险情况(2006年)</a></li>
+<li><a href='html/W2336C.HTM'>23-36  各地区失业保险情况 (2006年)</a></li>
+<li><a href='html/W2337C.HTM'>23-37  各地区城镇职工基本医疗保险情况 (2006年)</a></li>
+<li><a href='html/W2338C.HTM'>23-38  各地区工伤保险情况 (2006年)</a></li>
+<li><a href='html/W2339C.HTM'>23-39  各地区生育保险情况 (2006年)</a></li>
+<li><a href='html/W2340C.HTM'>23-40  各地区农村社会养老保险情况 (2006年)</a></li>
+<li><a href='html/W2341C.HTM'>23-41  残疾人事业基本情况</a></li>
+<li><a href='html/W2342C.HTM'>23-42  婚姻登记和离婚情况</a></li>
+<li><a href='html/cn23i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">二十四、香港特别行政区主要社会经济指标</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn24b.htm'>简要说明</a></li>
+<li><a href='html/W2401C.HTM'>24-1  主要统计指标概览</a></li>
+<li><a href='html/W2402C.HTM'>24-2  按区议会地区划分的香港陆地面积</a></li>
+<li><a href='html/W2403C.HTM'>24-3  土地用途分布情况</a></li>
+<li><a href='html/W2404C.HTM'>24-4  按地区类别及路边情况划分的大气质量(2006年)</a></li>
+<li><a href='html/W2405C.HTM'>24-5  按种类划分的每日平均产生的固体废物</a></li>
+<li><a href='html/W2406C.HTM'>24-6  人口主要指标</a></li>
+<li><a href='html/W2407C.HTM'>24-7  劳动人口及失业状况</a></li>
+<li><a href='html/W2408C.HTM'>24-8  按行业划分的就业人数</a></li>
+<li><a href='html/W2409C.HTM'>24-9  按每月收入划分的就业人数</a></li>
+<li><a href='html/W2410C.HTM'>24-10  按行业类别划分督导级'(不包括经理级与专业雇员)及以下雇员的工资指数</a></li>
+<li><a href='html/W2411C.HTM'>24-11  本地生产总值</a></li>
+<li><a href='html/W2412C.HTM'>24-12  按当年价格计算的生产法本地生产总值</a></li>
+<li><a href='html/W2413C.HTM'>24-13  按2000年价格计算的生产法本地生产总值</a></li>
+<li><a href='html/W2414C.HTM'>24-14  支出法本地生产总值</a></li>
+<li><a href='html/W2415C.HTM'>24-15  本地居民生产总值</a></li>
+<li><a href='html/W2416C.HTM'>24-16  香港国际收支平衡表</a></li>
+<li><a href='html/W2417C.HTM'>24-17  香港国际投资头寸 (期末头寸)</a></li>
+<li><a href='html/W2418C.HTM'>24-18  电力、煤气、水消费量</a></li>
+<li><a href='html/W2419C.HTM'>24-19  工业生产指数</a></li>
+<li><a href='html/W2420C.HTM'>24-20  按楼宇种类划分的新落成私人楼宇</a></li>
+<li><a href='html/W2421C.HTM'>24-21  按楼宇种类划分的获批准可动工兴建私人楼宇</a></li>
+<li><a href='html/W2422C.HTM'>24-22  按类型划分的永久性屋宇单位数量(3月底的数字)</a></li>
+<li><a href='html/W2423C.HTM'>24-23  按居所租住权划分的家庭住户数目</a></li>
+<li><a href='html/W2424C.HTM'>24-24  进出香港货物</a></li>
+<li><a href='html/W2425C.HTM'>24-25  按主要货物装卸地点划分的集装箱吞吐量</a></li>
+<li><a href='html/W2426C.HTM'>24-26  通讯及互联网服务</a></li>
+<li><a href='html/W2427C.HTM'>24-27  商品进出口贸易总额</a></li>
+<li><a href='html/W2428C.HTM'>24-28  商品进口及出口的主要供应地和目的地</a></li>
+<li><a href='html/W2429C.HTM'>24-29  商品转口的主要来源地和目的地</a></li>
+<li><a href='html/W2430C.HTM'>24-30  涉及外发中国内地加工的贸易</a></li>
+<li><a href='html/W2431C.HTM'>24-31  按主要服务组别划分的服务出口及进口</a></li>
+<li><a href='html/W2432C.HTM'>24-32  按主要目的地和来源地划分的服务出口及进口</a></li>
+<li><a href='html/W2433C.HTM'>24-33  按主要投资者国家／地区划分的外来直接投资头寸及流动</a></li>
+<li><a href='html/W2434C.HTM'>24-34  按主要接受投资国家／地区划分的向外直接投资头寸及流动</a></li>
+<li><a href='html/W2435C.HTM'>24-35  按母公司的国家／地区划分的驻港地区总部数目</a></li>
+<li><a href='html/W2436C.HTM'>24-36  按母公司的国家／地区划分的驻港地区办事处数目</a></li>
+<li><a href='html/W2437C.HTM'>24-37  按居住国家／地区划分的访港旅客人数</a></li>
+<li><a href='html/W2438C.HTM'>24-38  政府储备结余(一般收入帐目及各基金)</a></li>
+<li><a href='html/W2439C.HTM'>24-39  政府收入(一般收入帐目及各基金)</a></li>
+<li><a href='html/W2440C.HTM'>24-40  政府支出(一般收入帐目及各基金)</a></li>
+<li><a href='html/W2441C.HTM'>24-41  按用途划分的公共开支</a></li>
+<li><a href='html/W2442C.HTM'>24-42  外币兑换率及港汇指数</a></li>
+<li><a href='html/W2443C.HTM'>24-43  货币供应量</a></li>
+<li><a href='html/W2444C.HTM'>24-44  股票价格指数、证券交易成交额及市场总值</a></li>
+<li><a href='html/W2445C.HTM'>24-45  消费物价指数 (2004年10月-2005年9月=100)</a></li>
+<li><a href='html/W2446C.HTM'>24-46  按四分位开支组别及商品或服务类别划分的住户每月平均开支</a></li>
+<li><a href='html/W2447C.HTM'>24-47  按年龄组别／教育程度／经济活动身份划分曾使用个人计算机的10岁及以上人士数目</a></li>
+<li><a href='html/W2448C.HTM'>24-48  按年龄组别／教育程度／经济活动身份划分曾使用互联网服务的10岁及以上人士数目</a></li>
+<li><a href='html/W2449C.HTM'>24-49  按行业／就业人数类别划分的使用个人计算机、连接互联网或设立网页／网站的机构单位数目</a></li>
+<li><a href='html/W2450C.HTM'>24-50  按行业／就业人数类别划分的通过电子途径预订或购买、获取、售卖或递送货物、服务或资料的机构单位数目</a></li>
+<li><a href='html/W2451C.HTM'>24-51  15岁及以上人口受教育程度</a></li>
+<li><a href='html/W2452C.HTM'>24-52  按教育及培训机构类别划分的学生人数</a></li>
+<li><a href='html/W2453C.HTM'>24-53  医疗卫生条件</a></li>
+<li><a href='html/W2454C.HTM'>24-54  社会保障</a></li>
+<li><a href='html/W2455C.HTM'>《中国统计年鉴》与香港特别行政区统计刊物中使用的指标对照表</a></li>
+<li><a href='html/cn24i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">二十五、澳门特别行政区主要社会经济指标</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn25b.htm'>简要说明</a></li>
+<li><a href='html/X2501C.HTM'>25-1  主要统计指标概况</a></li>
+<li><a href='html/X2502C.HTM'>25-2  按堂区划分的澳门面积</a></li>
+<li><a href='html/X2503C.HTM'>25-3  人口主要指标 </a></li>
+<li><a href='html/X2504C.HTM'>25-4  经济活动人口及失业状况</a></li>
+<li><a href='html/X2505C.HTM'>25-5  按行业划分的就业人口</a></li>
+<li><a href='html/X2506C.HTM'>25-6  按行业划分的每月工作收入中位数</a></li>
+<li><a href='html/X2507C.HTM'>25-7  本地生产总值(按当年价格计算)</a></li>
+<li><a href='html/X2508C.HTM'>25-8  支出法本地生产总值 </a></li>
+<li><a href='html/X2509C.HTM'>25-9  生产法本地生产总值 </a></li>
+<li><a href='html/X2510C.HTM'>25-10  生产法本地生产总值结构 </a></li>
+<li><a href='html/X2511C.HTM'>25-11  电力、燃料及水消费量</a></li>
+<li><a href='html/X2512C.HTM'>25-12  按用途划分的建成私人房屋单位及建筑面积</a></li>
+<li><a href='html/X2513C.HTM'>25-13  按用途划分的获批准新动工私人房屋单位及建筑面积</a></li>
+<li><a href='html/X2514C.HTM'>25-14  零售业销售额</a></li>
+<li><a href='html/X2515C.HTM'>25-15  外地进出澳门货物</a></li>
+<li><a href='html/X2516C.HTM'>25-16  集装箱流量</a></li>
+<li><a href='html/X2517C.HTM'>25-17  海路集装箱总吞吐量</a></li>
+<li><a href='html/X2518C.HTM'>25-18  通信服务</a></li>
+<li><a href='html/X2519C.HTM'>25-19  主要商品进出口总额</a></li>
+<li><a href='html/X2520C.HTM'>25-20  主要商品进口原产地和出口目的地</a></li>
+<li><a href='html/X2521C.HTM'>25-21  财政收入</a></li>
+<li><a href='html/X2522C.HTM'>25-22  财政支出</a></li>
+<li><a href='html/X2523C.HTM'>25-23  货币供应</a></li>
+<li><a href='html/X2524C.HTM'>25-24  外币兑换率</a></li>
+<li><a href='html/X2525C.HTM'>25-25  居民消费价格指数(2004年7月至2005年6月=100)</a></li>
+<li><a href='html/X2526C.HTM'>25-26  按双周开支五等分位及商品与服务分类统计之每户双周平均消费开支</a></li>
+<li><a href='html/X2527C.HTM'>25-27  14岁及14岁以上人口受教育程度</a></li>
+<li><a href='html/X2528C.HTM'>25-28  按各类型教育机构统计的学生人数</a></li>
+<li><a href='html/X2529C.HTM'>25-29  医疗卫生条件</a></li>
+<li><a href='html/X2530C.HTM'>25-30  按住所租住权划分的家庭住户数目</a></li>
+<li><a href='html/X2531C.HTM'>25-31  社会保障基金发放次数及金额</a></li>
+<li><a href='html/cn25i.htm'>主要统计指标解释</a></li>
+</ul><li id="foldheader">附录一、台湾省主要社会经济指标</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/Z2601C.HTM'>附录1-1  主要统计指标概况</a></li>
+<li><a href='html/Z2602C.HTM'>附录1-2  面积和人口主要指标</a></li>
+<li><a href='html/Z2603C.HTM'>附录1-3  劳动力和就业状况</a></li>
+<li><a href='html/Z2604C.HTM'>附录1-4   本 地 居 民 生 产 总 值</a></li>
+<li><a href='html/Z2605C.HTM'>附录1-5  本地生产总值支出构成</a></li>
+<li><a href='html/Z2606C.HTM'>附录1-6  本地生产总值部门构成</a></li>
+<li><a href='html/Z2607C.HTM'>附录1-7  农 业 生 产 指 数</a></li>
+<li><a href='html/Z2608C.HTM'>附录1-8  主 要 农 产 品 产 量</a></li>
+<li><a href='html/Z2609C.HTM'>附录1-9  工业生产指数</a></li>
+<li><a href='html/Z2610C.HTM'>附录1-10  主要工业产品产量</a></li>
+<li><a href='html/Z2611C.HTM'>附录1-11  能源生产和消费</a></li>
+<li><a href='html/Z2612C.HTM'>附录1-12  按用途分批准动工的建筑物面积</a></li>
+<li><a href='html/Z2613C.HTM'>附录1-13  铁路和公路客货运量</a></li>
+<li><a href='html/Z2614C.HTM'>附录1-14  邮政及电信营运量</a></li>
+<li><a href='html/Z2615C.HTM'>附录1-15  货物进出口额</a></li>
+<li><a href='html/Z2616C.HTM'>附录1-16  货物进口来源和出口去向</a></li>
+<li><a href='html/Z2617C.HTM'>附录1-17  出口与进口货物分类</a></li>
+<li><a href='html/Z2618C.HTM'>附录1-18  旅   游  人   数</a></li>
+<li><a href='html/Z2619C.HTM'>附录1-19  居民消费价格分类指数</a></li>
+<li><a href='html/Z2620C.HTM'>附录1-20  各级政府财政收入净额</a></li>
+<li><a href='html/Z2621C.HTM'>附录1-21  各级政府财政支出净额</a></li>
+<li><a href='html/Z2622C.HTM'>附录1-22  政  府  公  债</a></li>
+<li><a href='html/Z2623C.HTM'>附录1-23  金 融 概 况</a></li>
+<li><a href='html/Z2624C.HTM'>附录1-24  股   票   交   易</a></li>
+<li><a href='html/Z2625C.HTM'>附录1-25  入学率和教育经费</a></li>
+<li><a href='html/Z2626C.HTM'>附录1-26  科技人员数和科研开发经费</a></li>
+<li><a href='html/Z2627C.HTM'>附录1-27  医院、病床和医务人员情况</a></li>
+<li><a href='html/Z2628C.HTM'>附录1-28  家 庭 主 要 设 备 普 及 率</a></li>
+</ul><li id="foldheader">附录二、我国经济、社会统计指标同世界主要国家和地区比较</li> <ul id="foldinglist" style="display:none" style=&{head};>
+<li><a href='html/cn26b.htm'>简要说明</a></li>
+<li><a href='html/ZA2701C.HTM'>附录2-1  2005 年 国 土 面 积 和 人 口</a></li>
+<li><a href='html/ZA2702C.HTM'>附录2-2  按三次产业分就业人员构成</a></li>
+<li><a href='html/ZA2703C.HTM'>附录2-3  国内生产总值及其增长率</a></li>
+<li><a href='html/ZA2704C.HTM'>附录2-4  农业生产指数 (2005年)</a></li>
+<li><a href='html/ZA2705C.HTM'>附录2-5  工业生产指数</a></li>
+<li><a href='html/ZA2706C.HTM'>附录2-6  中国主要指标居世界位次</a></li>
+<li><a href='html/ZA2707C.HTM'>附录2-7  居民消费价格指数</a></li>
+<li><a href='html/ZA2708C.HTM'>附录2-8  货物进出口额</a></li>
+<li><a href='html/ZA2709C.HTM'>附录2-9  国际收支 (2006年)</a></li>
+<li><a href='html/ZA2710C.HTM'>附录2-10  外汇储备</a></li>
+</ul></ul>
+<li id="arrowheader"><a target="_parent" href="indexeh.htm"><b>English</b> </a></li>
+
+
+
+
+<hr size="1" width="100%" color=blues> <br> 
+ <p align="left"><img src="060706.jpg" width="180" height="382" border="0" align="baseline" usemap="#Map"></p>
+ <hr size="1" width="100%" color=blues>
+ <p>&nbsp;</p>
+ <p class="style9">&nbsp;</p>
+ <p class="style7">&nbsp;</p>
+ <p>&nbsp; </p>
+ <p>&nbsp;</p>
+ 
+</TR>
+<div align="left"></div></th>
+ </TBODY>
+</TABLE> 
+
+</div> </CENTER><BR>
+<map name="Map">
+  <area shape="rect" coords="12,333,160,351" href="mailto:yearbook@stats.gov.cn">
+</map>
+</BODY>

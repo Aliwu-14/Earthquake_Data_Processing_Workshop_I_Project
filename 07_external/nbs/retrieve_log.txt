@@ -1,0 +1,766 @@
+[2026-11-15 16:22:54 +0800] START NBS official collection
+[2026-11-15 16:22:54 +0800] ==== Probe https://data.stats.gov.cn/
+[2026-11-15 16:22:59 +0800] data.stats.gov.cn -> 200 3198B https://data.stats.gov.cn/dg/website/page.html#/pc/national/home
+[2026-11-15 16:23:03 +0800] SAVED yearbook/index_ndsj.html  79379 B  918cd8b2db73  https://www.stats.gov.cn/sj/ndsj/
+[2026-11-15 16:23:03 +0800] ==== Yearbook 1999 TOC https://www.stats.gov.cn/yearbook/ml/1999_c.htm
+[2026-11-15 16:23:03 +0800] SAVED yearbook/yearbook/ml/1999_c.htm  71509 B  300586519182  https://www.stats.gov.cn/yearbook/ml/1999_c.htm
+[2026-11-15 16:23:04 +0800] SAVED yearbook/yearbook/indexC.htm  294 B  56725ab93197  https://www.stats.gov.cn/yearbook/indexC.htm
+[2026-11-15 16:23:05 +0800] SAVED yearbook/yearbook/1999/c08c.htm  45434 B  879d9b042b0a  https://www.stats.gov.cn/yearbook/1999/c08c.htm
+[2026-11-15 16:23:06 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook/1999/c08c.xls
+[2026-11-15 16:23:07 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook/1999/c08c.xls
+[2026-11-15 16:23:08 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook/1999/c08c.xlsx
+[2026-11-15 16:23:09 +0800] SAVED yearbook/yearbook/1999/c09c.htm  134003 B  90dd1189da38  https://www.stats.gov.cn/yearbook/1999/c09c.htm
+[2026-11-15 16:23:10 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook/1999/c09c.xls
+[2026-11-15 16:23:11 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook/1999/c09c.xls
+[2026-11-15 16:23:12 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook/1999/c09c.xlsx
+[2026-11-15 16:23:13 +0800] SAVED yearbook/yearbook/1999/d03c.htm  27883 B  5b430641530c  https://www.stats.gov.cn/yearbook/1999/d03c.htm
+[2026-11-15 16:23:14 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook/1999/d03c.xls
+[2026-11-15 16:23:15 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook/1999/d03c.xls
+[2026-11-15 16:23:16 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook/1999/d03c.xlsx
+[2026-11-15 16:23:16 +0800] Yearbook 1999 classified counts: {'earthquake_disaster': 0, 'provincial_population': 1, 'regional_gdp': 2}
+[2026-11-15 16:23:16 +0800] SAVED yearbook/sj/ndsj/zgnj/mulu.html  3245 B  fade4d7a7a68  https://www.stats.gov.cn/sj/ndsj/zgnj/mulu.html
+[2026-11-15 16:23:16 +0800] ==== Yearbook 2000 TOC https://www.stats.gov.cn/sj/ndsj/zgnj/mulu.html
+[2026-11-15 16:23:17 +0800] SAVED yearbook/sj/ndsj/zgnj/mulu.html  3245 B  fade4d7a7a68  https://www.stats.gov.cn/sj/ndsj/zgnj/mulu.html
+[2026-11-15 16:23:18 +0800] SAVED yearbook/sj/ndsj/zgnj/mulua.html  2724 B  90ccc5d2b79b  https://www.stats.gov.cn/sj/ndsj/zgnj/mulua.html
+[2026-11-15 16:23:19 +0800] SAVED yearbook/sj/ndsj/zgnj/mulub.html  2441 B  4c21a1da646e  https://www.stats.gov.cn/sj/ndsj/zgnj/mulub.html
+[2026-11-15 16:23:20 +0800] SAVED yearbook/sj/ndsj/zgnj/muluc.html  3321 B  d1a297b4bb0d  https://www.stats.gov.cn/sj/ndsj/zgnj/muluc.html
+[2026-11-15 16:23:21 +0800] SAVED yearbook/sj/ndsj/zgnj/mulud.html  2522 B  4d1975b45328  https://www.stats.gov.cn/sj/ndsj/zgnj/mulud.html
+[2026-11-15 16:23:21 +0800] SAVED yearbook/sj/ndsj/zgnj/mulue.html  4484 B  53df1d63f99b  https://www.stats.gov.cn/sj/ndsj/zgnj/mulue.html
+[2026-11-15 16:23:22 +0800] SAVED yearbook/sj/ndsj/zgnj/muluf.html  5510 B  0fc0fe3a666a  https://www.stats.gov.cn/sj/ndsj/zgnj/muluf.html
+[2026-11-15 16:23:23 +0800] SAVED yearbook/sj/ndsj/zgnj/mulug.html  2487 B  3f32cde95d79  https://www.stats.gov.cn/sj/ndsj/zgnj/mulug.html
+[2026-11-15 16:23:24 +0800] SAVED yearbook/sj/ndsj/zgnj/muluh.html  3204 B  e94a7cae9b70  https://www.stats.gov.cn/sj/ndsj/zgnj/muluh.html
+[2026-11-15 16:23:25 +0800] SAVED yearbook/sj/ndsj/zgnj/mului.html  2695 B  022396dd438f  https://www.stats.gov.cn/sj/ndsj/zgnj/mului.html
+[2026-11-15 16:23:26 +0800] SAVED yearbook/sj/ndsj/zgnj/muluj.html  3838 B  facadc4eec37  https://www.stats.gov.cn/sj/ndsj/zgnj/muluj.html
+[2026-11-15 16:23:27 +0800] SAVED yearbook/sj/ndsj/zgnj/muluk.html  2617 B  8fef6ede540a  https://www.stats.gov.cn/sj/ndsj/zgnj/muluk.html
+[2026-11-15 16:23:28 +0800] SAVED yearbook/sj/ndsj/zgnj/mulul.html  3473 B  6c6d1aa8954a  https://www.stats.gov.cn/sj/ndsj/zgnj/mulul.html
+[2026-11-15 16:23:29 +0800] SAVED yearbook/sj/ndsj/zgnj/mulum.html  3795 B  fc4b0c88970f  https://www.stats.gov.cn/sj/ndsj/zgnj/mulum.html
+[2026-11-15 16:23:29 +0800] SAVED yearbook/sj/ndsj/zgnj/mulun.html  4367 B  77d7ac255f2a  https://www.stats.gov.cn/sj/ndsj/zgnj/mulun.html
+[2026-11-15 16:23:30 +0800] SAVED yearbook/sj/ndsj/zgnj/muluo.html  4712 B  78edea02acf8  https://www.stats.gov.cn/sj/ndsj/zgnj/muluo.html
+[2026-11-15 16:23:31 +0800] SAVED yearbook/sj/ndsj/zgnj/mulup.html  4251 B  c893633ef978  https://www.stats.gov.cn/sj/ndsj/zgnj/mulup.html
+[2026-11-15 16:23:32 +0800] SAVED yearbook/sj/ndsj/zgnj/muluq.html  3263 B  e922431b6a33  https://www.stats.gov.cn/sj/ndsj/zgnj/muluq.html
+[2026-11-15 16:23:33 +0800] SAVED yearbook/sj/ndsj/zgnj/mulur.html  2392 B  3fc524a4d5f6  https://www.stats.gov.cn/sj/ndsj/zgnj/mulur.html
+[2026-11-15 16:23:34 +0800] SAVED yearbook/sj/ndsj/zgnj/mulus.html  2723 B  723bd579b457  https://www.stats.gov.cn/sj/ndsj/zgnj/mulus.html
+[2026-11-15 16:23:35 +0800] SAVED yearbook/sj/ndsj/zgnj/mulut.html  7646 B  dd7b5e0fb411  https://www.stats.gov.cn/sj/ndsj/zgnj/mulut.html
+[2026-11-15 16:23:36 +0800] SAVED yearbook/sj/ndsj/zgnj/muluu.html  7079 B  081882ff74a0  https://www.stats.gov.cn/sj/ndsj/zgnj/muluu.html
+[2026-11-15 16:23:36 +0800] SAVED yearbook/sj/ndsj/zgnj/muluv.html  4268 B  1579ee95eecb  https://www.stats.gov.cn/sj/ndsj/zgnj/muluv.html
+[2026-11-15 16:23:37 +0800] SAVED yearbook/sj/ndsj/zgnj/muluw.html  3436 B  6a807f8644f7  https://www.stats.gov.cn/sj/ndsj/zgnj/muluw.html
+[2026-11-15 16:23:38 +0800] SAVED yearbook/sj/ndsj/zgnj/mulux.html  3564 B  d5bb5cef58cd  https://www.stats.gov.cn/sj/ndsj/zgnj/mulux.html
+[2026-11-15 16:23:39 +0800] SAVED yearbook/sj/ndsj/zgnj/muluy.html  2926 B  49be68f37450  https://www.stats.gov.cn/sj/ndsj/zgnj/muluy.html
+[2026-11-15 16:23:40 +0800] SAVED yearbook/sj/ndsj/zgnj/2000/C08c.htm  44154 B  6e740933dc79  https://www.stats.gov.cn/sj/ndsj/zgnj/2000/C08c.htm
+[2026-11-15 16:23:41 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/zgnj/2000/C08c.xls
+[2026-11-15 16:23:43 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/zgnj/2000/C08c.xlsx
+[2026-11-15 16:23:44 +0800] SAVED yearbook/sj/ndsj/zgnj/2000/C09c.htm  87934 B  86308c6c428f  https://www.stats.gov.cn/sj/ndsj/zgnj/2000/C09c.htm
+[2026-11-15 16:23:45 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/zgnj/2000/C09c.xls
+[2026-11-15 16:23:46 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/zgnj/2000/C09c.xlsx
+[2026-11-15 16:23:47 +0800] SAVED yearbook/sj/ndsj/zgnj/2000/D03c.htm  80287 B  e4f712f67377  https://www.stats.gov.cn/sj/ndsj/zgnj/2000/D03c.htm
+[2026-11-15 16:23:48 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/zgnj/2000/D03c.xls
+[2026-11-15 16:23:49 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/zgnj/2000/D03c.xlsx
+[2026-11-15 16:23:49 +0800] Yearbook 2000 classified counts: {'earthquake_disaster': 0, 'provincial_population': 1, 'regional_gdp': 2}
+[2026-11-15 16:23:50 +0800] SAVED yearbook/sj/ndsj/2001c/mulu.htm  13775 B  907c307ce4af  https://www.stats.gov.cn/sj/ndsj/2001c/mulu.htm
+[2026-11-15 16:23:50 +0800] ==== Yearbook 2001 TOC https://www.stats.gov.cn/sj/ndsj/2001c/mulu.htm
+[2026-11-15 16:23:51 +0800] SAVED yearbook/sj/ndsj/2001c/mulu.htm  13775 B  907c307ce4af  https://www.stats.gov.cn/sj/ndsj/2001c/mulu.htm
+[2026-11-15 16:23:52 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_a.htm  18798 B  bff9df832c75  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_a.htm
+[2026-11-15 16:23:53 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_b.htm  6931 B  23888940a510  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_b.htm
+[2026-11-15 16:23:54 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_c.htm  14097 B  2960577c527d  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_c.htm
+[2026-11-15 16:23:55 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_d.htm  7974 B  cb6d6b163666  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_d.htm
+[2026-11-15 16:23:56 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_e.htm  17150 B  161cb46c67b1  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_e.htm
+[2026-11-15 16:23:57 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_f.htm  27625 B  a6bb3938d437  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_f.htm
+[2026-11-15 16:23:58 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_g.htm  8427 B  f29e3f8c3df6  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_g.htm
+[2026-11-15 16:23:59 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_h.htm  13191 B  b68f7d616501  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_h.htm
+[2026-11-15 16:23:59 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_i.htm  9041 B  b39de01fc8ad  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_i.htm
+[2026-11-15 16:24:01 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_j.htm  17418 B  a7f8007d1efd  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_j.htm
+[2026-11-15 16:24:02 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_k.htm  8620 B  917d6fab2bec  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_k.htm
+[2026-11-15 16:24:03 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_l.htm  15989 B  96d3b56af4bb  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_l.htm
+[2026-11-15 16:24:05 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_m.htm  14271 B  d5a02c328b36  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_m.htm
+[2026-11-15 16:24:06 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_n.htm  19997 B  f09f92fb118a  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_n.htm
+[2026-11-15 16:24:07 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_o.htm  25320 B  261847714b5e  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_o.htm
+[2026-11-15 16:24:08 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_p.htm  16685 B  82cf33732d64  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_p.htm
+[2026-11-15 16:24:09 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_q.htm  13387 B  a514961c6fc4  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_q.htm
+[2026-11-15 16:24:10 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_r.htm  7496 B  bb5739e56f1b  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_r.htm
+[2026-11-15 16:24:11 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_s.htm  10091 B  938f7334ae2a  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_s.htm
+[2026-11-15 16:24:12 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_t.htm  33251 B  b533eed1aa4d  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_t.htm
+[2026-11-15 16:24:13 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_u.htm  25715 B  ba6e9d3e392f  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_u.htm
+[2026-11-15 16:24:14 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_v.htm  28527 B  c470aecbc219  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_v.htm
+[2026-11-15 16:24:16 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_w.htm  22930 B  48973646db49  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_w.htm
+[2026-11-15 16:24:17 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_x.htm  16428 B  01e46fdb2a38  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_x.htm
+[2026-11-15 16:24:18 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_y.htm  15832 B  2513f6ab2a5e  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_y.htm
+[2026-11-15 16:24:19 +0800] SAVED yearbook/sj/ndsj/2001c/mulu_z.htm  11182 B  ec7643cdf418  https://www.stats.gov.cn/sj/ndsj/2001c/mulu_z.htm
+[2026-11-15 16:24:20 +0800] SAVED yearbook/sj/ndsj/2001c/c0308c.htm  44446 B  e1ccec9dc2b9  https://www.stats.gov.cn/sj/ndsj/2001c/c0308c.htm
+[2026-11-15 16:24:21 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2001c/c0308c.xls
+[2026-11-15 16:24:22 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2001c/c0308c.xlsx
+[2026-11-15 16:24:24 +0800] SAVED yearbook/sj/ndsj/2001c/c0309c.htm  94316 B  52b92815ae36  https://www.stats.gov.cn/sj/ndsj/2001c/c0309c.htm
+[2026-11-15 16:24:25 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2001c/c0309c.xls
+[2026-11-15 16:24:26 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2001c/c0309c.xlsx
+[2026-11-15 16:24:27 +0800] SAVED yearbook/sj/ndsj/2001c/d0403c.htm  47865 B  1e08e33c69b3  https://www.stats.gov.cn/sj/ndsj/2001c/d0403c.htm
+[2026-11-15 16:24:28 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2001c/d0403c.xls
+[2026-11-15 16:24:29 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2001c/d0403c.xlsx
+[2026-11-15 16:24:29 +0800] Yearbook 2001 classified counts: {'earthquake_disaster': 0, 'provincial_population': 1, 'regional_gdp': 2}
+[2026-11-15 16:24:29 +0800] ==== Yearbook 2002 TOC https://www.stats.gov.cn/yearbook2001/ml/2002_c.htm
+[2026-11-15 16:24:30 +0800] SAVED yearbook/yearbook2001/ml/2002_c.htm  81020 B  7c41757b623f  https://www.stats.gov.cn/yearbook2001/ml/2002_c.htm
+[2026-11-15 16:24:31 +0800] SAVED yearbook/yearbook2001/indexC.htm  304 B  b05ac3142481  https://www.stats.gov.cn/yearbook2001/indexC.htm
+[2026-11-15 16:24:32 +0800] SAVED yearbook/yearbook2001/2002/c0308c.htm  40380 B  d5f92b0c8f24  https://www.stats.gov.cn/yearbook2001/2002/c0308c.htm
+[2026-11-15 16:24:33 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook2001/2002/c0308c.xls
+[2026-11-15 16:24:34 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook2001/2002/c0308c.xlsx
+[2026-11-15 16:24:36 +0800] SAVED yearbook/yearbook2001/2002/c0309c.htm  93327 B  078fba8803f0  https://www.stats.gov.cn/yearbook2001/2002/c0309c.htm
+[2026-11-15 16:24:37 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook2001/2002/c0309c.xls
+[2026-11-15 16:24:38 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook2001/2002/c0309c.xlsx
+[2026-11-15 16:24:39 +0800] SAVED yearbook/yearbook2001/2002/d0403c.htm  38403 B  b6a599659e59  https://www.stats.gov.cn/yearbook2001/2002/d0403c.htm
+[2026-11-15 16:24:40 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook2001/2002/d0403c.xls
+[2026-11-15 16:24:41 +0800] MISS 404 555B  https://www.stats.gov.cn/yearbook2001/2002/d0403c.xlsx
+[2026-11-15 16:24:41 +0800] Yearbook 2002 classified counts: {'earthquake_disaster': 0, 'provincial_population': 1, 'regional_gdp': 2}
+[2026-11-15 16:24:41 +0800] ==== Yearbook 2003 official PDF
+[2026-11-15 16:25:35 +0800] SAVED yearbook/sj/ndsj/yearbook2003_c.pdf  5039835 B  e70da4233656  https://www.stats.gov.cn/sj/ndsj/yearbook2003_c.pdf
+[2026-11-15 16:25:35 +0800] ==== Yearbook 2004 TOC https://www.stats.gov.cn/sj/ndsj/yb2004-c/left.htm
+[2026-11-15 16:25:36 +0800] SAVED yearbook/sj/ndsj/yb2004-c/left.htm  70114 B  7991547024c9  https://www.stats.gov.cn/sj/ndsj/yb2004-c/left.htm
+[2026-11-15 16:25:37 +0800] SAVED yearbook/sj/ndsj/yb2004-c/indexch.htm  795 B  5e8928894d3d  https://www.stats.gov.cn/sj/ndsj/yb2004-c/indexch.htm
+[2026-11-15 16:25:38 +0800] SAVED yearbook/sj/ndsj/yb2004-c/html/C0310ac.htm  47479 B  aef2a90ed2f0  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/C0310ac.htm
+[2026-11-15 16:25:39 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/C0310ac.xls
+[2026-11-15 16:25:40 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/C0310ac.xls
+[2026-11-15 16:25:41 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/C0310ac.xlsx
+[2026-11-15 16:25:43 +0800] SAVED yearbook/sj/ndsj/yb2004-c/html/C0311ac.htm  74496 B  22b80731bfeb  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/C0311ac.htm
+[2026-11-15 16:25:44 +0800] SAVED yearbook/sj/ndsj/yb2004-c/html/C0311ac.xls  28160 B  7acdd21cdecc  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/C0311ac.xls
+[2026-11-15 16:25:45 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/C0311ac.xlsx
+[2026-11-15 16:25:46 +0800] SAVED yearbook/sj/ndsj/yb2004-c/html/D0403ac.htm  42090 B  44e3b414e17f  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/D0403ac.htm
+[2026-11-15 16:25:48 +0800] SAVED yearbook/sj/ndsj/yb2004-c/html/D0403ac.xls  26112 B  921302d3a1fb  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/D0403ac.xls
+[2026-11-15 16:25:49 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/D0403ac.xlsx
+[2026-11-15 16:25:50 +0800] SAVED yearbook/sj/ndsj/yb2004-c/html/L1226ac.htm  19047 B  9158b6b5ab1c  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/L1226ac.htm
+[2026-11-15 16:25:51 +0800] SAVED yearbook/sj/ndsj/yb2004-c/html/L1226ac.xls  17920 B  ee3bbfc730dd  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/L1226ac.xls
+[2026-11-15 16:25:52 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/yb2004-c/html/L1226ac.xlsx
+[2026-11-15 16:25:52 +0800] Yearbook 2004 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 2}
+[2026-11-15 16:25:52 +0800] ==== Yearbook 2005 TOC https://www.stats.gov.cn/sj/ndsj/2005/left.htm
+[2026-11-15 16:25:53 +0800] SAVED yearbook/sj/ndsj/2005/left.htm  61887 B  122ece1b6633  https://www.stats.gov.cn/sj/ndsj/2005/left.htm
+[2026-11-15 16:25:54 +0800] SAVED yearbook/sj/ndsj/2005/indexch.htm  795 B  5e8928894d3d  https://www.stats.gov.cn/sj/ndsj/2005/indexch.htm
+[2026-11-15 16:25:55 +0800] SAVED yearbook/sj/ndsj/2005/html/C0310C.HTM  41883 B  f4b36329d348  https://www.stats.gov.cn/sj/ndsj/2005/html/C0310C.HTM
+[2026-11-15 16:25:56 +0800] SAVED yearbook/sj/ndsj/2005/html/C0310C.xls  25600 B  1e58688fb1c7  https://www.stats.gov.cn/sj/ndsj/2005/html/C0310C.xls
+[2026-11-15 16:25:57 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2005/html/C0310C.xlsx
+[2026-11-15 16:25:58 +0800] SAVED yearbook/sj/ndsj/2005/html/C0311C.HTM  76515 B  d8341d24b11d  https://www.stats.gov.cn/sj/ndsj/2005/html/C0311C.HTM
+[2026-11-15 16:25:59 +0800] SAVED yearbook/sj/ndsj/2005/html/C0311C.xls  31232 B  5d2f26bee159  https://www.stats.gov.cn/sj/ndsj/2005/html/C0311C.xls
+[2026-11-15 16:26:00 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2005/html/C0311C.xlsx
+[2026-11-15 16:26:01 +0800] SAVED yearbook/sj/ndsj/2005/html/D0403C.HTM  32912 B  b91b26681e59  https://www.stats.gov.cn/sj/ndsj/2005/html/D0403C.HTM
+[2026-11-15 16:26:03 +0800] SAVED yearbook/sj/ndsj/2005/html/D0403C.xls  23552 B  b8110cc3007b  https://www.stats.gov.cn/sj/ndsj/2005/html/D0403C.xls
+[2026-11-15 16:26:04 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2005/html/D0403C.xlsx
+[2026-11-15 16:26:05 +0800] SAVED yearbook/sj/ndsj/2005/html/L1226C.HTM  30210 B  13aa30f4a9db  https://www.stats.gov.cn/sj/ndsj/2005/html/L1226C.HTM
+[2026-11-15 16:26:07 +0800] SAVED yearbook/sj/ndsj/2005/html/L1226C.xls  22528 B  3544f9e00afb  https://www.stats.gov.cn/sj/ndsj/2005/html/L1226C.xls
+[2026-11-15 16:26:08 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2005/html/L1226C.xlsx
+[2026-11-15 16:26:08 +0800] Yearbook 2005 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 2}
+[2026-11-15 16:26:08 +0800] ==== Yearbook 2006 TOC https://www.stats.gov.cn/sj/ndsj/2006/left.htm
+[2026-11-15 16:26:09 +0800] SAVED yearbook/sj/ndsj/2006/left.htm  69802 B  34bbf9d0806e  https://www.stats.gov.cn/sj/ndsj/2006/left.htm
+[2026-11-15 16:26:10 +0800] SAVED yearbook/sj/ndsj/2006/indexch.htm  795 B  5e8928894d3d  https://www.stats.gov.cn/sj/ndsj/2006/indexch.htm
+[2026-11-15 16:26:11 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2006/html\C0308C.HTM
+[2026-11-15 16:26:12 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2006/html\C0309C.HTM
+[2026-11-15 16:26:13 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2006/html\L1229C.HTM
+[2026-11-15 16:26:13 +0800] Yearbook 2006 classified counts: {'earthquake_disaster': 0, 'provincial_population': 0, 'regional_gdp': 0}
+[2026-11-15 16:26:13 +0800] ==== Yearbook 2007 TOC https://www.stats.gov.cn/sj/ndsj/2007/left.htm
+[2026-11-15 16:26:14 +0800] SAVED yearbook/sj/ndsj/2007/left.htm  69698 B  10d1d553bdf7  https://www.stats.gov.cn/sj/ndsj/2007/left.htm
+[2026-11-15 16:26:15 +0800] SAVED yearbook/sj/ndsj/2007/indexch.htm  888 B  98c397a274a1  https://www.stats.gov.cn/sj/ndsj/2007/indexch.htm
+[2026-11-15 16:26:17 +0800] SAVED yearbook/sj/ndsj/2007/html/C0312C.HTM  60510 B  d6fbb3efa7ba  https://www.stats.gov.cn/sj/ndsj/2007/html/C0312C.HTM
+[2026-11-15 16:26:18 +0800] SAVED yearbook/sj/ndsj/2007/html/C0312C.xls  28160 B  bbc9a7e65c04  https://www.stats.gov.cn/sj/ndsj/2007/html/C0312C.xls
+[2026-11-15 16:26:19 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2007/html/C0312C.xlsx
+[2026-11-15 16:26:21 +0800] SAVED yearbook/sj/ndsj/2007/html/C0313C.HTM  91923 B  238ef02a3acb  https://www.stats.gov.cn/sj/ndsj/2007/html/C0313C.HTM
+[2026-11-15 16:26:23 +0800] SAVED yearbook/sj/ndsj/2007/html/C0313C.xls  30208 B  51194f759b2b  https://www.stats.gov.cn/sj/ndsj/2007/html/C0313C.xls
+[2026-11-15 16:26:24 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2007/html/C0313C.xlsx
+[2026-11-15 16:26:25 +0800] SAVED yearbook/sj/ndsj/2007/html/C0314C.HTM  43999 B  472eee8ad81f  https://www.stats.gov.cn/sj/ndsj/2007/html/C0314C.HTM
+[2026-11-15 16:26:26 +0800] SAVED yearbook/sj/ndsj/2007/html/C0314C.xls  25088 B  7550d1728900  https://www.stats.gov.cn/sj/ndsj/2007/html/C0314C.xls
+[2026-11-15 16:26:27 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2007/html/C0314C.xlsx
+[2026-11-15 16:26:28 +0800] SAVED yearbook/sj/ndsj/2007/html/L1229C.HTM  21801 B  d332e1ff3b9e  https://www.stats.gov.cn/sj/ndsj/2007/html/L1229C.HTM
+[2026-11-15 16:26:30 +0800] SAVED yearbook/sj/ndsj/2007/html/L1229C.xls  17920 B  b075584f3712  https://www.stats.gov.cn/sj/ndsj/2007/html/L1229C.xls
+[2026-11-15 16:26:30 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2007/html/L1229C.xlsx
+[2026-11-15 16:26:30 +0800] Yearbook 2007 classified counts: {'earthquake_disaster': 1, 'provincial_population': 0, 'regional_gdp': 3}
+[2026-11-15 16:26:30 +0800] ==== Yearbook 2008 TOC https://www.stats.gov.cn/sj/ndsj/2008/left.htm
+[2026-11-15 16:26:32 +0800] SAVED yearbook/sj/ndsj/2008/left.htm  69158 B  bd3fcac78a17  https://www.stats.gov.cn/sj/ndsj/2008/left.htm
+[2026-11-15 16:26:33 +0800] SAVED yearbook/sj/ndsj/2008/indexch.htm  888 B  b0dff76b94e9  https://www.stats.gov.cn/sj/ndsj/2008/indexch.htm
+[2026-11-15 16:26:35 +0800] SAVED yearbook/sj/ndsj/2008/html/C0214C.HTM  58341 B  0eac8d326ff9  https://www.stats.gov.cn/sj/ndsj/2008/html/C0214C.HTM
+[2026-11-15 16:26:36 +0800] SAVED yearbook/sj/ndsj/2008/html/C0214C.xls  18432 B  2767d2c5b90f  https://www.stats.gov.cn/sj/ndsj/2008/html/C0214C.xls
+[2026-11-15 16:26:36 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2008/html/C0214C.xlsx
+[2026-11-15 16:26:38 +0800] SAVED yearbook/sj/ndsj/2008/html/C0215C.HTM  74570 B  5e0232b7b060  https://www.stats.gov.cn/sj/ndsj/2008/html/C0215C.HTM
+[2026-11-15 16:26:39 +0800] SAVED yearbook/sj/ndsj/2008/html/C0215C.xls  24064 B  f98ab271b506  https://www.stats.gov.cn/sj/ndsj/2008/html/C0215C.xls
+[2026-11-15 16:26:40 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2008/html/C0215C.xlsx
+[2026-11-15 16:26:41 +0800] SAVED yearbook/sj/ndsj/2008/html/C0216C.HTM  37242 B  0455e69b192e  https://www.stats.gov.cn/sj/ndsj/2008/html/C0216C.HTM
+[2026-11-15 16:26:42 +0800] SAVED yearbook/sj/ndsj/2008/html/C0216C.xls  18944 B  58e89b325696  https://www.stats.gov.cn/sj/ndsj/2008/html/C0216C.xls
+[2026-11-15 16:26:43 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2008/html/C0216C.xlsx
+[2026-11-15 16:26:44 +0800] SAVED yearbook/sj/ndsj/2008/html/L1143C.HTM  32197 B  46a10800b176  https://www.stats.gov.cn/sj/ndsj/2008/html/L1143C.HTM
+[2026-11-15 16:26:45 +0800] SAVED yearbook/sj/ndsj/2008/html/L1143C.xls  17408 B  d6edac84bacf  https://www.stats.gov.cn/sj/ndsj/2008/html/L1143C.xls
+[2026-11-15 16:26:46 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2008/html/L1143C.xlsx
+[2026-11-15 16:26:46 +0800] Yearbook 2008 classified counts: {'earthquake_disaster': 1, 'provincial_population': 0, 'regional_gdp': 3}
+[2026-11-15 16:26:46 +0800] ==== Yearbook 2009 TOC https://www.stats.gov.cn/sj/ndsj/2009/left.htm
+[2026-11-15 16:26:48 +0800] SAVED yearbook/sj/ndsj/2009/left.htm  71907 B  f450d772594e  https://www.stats.gov.cn/sj/ndsj/2009/left.htm
+[2026-11-15 16:26:49 +0800] SAVED yearbook/sj/ndsj/2009/indexch.htm  888 B  c73ab306941f  https://www.stats.gov.cn/sj/ndsj/2009/indexch.htm
+[2026-11-15 16:26:50 +0800] SAVED yearbook/sj/ndsj/2009/html/C0214C.HTM  35366 B  a83a4ab30e7c  https://www.stats.gov.cn/sj/ndsj/2009/html/C0214C.HTM
+[2026-11-15 16:26:51 +0800] SAVED yearbook/sj/ndsj/2009/html/C0214C.xls  23040 B  e397fbbdceb8  https://www.stats.gov.cn/sj/ndsj/2009/html/C0214C.xls
+[2026-11-15 16:26:52 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2009/html/C0214C.xlsx
+[2026-11-15 16:26:54 +0800] SAVED yearbook/sj/ndsj/2009/html/C0215C.HTM  56692 B  a4e14786473a  https://www.stats.gov.cn/sj/ndsj/2009/html/C0215C.HTM
+[2026-11-15 16:26:55 +0800] SAVED yearbook/sj/ndsj/2009/html/C0215C.xls  24576 B  e0e4bbe4c58d  https://www.stats.gov.cn/sj/ndsj/2009/html/C0215C.xls
+[2026-11-15 16:26:55 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2009/html/C0215C.xlsx
+[2026-11-15 16:26:57 +0800] SAVED yearbook/sj/ndsj/2009/html/C0216C.HTM  30903 B  c24d26115be0  https://www.stats.gov.cn/sj/ndsj/2009/html/C0216C.HTM
+[2026-11-15 16:26:58 +0800] SAVED yearbook/sj/ndsj/2009/html/C0216C.xls  19456 B  289a5ca43443  https://www.stats.gov.cn/sj/ndsj/2009/html/C0216C.xls
+[2026-11-15 16:26:59 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2009/html/C0216C.xlsx
+[2026-11-15 16:27:00 +0800] SAVED yearbook/sj/ndsj/2009/html/L1145C.HTM  20057 B  37d53828cfd5  https://www.stats.gov.cn/sj/ndsj/2009/html/L1145C.HTM
+[2026-11-15 16:27:01 +0800] SAVED yearbook/sj/ndsj/2009/html/L1145C.xls  18432 B  af1a94d0b1e7  https://www.stats.gov.cn/sj/ndsj/2009/html/L1145C.xls
+[2026-11-15 16:27:01 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2009/html/L1145C.xlsx
+[2026-11-15 16:27:01 +0800] Yearbook 2009 classified counts: {'earthquake_disaster': 1, 'provincial_population': 0, 'regional_gdp': 3}
+[2026-11-15 16:27:01 +0800] ==== Yearbook 2010 TOC https://www.stats.gov.cn/sj/ndsj/2010/left.htm
+[2026-11-15 16:27:03 +0800] SAVED yearbook/sj/ndsj/2010/left.htm  71013 B  4670c4d4d390  https://www.stats.gov.cn/sj/ndsj/2010/left.htm
+[2026-11-15 16:27:04 +0800] SAVED yearbook/sj/ndsj/2010/indexch.htm  888 B  22555257ac89  https://www.stats.gov.cn/sj/ndsj/2010/indexch.htm
+[2026-11-15 16:27:05 +0800] SAVED yearbook/sj/ndsj/2010/html/C0214C.HTM  31980 B  9255098e58dc  https://www.stats.gov.cn/sj/ndsj/2010/html/C0214C.HTM
+[2026-11-15 16:27:06 +0800] SAVED yearbook/sj/ndsj/2010/html/C0214C.xls  19968 B  2b7cdcf9a1a6  https://www.stats.gov.cn/sj/ndsj/2010/html/C0214C.xls
+[2026-11-15 16:27:07 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2010/html/C0214C.xlsx
+[2026-11-15 16:27:08 +0800] SAVED yearbook/sj/ndsj/2010/html/C0215C.HTM  51265 B  7bbe6e6fb82e  https://www.stats.gov.cn/sj/ndsj/2010/html/C0215C.HTM
+[2026-11-15 16:27:09 +0800] SAVED yearbook/sj/ndsj/2010/html/C0215C.xls  25600 B  16bb44b527ac  https://www.stats.gov.cn/sj/ndsj/2010/html/C0215C.xls
+[2026-11-15 16:27:10 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2010/html/C0215C.xlsx
+[2026-11-15 16:27:11 +0800] SAVED yearbook/sj/ndsj/2010/html/C0216C.HTM  28490 B  5cb1e4fcb92f  https://www.stats.gov.cn/sj/ndsj/2010/html/C0216C.HTM
+[2026-11-15 16:27:13 +0800] SAVED yearbook/sj/ndsj/2010/html/C0216C.xls  19968 B  3208e98a0cac  https://www.stats.gov.cn/sj/ndsj/2010/html/C0216C.xls
+[2026-11-15 16:27:13 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2010/html/C0216C.xlsx
+[2026-11-15 16:27:15 +0800] SAVED yearbook/sj/ndsj/2010/html/L1245C.HTM  37386 B  8375b9c92a7d  https://www.stats.gov.cn/sj/ndsj/2010/html/L1245C.HTM
+[2026-11-15 16:27:17 +0800] SAVED yearbook/sj/ndsj/2010/html/L1245C.xls  16384 B  945b91059a6b  https://www.stats.gov.cn/sj/ndsj/2010/html/L1245C.xls
+[2026-11-15 16:27:18 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2010/html/L1245C.xlsx
+[2026-11-15 16:27:18 +0800] Yearbook 2010 classified counts: {'earthquake_disaster': 1, 'provincial_population': 0, 'regional_gdp': 3}
+[2026-11-15 16:27:18 +0800] ==== Yearbook 2011 TOC https://www.stats.gov.cn/sj/ndsj/2011/left.htm
+[2026-11-15 16:27:20 +0800] SAVED yearbook/sj/ndsj/2011/left.htm  72497 B  9098f5123917  https://www.stats.gov.cn/sj/ndsj/2011/left.htm
+[2026-11-15 16:27:21 +0800] SAVED yearbook/sj/ndsj/2011/indexch.htm  888 B  4cbe2139c72f  https://www.stats.gov.cn/sj/ndsj/2011/indexch.htm
+[2026-11-15 16:27:22 +0800] SAVED yearbook/sj/ndsj/2011/html/C0214C.HTM  47049 B  ba4341a952a7  https://www.stats.gov.cn/sj/ndsj/2011/html/C0214C.HTM
+[2026-11-15 16:27:23 +0800] SAVED yearbook/sj/ndsj/2011/html/C0214C.xls  24064 B  1161ebbe7d88  https://www.stats.gov.cn/sj/ndsj/2011/html/C0214C.xls
+[2026-11-15 16:27:24 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2011/html/C0214C.xlsx
+[2026-11-15 16:27:25 +0800] SAVED yearbook/sj/ndsj/2011/html/C0215C.HTM  73751 B  98df56fb455f  https://www.stats.gov.cn/sj/ndsj/2011/html/C0215C.HTM
+[2026-11-15 16:27:26 +0800] SAVED yearbook/sj/ndsj/2011/html/C0215C.xls  27648 B  e3c0bc867f8a  https://www.stats.gov.cn/sj/ndsj/2011/html/C0215C.xls
+[2026-11-15 16:27:27 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2011/html/C0215C.xlsx
+[2026-11-15 16:27:29 +0800] SAVED yearbook/sj/ndsj/2011/html/C0216C.HTM  37032 B  b0351fcbd4aa  https://www.stats.gov.cn/sj/ndsj/2011/html/C0216C.HTM
+[2026-11-15 16:27:30 +0800] SAVED yearbook/sj/ndsj/2011/html/C0216C.xls  20992 B  e5de8c0ec78b  https://www.stats.gov.cn/sj/ndsj/2011/html/C0216C.xls
+[2026-11-15 16:27:31 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2011/html/C0216C.xlsx
+[2026-11-15 16:27:32 +0800] SAVED yearbook/sj/ndsj/2011/html/D0304C.HTM  25325 B  7d4af4b88e9f  https://www.stats.gov.cn/sj/ndsj/2011/html/D0304C.HTM
+[2026-11-15 16:27:33 +0800] SAVED yearbook/sj/ndsj/2011/html/D0304C.xls  19456 B  e6be45ae30e0  https://www.stats.gov.cn/sj/ndsj/2011/html/D0304C.xls
+[2026-11-15 16:27:34 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2011/html/D0304C.xlsx
+[2026-11-15 16:27:35 +0800] SAVED yearbook/sj/ndsj/2011/html/D0307C.HTM  40477 B  3566db55aaeb  https://www.stats.gov.cn/sj/ndsj/2011/html/D0307C.HTM
+[2026-11-15 16:27:36 +0800] SAVED yearbook/sj/ndsj/2011/html/D0307C.xls  22016 B  a1a2e1aef122  https://www.stats.gov.cn/sj/ndsj/2011/html/D0307C.xls
+[2026-11-15 16:27:37 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2011/html/D0307C.xlsx
+[2026-11-15 16:27:38 +0800] SAVED yearbook/sj/ndsj/2011/html/D0313C.HTM  38049 B  ae2089cff373  https://www.stats.gov.cn/sj/ndsj/2011/html/D0313C.HTM
+[2026-11-15 16:27:40 +0800] SAVED yearbook/sj/ndsj/2011/html/D0313C.xls  20992 B  c45273dddcb8  https://www.stats.gov.cn/sj/ndsj/2011/html/D0313C.xls
+[2026-11-15 16:27:41 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2011/html/D0313C.xlsx
+[2026-11-15 16:27:42 +0800] SAVED yearbook/sj/ndsj/2011/html/L1247C.HTM  41303 B  e25e73d80ad7  https://www.stats.gov.cn/sj/ndsj/2011/html/L1247C.HTM
+[2026-11-15 16:27:43 +0800] SAVED yearbook/sj/ndsj/2011/html/L1247C.xls  23552 B  07d897d78f8c  https://www.stats.gov.cn/sj/ndsj/2011/html/L1247C.xls
+[2026-11-15 16:27:44 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2011/html/L1247C.xlsx
+[2026-11-15 16:27:44 +0800] Yearbook 2011 classified counts: {'earthquake_disaster': 1, 'provincial_population': 3, 'regional_gdp': 3}
+[2026-11-15 16:27:44 +0800] ==== Yearbook 2012 TOC https://www.stats.gov.cn/sj/ndsj/2012/left.htm
+[2026-11-15 16:27:45 +0800] SAVED yearbook/sj/ndsj/2012/left.htm  72564 B  5dc2318085ea  https://www.stats.gov.cn/sj/ndsj/2012/left.htm
+[2026-11-15 16:27:46 +0800] SAVED yearbook/sj/ndsj/2012/indexch.htm  888 B  9ef9f1821aa9  https://www.stats.gov.cn/sj/ndsj/2012/indexch.htm
+[2026-11-15 16:27:47 +0800] SAVED yearbook/sj/ndsj/2012/html/C0214C.HTM  32683 B  6a6b4a9b8bc0  https://www.stats.gov.cn/sj/ndsj/2012/html/C0214C.HTM
+[2026-11-15 16:27:48 +0800] SAVED yearbook/sj/ndsj/2012/html/C0214C.xls  19968 B  0cbb110f8264  https://www.stats.gov.cn/sj/ndsj/2012/html/C0214C.xls
+[2026-11-15 16:27:49 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2012/html/C0214C.xlsx
+[2026-11-15 16:27:50 +0800] SAVED yearbook/sj/ndsj/2012/html/C0215C.HTM  60511 B  325329cfdb26  https://www.stats.gov.cn/sj/ndsj/2012/html/C0215C.HTM
+[2026-11-15 16:27:51 +0800] SAVED yearbook/sj/ndsj/2012/html/C0215C.xls  35840 B  34e8b2efc287  https://www.stats.gov.cn/sj/ndsj/2012/html/C0215C.xls
+[2026-11-15 16:27:52 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2012/html/C0215C.xlsx
+[2026-11-15 16:27:53 +0800] SAVED yearbook/sj/ndsj/2012/html/C0216C.HTM  40551 B  83e248729226  https://www.stats.gov.cn/sj/ndsj/2012/html/C0216C.HTM
+[2026-11-15 16:27:54 +0800] SAVED yearbook/sj/ndsj/2012/html/C0216C.xls  29184 B  e499afcae99b  https://www.stats.gov.cn/sj/ndsj/2012/html/C0216C.xls
+[2026-11-15 16:27:55 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2012/html/C0216C.xlsx
+[2026-11-15 16:27:56 +0800] SAVED yearbook/sj/ndsj/2012/html/D0304C.HTM  54138 B  ca279dd8247d  https://www.stats.gov.cn/sj/ndsj/2012/html/D0304C.HTM
+[2026-11-15 16:27:58 +0800] SAVED yearbook/sj/ndsj/2012/html/D0304C.xls  23552 B  2abdfc95f14f  https://www.stats.gov.cn/sj/ndsj/2012/html/D0304C.xls
+[2026-11-15 16:27:59 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2012/html/D0304C.xlsx
+[2026-11-15 16:27:59 +0800] SAVED yearbook/sj/ndsj/2012/html/L1236C.HTM  22895 B  6b9fca7b8ba8  https://www.stats.gov.cn/sj/ndsj/2012/html/L1236C.HTM
+[2026-11-15 16:28:00 +0800] SAVED yearbook/sj/ndsj/2012/html/L1236C.xls  25088 B  3df3c1ac34d0  https://www.stats.gov.cn/sj/ndsj/2012/html/L1236C.xls
+[2026-11-15 16:28:01 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2012/html/L1236C.xlsx
+[2026-11-15 16:28:01 +0800] Yearbook 2012 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 3}
+[2026-11-15 16:28:01 +0800] ==== Yearbook 2013 TOC https://www.stats.gov.cn/sj/ndsj/2013/left.htm
+[2026-11-15 16:28:03 +0800] SAVED yearbook/sj/ndsj/2013/left.htm  66012 B  20f22860f590  https://www.stats.gov.cn/sj/ndsj/2013/left.htm
+[2026-11-15 16:28:03 +0800] SAVED yearbook/sj/ndsj/2013/indexch.htm  888 B  9eee1278c6cb  https://www.stats.gov.cn/sj/ndsj/2013/indexch.htm
+[2026-11-15 16:28:04 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0214C.htm  306 B  5cbff64561b7  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0214C.htm
+[2026-11-15 16:28:05 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0214C.xls  35840 B  e804252e5742  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0214C.xls
+[2026-11-15 16:28:07 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0214C.xlsx
+[2026-11-15 16:28:07 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0215C.htm  306 B  c411130a6020  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0215C.htm
+[2026-11-15 16:28:09 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0215C.xls  27136 B  d7d0fadd972e  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0215C.xls
+[2026-11-15 16:28:09 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0215C.xlsx
+[2026-11-15 16:28:10 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0216C.htm  306 B  e6c2a717b54e  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0216C.htm
+[2026-11-15 16:28:12 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0216C.xls  33792 B  206b527fb474  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0216C.xls
+[2026-11-15 16:28:12 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0216C.xlsx
+[2026-11-15 16:28:13 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0217C.htm  306 B  10c721b0f0ea  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0217C.htm
+[2026-11-15 16:28:15 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0217C.xls  35328 B  cd442ebc3662  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0217C.xls
+[2026-11-15 16:28:16 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0217C.xlsx
+[2026-11-15 16:28:16 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0305C.htm  306 B  7363efbc6e8d  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0305C.htm
+[2026-11-15 16:28:18 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0305C.xls  34816 B  5668ada30496  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0305C.xls
+[2026-11-15 16:28:18 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0305C.xlsx
+[2026-11-15 16:28:19 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0734C.htm  306 B  23ed734af1c1  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0734C.htm
+[2026-11-15 16:28:21 +0800] SAVED yearbook/sj/ndsj/2013/html/Z0734C.xls  30720 B  dfbd58e67fdc  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0734C.xls
+[2026-11-15 16:28:21 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2013/html/Z0734C.xlsx
+[2026-11-15 16:28:21 +0800] Yearbook 2013 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 4}
+[2026-11-15 16:28:21 +0800] ==== Yearbook 2014 TOC https://www.stats.gov.cn/sj/ndsj/2014/left.htm
+[2026-11-15 16:28:23 +0800] SAVED yearbook/sj/ndsj/2014/left.htm  67175 B  8f61d1302413  https://www.stats.gov.cn/sj/ndsj/2014/left.htm
+[2026-11-15 16:28:24 +0800] SAVED yearbook/sj/ndsj/2014/indexch.htm  895 B  30ee02059504  https://www.stats.gov.cn/sj/ndsj/2014/indexch.htm
+[2026-11-15 16:28:25 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0205C.HTM  306 B  6d33c199d181  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0205C.HTM
+[2026-11-15 16:28:26 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0205C.xls  32256 B  feb24eb08acb  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0205C.xls
+[2026-11-15 16:28:27 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0205C.xlsx
+[2026-11-15 16:28:28 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0314C.HTM  306 B  c313d40d53f3  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0314C.HTM
+[2026-11-15 16:28:29 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0314C.xls  32256 B  c21aee793928  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0314C.xls
+[2026-11-15 16:28:30 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0314C.xlsx
+[2026-11-15 16:28:31 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0315C.HTM  306 B  3ac077ebbc5c  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0315C.HTM
+[2026-11-15 16:28:32 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0315C.xls  30208 B  35b6417eda85  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0315C.xls
+[2026-11-15 16:28:33 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0315C.xlsx
+[2026-11-15 16:28:34 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0316C.HTM  306 B  2203d42fe882  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0316C.HTM
+[2026-11-15 16:28:35 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0316C.xls  34816 B  267dafac8648  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0316C.xls
+[2026-11-15 16:28:36 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0316C.xlsx
+[2026-11-15 16:28:37 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0317C.HTM  306 B  23992fa8e72f  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0317C.HTM
+[2026-11-15 16:28:38 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0317C.xls  29184 B  53e4d9c00ef6  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0317C.xls
+[2026-11-15 16:28:39 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0317C.xlsx
+[2026-11-15 16:28:40 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0834C.HTM  306 B  41421b9a54c8  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0834C.HTM
+[2026-11-15 16:28:41 +0800] SAVED yearbook/sj/ndsj/2014/zk/html/Z0834C.xls  34816 B  ef94cc9981d3  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0834C.xls
+[2026-11-15 16:28:42 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2014/zk/html/Z0834C.xlsx
+[2026-11-15 16:28:42 +0800] Yearbook 2014 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 4}
+[2026-11-15 16:28:42 +0800] ==== Yearbook 2015 TOC https://www.stats.gov.cn/sj/ndsj/2015/left.htm
+[2026-11-15 16:28:43 +0800] SAVED yearbook/sj/ndsj/2015/left.htm  64379 B  49c9e8805527  https://www.stats.gov.cn/sj/ndsj/2015/left.htm
+[2026-11-15 16:28:44 +0800] SAVED yearbook/sj/ndsj/2015/indexch.htm  889 B  5d0d7a162281  https://www.stats.gov.cn/sj/ndsj/2015/indexch.htm
+[2026-11-15 16:28:46 +0800] SAVED yearbook/sj/ndsj/2015/html/CH0205.jpg  295209 B  099f562e8f1d  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0205.jpg
+[2026-11-15 16:28:47 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0205.xls
+[2026-11-15 16:28:47 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0205.xlsx
+[2026-11-15 16:28:50 +0800] SAVED yearbook/sj/ndsj/2015/html/CH0309.jpg  315624 B  028e9d0904c2  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0309.jpg
+[2026-11-15 16:28:50 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0309.xls
+[2026-11-15 16:28:51 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0309.xlsx
+[2026-11-15 16:28:53 +0800] SAVED yearbook/sj/ndsj/2015/html/CH0310.jpg  276229 B  18722d2beb63  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0310.jpg
+[2026-11-15 16:28:54 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0310.xls
+[2026-11-15 16:28:55 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0310.xlsx
+[2026-11-15 16:28:57 +0800] SAVED yearbook/sj/ndsj/2015/html/CH0311.jpg  485742 B  a6ed89c5ffb8  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0311.jpg
+[2026-11-15 16:28:58 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0311.xls
+[2026-11-15 16:28:59 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0311.xlsx
+[2026-11-15 16:29:01 +0800] SAVED yearbook/sj/ndsj/2015/html/CH0312.jpg  166991 B  108380960cef  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0312.jpg
+[2026-11-15 16:29:02 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0312.xls
+[2026-11-15 16:29:03 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0312.xlsx
+[2026-11-15 16:29:04 +0800] SAVED yearbook/sj/ndsj/2015/html/CH0835.jpg  77817 B  aa386ab242a9  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0835.jpg
+[2026-11-15 16:29:05 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0835.xls
+[2026-11-15 16:29:06 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2015/html/CH0835.xlsx
+[2026-11-15 16:29:06 +0800] Yearbook 2015 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 4}
+[2026-11-15 16:29:06 +0800] ==== Yearbook 2016 TOC https://www.stats.gov.cn/sj/ndsj/2016/left.htm
+[2026-11-15 16:29:07 +0800] SAVED yearbook/sj/ndsj/2016/left.htm  63196 B  85bfd3f1d539  https://www.stats.gov.cn/sj/ndsj/2016/left.htm
+[2026-11-15 16:29:08 +0800] SAVED yearbook/sj/ndsj/2016/indexch.htm  889 B  294d84f304aa  https://www.stats.gov.cn/sj/ndsj/2016/indexch.htm
+[2026-11-15 16:29:10 +0800] SAVED yearbook/sj/ndsj/2016/html/0206CH.jpg  268547 B  e33d312f85d7  https://www.stats.gov.cn/sj/ndsj/2016/html/0206CH.jpg
+[2026-11-15 16:29:11 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0206CH.xls
+[2026-11-15 16:29:11 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0206CH.xlsx
+[2026-11-15 16:29:13 +0800] SAVED yearbook/sj/ndsj/2016/html/0309CH.jpg  284921 B  043cb342e1ce  https://www.stats.gov.cn/sj/ndsj/2016/html/0309CH.jpg
+[2026-11-15 16:29:14 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0309CH.xls
+[2026-11-15 16:29:15 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0309CH.xlsx
+[2026-11-15 16:29:17 +0800] SAVED yearbook/sj/ndsj/2016/html/0310CH.jpg  234630 B  dbbccc108d1a  https://www.stats.gov.cn/sj/ndsj/2016/html/0310CH.jpg
+[2026-11-15 16:29:18 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0310CH.xls
+[2026-11-15 16:29:19 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0310CH.xlsx
+[2026-11-15 16:29:21 +0800] SAVED yearbook/sj/ndsj/2016/html/0311CH.jpg  504991 B  87ff9186df30  https://www.stats.gov.cn/sj/ndsj/2016/html/0311CH.jpg
+[2026-11-15 16:29:22 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0311CH.xls
+[2026-11-15 16:29:23 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0311CH.xlsx
+[2026-11-15 16:29:24 +0800] SAVED yearbook/sj/ndsj/2016/html/0312CH.jpg  175192 B  a310cd142b43  https://www.stats.gov.cn/sj/ndsj/2016/html/0312CH.jpg
+[2026-11-15 16:29:25 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0312CH.xls
+[2026-11-15 16:29:26 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0312CH.xlsx
+[2026-11-15 16:29:27 +0800] SAVED yearbook/sj/ndsj/2016/html/0835CH.jpg  93839 B  07aed0af0929  https://www.stats.gov.cn/sj/ndsj/2016/html/0835CH.jpg
+[2026-11-15 16:29:28 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0835CH.xls
+[2026-11-15 16:29:29 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2016/html/0835CH.xlsx
+[2026-11-15 16:29:29 +0800] Yearbook 2016 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 4}
+[2026-11-15 16:29:29 +0800] ==== Yearbook 2017 TOC https://www.stats.gov.cn/sj/ndsj/2017/left.htm
+[2026-11-15 16:29:31 +0800] SAVED yearbook/sj/ndsj/2017/left.htm  62048 B  ea7532edfa43  https://www.stats.gov.cn/sj/ndsj/2017/left.htm
+[2026-11-15 16:29:31 +0800] SAVED yearbook/sj/ndsj/2017/indexch.htm  889 B  6ae414644ff3  https://www.stats.gov.cn/sj/ndsj/2017/indexch.htm
+[2026-11-15 16:29:33 +0800] SAVED yearbook/sj/ndsj/2017/html/CH0206.jpg  261323 B  1900031f2ae8  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0206.jpg
+[2026-11-15 16:29:34 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0206.xls
+[2026-11-15 16:29:35 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0206.xlsx
+[2026-11-15 16:29:38 +0800] SAVED yearbook/sj/ndsj/2017/html/CH0309.jpg  613953 B  33c435967cf7  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0309.jpg
+[2026-11-15 16:29:39 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0309.xls
+[2026-11-15 16:29:40 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0309.xlsx
+[2026-11-15 16:29:41 +0800] SAVED yearbook/sj/ndsj/2017/html/CH0310.jpg  189069 B  312fd328ea41  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0310.jpg
+[2026-11-15 16:29:42 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0310.xls
+[2026-11-15 16:29:43 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0310.xlsx
+[2026-11-15 16:29:44 +0800] SAVED yearbook/sj/ndsj/2017/html/CH0835.jpg  88625 B  6a0f7ddf7412  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0835.jpg
+[2026-11-15 16:29:45 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0835.xls
+[2026-11-15 16:29:46 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2017/html/CH0835.xlsx
+[2026-11-15 16:29:46 +0800] Yearbook 2017 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 2}
+[2026-11-15 16:29:46 +0800] ==== Yearbook 2018 TOC https://www.stats.gov.cn/sj/ndsj/2018/left.htm
+[2026-11-15 16:29:47 +0800] SAVED yearbook/sj/ndsj/2018/left.htm  61242 B  14defd08d1df  https://www.stats.gov.cn/sj/ndsj/2018/left.htm
+[2026-11-15 16:29:48 +0800] SAVED yearbook/sj/ndsj/2018/indexch.htm  889 B  4d666f1a0929  https://www.stats.gov.cn/sj/ndsj/2018/indexch.htm
+[2026-11-15 16:29:50 +0800] SAVED yearbook/sj/ndsj/2018/html/CH0206.jpg  274149 B  056c4ac80a3e  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0206.jpg
+[2026-11-15 16:29:51 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0206.xls
+[2026-11-15 16:29:51 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0206.xlsx
+[2026-11-15 16:29:55 +0800] SAVED yearbook/sj/ndsj/2018/html/CH0309.jpg  564931 B  ecfd7691add8  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0309.jpg
+[2026-11-15 16:29:56 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0309.xls
+[2026-11-15 16:29:57 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0309.xlsx
+[2026-11-15 16:29:58 +0800] SAVED yearbook/sj/ndsj/2018/html/CH0310.jpg  209764 B  ae1f85a4de27  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0310.jpg
+[2026-11-15 16:29:59 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0310.xls
+[2026-11-15 16:30:00 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0310.xlsx
+[2026-11-15 16:30:01 +0800] SAVED yearbook/sj/ndsj/2018/html/CH0835.jpg  80353 B  cb2ee30b61c0  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0835.jpg
+[2026-11-15 16:30:02 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0835.xls
+[2026-11-15 16:30:03 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2018/html/CH0835.xlsx
+[2026-11-15 16:30:03 +0800] Yearbook 2018 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 2}
+[2026-11-15 16:30:03 +0800] ==== Yearbook 2019 TOC https://www.stats.gov.cn/sj/ndsj/2019/left.htm
+[2026-11-15 16:30:04 +0800] SAVED yearbook/sj/ndsj/2019/left.htm  60490 B  31c0a6f16796  https://www.stats.gov.cn/sj/ndsj/2019/left.htm
+[2026-11-15 16:30:05 +0800] SAVED yearbook/sj/ndsj/2019/indexch.htm  889 B  606c32150976  https://www.stats.gov.cn/sj/ndsj/2019/indexch.htm
+[2026-11-15 16:30:07 +0800] SAVED yearbook/sj/ndsj/2019/html/C0206.jpg  258652 B  7a71ad53c74c  https://www.stats.gov.cn/sj/ndsj/2019/html/C0206.jpg
+[2026-11-15 16:30:08 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2019/html/C0206.xls
+[2026-11-15 16:30:09 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2019/html/C0206.xlsx
+[2026-11-15 16:30:11 +0800] SAVED yearbook/sj/ndsj/2019/html/C0309.jpg  342983 B  33498a455d59  https://www.stats.gov.cn/sj/ndsj/2019/html/C0309.jpg
+[2026-11-15 16:30:12 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2019/html/C0309.xls
+[2026-11-15 16:30:13 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2019/html/C0309.xlsx
+[2026-11-15 16:30:14 +0800] SAVED yearbook/sj/ndsj/2019/html/C0833.jpg  60125 B  e35d082fa827  https://www.stats.gov.cn/sj/ndsj/2019/html/C0833.jpg
+[2026-11-15 16:30:15 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2019/html/C0833.xls
+[2026-11-15 16:30:16 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2019/html/C0833.xlsx
+[2026-11-15 16:30:16 +0800] Yearbook 2019 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 1}
+[2026-11-15 16:30:16 +0800] ==== Yearbook 2020 TOC https://www.stats.gov.cn/sj/ndsj/2020/left.htm
+[2026-11-15 16:30:17 +0800] SAVED yearbook/sj/ndsj/2020/left.htm  60291 B  21459b00791d  https://www.stats.gov.cn/sj/ndsj/2020/left.htm
+[2026-11-15 16:30:18 +0800] SAVED yearbook/sj/ndsj/2020/indexch.htm  889 B  6932d39c9cac  https://www.stats.gov.cn/sj/ndsj/2020/indexch.htm
+[2026-11-15 16:30:20 +0800] SAVED yearbook/sj/ndsj/2020/html/C0206.jpg  277493 B  29d50eabb252  https://www.stats.gov.cn/sj/ndsj/2020/html/C0206.jpg
+[2026-11-15 16:30:21 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2020/html/C0206.xls
+[2026-11-15 16:30:22 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2020/html/C0206.xlsx
+[2026-11-15 16:30:25 +0800] SAVED yearbook/sj/ndsj/2020/html/C0309.jpg  609655 B  bd23fb080f86  https://www.stats.gov.cn/sj/ndsj/2020/html/C0309.jpg
+[2026-11-15 16:30:26 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2020/html/C0309.xls
+[2026-11-15 16:30:26 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2020/html/C0309.xlsx
+[2026-11-15 16:30:28 +0800] SAVED yearbook/sj/ndsj/2020/html/C0833.jpg  92423 B  f4450fa4b87c  https://www.stats.gov.cn/sj/ndsj/2020/html/C0833.jpg
+[2026-11-15 16:30:29 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2020/html/C0833.xls
+[2026-11-15 16:30:30 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2020/html/C0833.xlsx
+[2026-11-15 16:30:30 +0800] Yearbook 2020 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 1}
+[2026-11-15 16:30:30 +0800] ==== Yearbook 2021 TOC https://www.stats.gov.cn/sj/ndsj/2021/left.htm
+[2026-11-15 16:30:31 +0800] SAVED yearbook/sj/ndsj/2021/left.htm  61600 B  32c91d9a429e  https://www.stats.gov.cn/sj/ndsj/2021/left.htm
+[2026-11-15 16:30:32 +0800] SAVED yearbook/sj/ndsj/2021/indexch.htm  889 B  d71911e4f28f  https://www.stats.gov.cn/sj/ndsj/2021/indexch.htm
+[2026-11-15 16:30:34 +0800] SAVED yearbook/sj/ndsj/2021/html/C02-05.jpg  219701 B  39ed8eb1f322  https://www.stats.gov.cn/sj/ndsj/2021/html/C02-05.jpg
+[2026-11-15 16:30:35 +0800] SAVED yearbook/sj/ndsj/2021/html/C02-05.xls  32768 B  d37e151bc215  https://www.stats.gov.cn/sj/ndsj/2021/html/C02-05.xls
+[2026-11-15 16:30:35 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2021/html/C02-05.xlsx
+[2026-11-15 16:30:38 +0800] SAVED yearbook/sj/ndsj/2021/html/C03-09.jpg  598055 B  1281a51bb4bb  https://www.stats.gov.cn/sj/ndsj/2021/html/C03-09.jpg
+[2026-11-15 16:30:39 +0800] SAVED yearbook/sj/ndsj/2021/html/C03-09.xls  36352 B  9173ce6e71f7  https://www.stats.gov.cn/sj/ndsj/2021/html/C03-09.xls
+[2026-11-15 16:30:40 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2021/html/C03-09.xlsx
+[2026-11-15 16:30:42 +0800] SAVED yearbook/sj/ndsj/2021/html/C08-32.jpg  97284 B  53de36263ab5  https://www.stats.gov.cn/sj/ndsj/2021/html/C08-32.jpg
+[2026-11-15 16:30:43 +0800] SAVED yearbook/sj/ndsj/2021/html/C08-32.xls  29696 B  997ed03e3e1c  https://www.stats.gov.cn/sj/ndsj/2021/html/C08-32.xls
+[2026-11-15 16:30:43 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2021/html/C08-32.xlsx
+[2026-11-15 16:30:43 +0800] Yearbook 2021 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 1}
+[2026-11-15 16:30:43 +0800] ==== Yearbook 2022 TOC https://www.stats.gov.cn/sj/ndsj/2022/left.htm
+[2026-11-15 16:30:45 +0800] SAVED yearbook/sj/ndsj/2022/left.htm  60190 B  e0c9fd04956a  https://www.stats.gov.cn/sj/ndsj/2022/left.htm
+[2026-11-15 16:30:46 +0800] SAVED yearbook/sj/ndsj/2022/indexch.htm  889 B  50b83310d7a2  https://www.stats.gov.cn/sj/ndsj/2022/indexch.htm
+[2026-11-15 16:30:48 +0800] SAVED yearbook/sj/ndsj/2022/html/C02-05.jpg  223107 B  752a31a80bcc  https://www.stats.gov.cn/sj/ndsj/2022/html/C02-05.jpg
+[2026-11-15 16:30:48 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2022/html/C02-05.xls
+[2026-11-15 16:30:49 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2022/html/C02-05.xlsx
+[2026-11-15 16:30:52 +0800] SAVED yearbook/sj/ndsj/2022/html/C03-09.jpg  527880 B  ba2553bcf46b  https://www.stats.gov.cn/sj/ndsj/2022/html/C03-09.jpg
+[2026-11-15 16:30:53 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2022/html/C03-09.xls
+[2026-11-15 16:30:54 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2022/html/C03-09.xlsx
+[2026-11-15 16:30:55 +0800] SAVED yearbook/sj/ndsj/2022/html/C08-31.jpg  97472 B  c856394a1f17  https://www.stats.gov.cn/sj/ndsj/2022/html/C08-31.jpg
+[2026-11-15 16:30:56 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2022/html/C08-31.xls
+[2026-11-15 16:30:57 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2022/html/C08-31.xlsx
+[2026-11-15 16:30:57 +0800] Yearbook 2022 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 1}
+[2026-11-15 16:30:57 +0800] ==== Yearbook 2023 TOC https://www.stats.gov.cn/sj/ndsj/2023/left.htm
+[2026-11-15 16:30:59 +0800] SAVED yearbook/sj/ndsj/2023/left.htm  60216 B  bde8516b33a3  https://www.stats.gov.cn/sj/ndsj/2023/left.htm
+[2026-11-15 16:30:59 +0800] SAVED yearbook/sj/ndsj/2023/indexch.htm  889 B  c89c44610774  https://www.stats.gov.cn/sj/ndsj/2023/indexch.htm
+[2026-11-15 16:31:01 +0800] SAVED yearbook/sj/ndsj/2023/html/C02-05.jpg  223087 B  909a15f85612  https://www.stats.gov.cn/sj/ndsj/2023/html/C02-05.jpg
+[2026-11-15 16:31:02 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2023/html/C02-05.xls
+[2026-11-15 16:31:03 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2023/html/C02-05.xlsx
+[2026-11-15 16:31:06 +0800] SAVED yearbook/sj/ndsj/2023/html/C03-09.jpg  627280 B  ea7302701729  https://www.stats.gov.cn/sj/ndsj/2023/html/C03-09.jpg
+[2026-11-15 16:31:06 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2023/html/C03-09.xls
+[2026-11-15 16:31:07 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2023/html/C03-09.xlsx
+[2026-11-15 16:31:08 +0800] SAVED yearbook/sj/ndsj/2023/html/C08-31.jpg  87665 B  14ee421151ef  https://www.stats.gov.cn/sj/ndsj/2023/html/C08-31.jpg
+[2026-11-15 16:31:09 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2023/html/C08-31.xls
+[2026-11-15 16:31:10 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2023/html/C08-31.xlsx
+[2026-11-15 16:31:10 +0800] Yearbook 2023 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 1}
+[2026-11-15 16:31:10 +0800] ==== Yearbook 2024 TOC https://www.stats.gov.cn/sj/ndsj/2024/left.htm
+[2026-11-15 16:31:12 +0800] SAVED yearbook/sj/ndsj/2024/left.htm  60121 B  b1126143e982  https://www.stats.gov.cn/sj/ndsj/2024/left.htm
+[2026-11-15 16:31:12 +0800] SAVED yearbook/sj/ndsj/2024/indexch.htm  887 B  d7888f4b1f3a  https://www.stats.gov.cn/sj/ndsj/2024/indexch.htm
+[2026-11-15 16:31:14 +0800] SAVED yearbook/sj/ndsj/2024/html/C02-05.jpg  218618 B  4e712a383c57  https://www.stats.gov.cn/sj/ndsj/2024/html/C02-05.jpg
+[2026-11-15 16:31:15 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2024/html/C02-05.xls
+[2026-11-15 16:31:15 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2024/html/C02-05.xlsx
+[2026-11-15 16:31:18 +0800] SAVED yearbook/sj/ndsj/2024/html/C03-09.jpg  525706 B  05bf391de9d2  https://www.stats.gov.cn/sj/ndsj/2024/html/C03-09.jpg
+[2026-11-15 16:31:19 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2024/html/C03-09.xls
+[2026-11-15 16:31:19 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2024/html/C03-09.xlsx
+[2026-11-15 16:31:21 +0800] SAVED yearbook/sj/ndsj/2024/html/C08-31.jpg  99369 B  a68fd312a5d4  https://www.stats.gov.cn/sj/ndsj/2024/html/C08-31.jpg
+[2026-11-15 16:31:22 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2024/html/C08-31.xls
+[2026-11-15 16:31:22 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2024/html/C08-31.xlsx
+[2026-11-15 16:31:22 +0800] Yearbook 2024 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 1}
+[2026-11-15 16:31:22 +0800] ==== Yearbook 2025 TOC https://www.stats.gov.cn/sj/ndsj/2025/left.htm
+[2026-11-15 16:31:24 +0800] SAVED yearbook/sj/ndsj/2025/left.htm  59351 B  235dfc3fbea4  https://www.stats.gov.cn/sj/ndsj/2025/left.htm
+[2026-11-15 16:31:24 +0800] SAVED yearbook/sj/ndsj/2025/indexch.htm  887 B  58ddf282fad9  https://www.stats.gov.cn/sj/ndsj/2025/indexch.htm
+[2026-11-15 16:31:26 +0800] SAVED yearbook/sj/ndsj/2025/html/C02-05.jpg  218438 B  6afd253cf5ac  https://www.stats.gov.cn/sj/ndsj/2025/html/C02-05.jpg
+[2026-11-15 16:31:27 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2025/html/C02-05.xls
+[2026-11-15 16:31:27 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2025/html/C02-05.xlsx
+[2026-11-15 16:31:30 +0800] SAVED yearbook/sj/ndsj/2025/html/C03-09.jpg  550889 B  9576529a881b  https://www.stats.gov.cn/sj/ndsj/2025/html/C03-09.jpg
+[2026-11-15 16:31:31 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2025/html/C03-09.xls
+[2026-11-15 16:31:32 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2025/html/C03-09.xlsx
+[2026-11-15 16:31:33 +0800] SAVED yearbook/sj/ndsj/2025/html/C08-30.jpg  101099 B  2c756716296f  https://www.stats.gov.cn/sj/ndsj/2025/html/C08-30.jpg
+[2026-11-15 16:31:34 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2025/html/C08-30.xls
+[2026-11-15 16:31:35 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2025/html/C08-30.xlsx
+[2026-11-15 16:31:35 +0800] Yearbook 2025 classified counts: {'earthquake_disaster': 1, 'provincial_population': 1, 'regional_gdp': 1}
+[2026-11-15 16:31:35 +0800] ==== Environment statistics portal
+[2026-11-15 16:31:36 +0800] SAVED environment_stats/portal.html  418 B  00cb424bd131  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/
+[2026-11-15 16:31:37 +0800] SAVED environment_stats/2014/index.html  74036 B  087ac0a98e03  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/
+[2026-11-15 16:31:37 +0800] Environment years listed on 2014 index: [1999, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]
+[2026-11-15 16:31:37 +0800] ==== Environment stats 1999 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/
+[2026-11-15 16:31:38 +0800] SAVED environment_stats/1999/index.html  74395 B  9ac57389ef44  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/
+[2026-11-15 16:31:38 +0800] Environment 1999: 17 index page(s)
+[2026-11-15 16:31:39 +0800] SAVED environment_stats/1999/index_1.html  75477 B  5cd8fec9bcbe  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_1.html
+[2026-11-15 16:31:41 +0800] SAVED environment_stats/1999/index_2.html  75465 B  d91497a7a4d3  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_2.html
+[2026-11-15 16:31:42 +0800] SAVED environment_stats/1999/index_3.html  74047 B  073606e00ebc  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_3.html
+[2026-11-15 16:31:43 +0800] SAVED environment_stats/1999/index_4.html  74281 B  361df8b10f37  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_4.html
+[2026-11-15 16:31:44 +0800] SAVED environment_stats/1999/index_5.html  74736 B  d8d0ae329da6  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_5.html
+[2026-11-15 16:31:45 +0800] SAVED environment_stats/1999/index_6.html  74327 B  d11c25a62ffb  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_6.html
+[2026-11-15 16:31:46 +0800] SAVED environment_stats/1999/index_7.html  75795 B  9c450e2a4639  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_7.html
+[2026-11-15 16:31:47 +0800] SAVED environment_stats/1999/index_8.html  75276 B  e0e062cce240  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_8.html
+[2026-11-15 16:31:48 +0800] SAVED environment_stats/1999/index_9.html  74944 B  cab7d557db9e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_9.html
+[2026-11-15 16:31:49 +0800] SAVED environment_stats/1999/index_10.html  75103 B  76c55c566f2d  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_10.html
+[2026-11-15 16:31:50 +0800] SAVED environment_stats/1999/index_11.html  73716 B  129462750585  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_11.html
+[2026-11-15 16:31:52 +0800] SAVED environment_stats/1999/index_12.html  74869 B  27a3ea197053  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_12.html
+[2026-11-15 16:31:53 +0800] SAVED environment_stats/1999/index_13.html  74394 B  8ca269ba9c11  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_13.html
+[2026-11-15 16:31:54 +0800] SAVED environment_stats/1999/index_14.html  75760 B  8c100c698edc  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_14.html
+[2026-11-15 16:31:55 +0800] SAVED environment_stats/1999/index_15.html  76564 B  6ba092c7b418  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_15.html
+[2026-11-15 16:31:56 +0800] SAVED environment_stats/1999/index_16.html  72196 B  291653bdcf1f  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/index_16.html
+[2026-11-15 16:31:57 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/1999/202303/t20230302_1923199.html  94571 B  1c889bd7c628  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/202303/t20230302_1923199.html
+[2026-11-15 16:31:58 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/202303/t20230302_1923199.xls
+[2026-11-15 16:31:59 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/202303/t20230302_1923199.xlsx
+[2026-11-15 16:31:59 +0800] Environment 1999: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:31:59 +0800] ==== Environment stats 2003 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/
+[2026-11-15 16:32:00 +0800] SAVED environment_stats/2003/index.html  73426 B  8daeb619fdd6  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/
+[2026-11-15 16:32:00 +0800] Environment 2003: 7 index page(s)
+[2026-11-15 16:32:01 +0800] SAVED environment_stats/2003/index_1.html  75291 B  9cbe86a84c8a  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/index_1.html
+[2026-11-15 16:32:02 +0800] SAVED environment_stats/2003/index_2.html  74888 B  0d35d398e11e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/index_2.html
+[2026-11-15 16:32:03 +0800] SAVED environment_stats/2003/index_3.html  74455 B  d2c0a6dc1279  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/index_3.html
+[2026-11-15 16:32:05 +0800] SAVED environment_stats/2003/index_4.html  74317 B  9b30cb6491d4  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/index_4.html
+[2026-11-15 16:32:06 +0800] SAVED environment_stats/2003/index_5.html  75293 B  313617b9add9  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/index_5.html
+[2026-11-15 16:32:07 +0800] SAVED environment_stats/2003/index_6.html  66206 B  2eddc82af529  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/index_6.html
+[2026-11-15 16:32:08 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2003/202303/t20230302_1923029.html  231052 B  14fd9924b13c  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/202303/t20230302_1923029.html
+[2026-11-15 16:32:09 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/202303/t20230302_1923029.xls
+[2026-11-15 16:32:10 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2003/202303/t20230302_1923029.xlsx
+[2026-11-15 16:32:10 +0800] Environment 2003: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:32:10 +0800] ==== Environment stats 2004 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/
+[2026-11-15 16:32:12 +0800] SAVED environment_stats/2004/index.html  73736 B  f0f5ddea1f47  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/
+[2026-11-15 16:32:12 +0800] Environment 2004: 9 index page(s)
+[2026-11-15 16:32:13 +0800] SAVED environment_stats/2004/index_1.html  75223 B  21af7f12e58e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/index_1.html
+[2026-11-15 16:32:14 +0800] SAVED environment_stats/2004/index_2.html  75425 B  7c3b04dab2cd  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/index_2.html
+[2026-11-15 16:32:15 +0800] SAVED environment_stats/2004/index_3.html  74926 B  ecedc37ddae4  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/index_3.html
+[2026-11-15 16:32:16 +0800] SAVED environment_stats/2004/index_4.html  75000 B  287f2fff79e0  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/index_4.html
+[2026-11-15 16:32:18 +0800] SAVED environment_stats/2004/index_5.html  74804 B  1a8f4fea1eec  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/index_5.html
+[2026-11-15 16:32:19 +0800] SAVED environment_stats/2004/index_6.html  75297 B  28980e45c396  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/index_6.html
+[2026-11-15 16:32:20 +0800] SAVED environment_stats/2004/index_7.html  74932 B  54e67256cc8b  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/index_7.html
+[2026-11-15 16:32:21 +0800] SAVED environment_stats/2004/index_8.html  69358 B  01773b71b936  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/index_8.html
+[2026-11-15 16:32:22 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2004/202303/t20230302_1922923.html  239594 B  8cee5e24e088  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/202303/t20230302_1922923.html
+[2026-11-15 16:32:23 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/202303/t20230302_1922923.xls
+[2026-11-15 16:32:24 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2004/202303/t20230302_1922923.xlsx
+[2026-11-15 16:32:24 +0800] Environment 2004: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:32:24 +0800] ==== Environment stats 2005 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/
+[2026-11-15 16:32:25 +0800] SAVED environment_stats/2005/index.html  73349 B  431fe031b91c  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/
+[2026-11-15 16:32:25 +0800] Environment 2005: 9 index page(s)
+[2026-11-15 16:32:26 +0800] SAVED environment_stats/2005/index_1.html  75051 B  b9569589e991  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/index_1.html
+[2026-11-15 16:32:28 +0800] SAVED environment_stats/2005/index_2.html  75083 B  045d4e31b922  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/index_2.html
+[2026-11-15 16:32:29 +0800] SAVED environment_stats/2005/index_3.html  74279 B  690220a7cc3a  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/index_3.html
+[2026-11-15 16:32:30 +0800] SAVED environment_stats/2005/index_4.html  75074 B  e8e787d3a2f6  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/index_4.html
+[2026-11-15 16:32:31 +0800] SAVED environment_stats/2005/index_5.html  75297 B  a616b3370fd6  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/index_5.html
+[2026-11-15 16:32:32 +0800] SAVED environment_stats/2005/index_6.html  74765 B  c452d68083b0  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/index_6.html
+[2026-11-15 16:32:33 +0800] SAVED environment_stats/2005/index_7.html  75183 B  4026466c2bf3  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/index_7.html
+[2026-11-15 16:32:35 +0800] SAVED environment_stats/2005/index_8.html  73093 B  5781dd54aa13  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/index_8.html
+[2026-11-15 16:32:36 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2005/202303/t20230302_1922809.html  256366 B  319f6addff2c  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/202303/t20230302_1922809.html
+[2026-11-15 16:32:37 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/202303/t20230302_1922809.xls
+[2026-11-15 16:32:38 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2005/202303/t20230302_1922809.xlsx
+[2026-11-15 16:32:38 +0800] Environment 2005: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:32:38 +0800] ==== Environment stats 2006 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/
+[2026-11-15 16:32:40 +0800] SAVED environment_stats/2006/index.html  73441 B  2d82ef6d41c5  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/
+[2026-11-15 16:32:40 +0800] Environment 2006: 13 index page(s)
+[2026-11-15 16:32:41 +0800] SAVED environment_stats/2006/index_1.html  74452 B  3967864084b7  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_1.html
+[2026-11-15 16:32:43 +0800] SAVED environment_stats/2006/index_2.html  75231 B  54aa82cb50e5  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_2.html
+[2026-11-15 16:32:44 +0800] SAVED environment_stats/2006/index_3.html  74924 B  437329bddeec  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_3.html
+[2026-11-15 16:32:45 +0800] SAVED environment_stats/2006/index_4.html  75812 B  3688567357d4  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_4.html
+[2026-11-15 16:32:46 +0800] SAVED environment_stats/2006/index_5.html  73785 B  1f11e3004d81  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_5.html
+[2026-11-15 16:32:47 +0800] SAVED environment_stats/2006/index_6.html  74592 B  0b37ab3422f6  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_6.html
+[2026-11-15 16:32:49 +0800] SAVED environment_stats/2006/index_7.html  74708 B  d40b74980465  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_7.html
+[2026-11-15 16:32:50 +0800] SAVED environment_stats/2006/index_8.html  74985 B  9b8ed68bcb87  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_8.html
+[2026-11-15 16:32:51 +0800] SAVED environment_stats/2006/index_9.html  74418 B  684c5b4f743b  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_9.html
+[2026-11-15 16:32:52 +0800] SAVED environment_stats/2006/index_10.html  74742 B  20ecfea968b5  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_10.html
+[2026-11-15 16:32:54 +0800] SAVED environment_stats/2006/index_11.html  74833 B  2986ec82143a  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_11.html
+[2026-11-15 16:32:55 +0800] SAVED environment_stats/2006/index_12.html  72637 B  67630af2dca4  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/index_12.html
+[2026-11-15 16:32:56 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2006/202303/t20230302_1922631.html  144198 B  cd1c6c4c1946  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/202303/t20230302_1922631.html
+[2026-11-15 16:32:57 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/202303/t20230302_1922631.xls
+[2026-11-15 16:32:58 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2006/202303/t20230302_1922631.xlsx
+[2026-11-15 16:32:58 +0800] Environment 2006: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:32:58 +0800] ==== Environment stats 2007 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/
+[2026-11-15 16:32:59 +0800] SAVED environment_stats/2007/index.html  73773 B  f8fdd6552f0c  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/
+[2026-11-15 16:32:59 +0800] Environment 2007: 14 index page(s)
+[2026-11-15 16:33:00 +0800] SAVED environment_stats/2007/index_1.html  74840 B  7d6f6000f109  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_1.html
+[2026-11-15 16:33:02 +0800] SAVED environment_stats/2007/index_2.html  75280 B  995c65db7130  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_2.html
+[2026-11-15 16:33:03 +0800] SAVED environment_stats/2007/index_3.html  74742 B  0dfe65074de7  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_3.html
+[2026-11-15 16:33:04 +0800] SAVED environment_stats/2007/index_4.html  75716 B  a7f55515dcc8  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_4.html
+[2026-11-15 16:33:05 +0800] SAVED environment_stats/2007/index_5.html  73836 B  fb3a15a6daf4  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_5.html
+[2026-11-15 16:33:06 +0800] SAVED environment_stats/2007/index_6.html  74871 B  b5bb3b07c54c  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_6.html
+[2026-11-15 16:33:07 +0800] SAVED environment_stats/2007/index_7.html  74402 B  bbfd2dde292f  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_7.html
+[2026-11-15 16:33:08 +0800] SAVED environment_stats/2007/index_8.html  74883 B  ff516d60a737  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_8.html
+[2026-11-15 16:33:09 +0800] SAVED environment_stats/2007/index_9.html  74394 B  2168e626c9ea  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_9.html
+[2026-11-15 16:33:10 +0800] SAVED environment_stats/2007/index_10.html  75289 B  62067ddd1923  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_10.html
+[2026-11-15 16:33:12 +0800] SAVED environment_stats/2007/index_11.html  74284 B  cb33f5f9eabb  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_11.html
+[2026-11-15 16:33:13 +0800] SAVED environment_stats/2007/index_12.html  75157 B  08ba10755c0f  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_12.html
+[2026-11-15 16:33:14 +0800] SAVED environment_stats/2007/index_13.html  67393 B  13f6b609346d  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/index_13.html
+[2026-11-15 16:33:16 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2007/202303/t20230302_1922437.html  243798 B  7634ad07f2c4  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/202303/t20230302_1922437.html
+[2026-11-15 16:33:16 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/202303/t20230302_1922437.xls
+[2026-11-15 16:33:17 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2007/202303/t20230302_1922437.xlsx
+[2026-11-15 16:33:17 +0800] Environment 2007: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:33:17 +0800] ==== Environment stats 2008 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/
+[2026-11-15 16:33:18 +0800] SAVED environment_stats/2008/index.html  73723 B  1a426a8b332e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/
+[2026-11-15 16:33:18 +0800] Environment 2008: 16 index page(s)
+[2026-11-15 16:33:20 +0800] SAVED environment_stats/2008/index_1.html  74871 B  ed5fce77eb28  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_1.html
+[2026-11-15 16:33:21 +0800] SAVED environment_stats/2008/index_2.html  75507 B  edbe3c963ac9  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_2.html
+[2026-11-15 16:33:22 +0800] SAVED environment_stats/2008/index_3.html  74900 B  09ab965e37cd  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_3.html
+[2026-11-15 16:33:23 +0800] SAVED environment_stats/2008/index_4.html  75746 B  f13fa8dbd725  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_4.html
+[2026-11-15 16:33:25 +0800] SAVED environment_stats/2008/index_5.html  75371 B  9b75aa9c898a  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_5.html
+[2026-11-15 16:33:26 +0800] SAVED environment_stats/2008/index_6.html  73667 B  e2a709e27dba  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_6.html
+[2026-11-15 16:33:27 +0800] SAVED environment_stats/2008/index_7.html  75389 B  77241a44c1e0  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_7.html
+[2026-11-15 16:33:28 +0800] SAVED environment_stats/2008/index_8.html  74452 B  23221271058e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_8.html
+[2026-11-15 16:33:30 +0800] SAVED environment_stats/2008/index_9.html  75044 B  aa82abd1f0cb  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_9.html
+[2026-11-15 16:33:31 +0800] SAVED environment_stats/2008/index_10.html  74724 B  90a3c896745a  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_10.html
+[2026-11-15 16:33:32 +0800] SAVED environment_stats/2008/index_11.html  75048 B  e9e7111e0243  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_11.html
+[2026-11-15 16:33:33 +0800] SAVED environment_stats/2008/index_12.html  74897 B  7e7c1a7e16ad  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_12.html
+[2026-11-15 16:33:34 +0800] SAVED environment_stats/2008/index_13.html  74436 B  66aff6ffea02  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_13.html
+[2026-11-15 16:33:35 +0800] SAVED environment_stats/2008/index_14.html  74796 B  f5d4969f0d8b  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_14.html
+[2026-11-15 16:33:36 +0800] SAVED environment_stats/2008/index_15.html  73804 B  45eedca4f440  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/index_15.html
+[2026-11-15 16:33:38 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2008/202303/t20230302_1922218.html  286352 B  05091433520e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/202303/t20230302_1922218.html
+[2026-11-15 16:33:39 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/202303/t20230302_1922218.xls
+[2026-11-15 16:33:40 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2008/202303/t20230302_1922218.xlsx
+[2026-11-15 16:33:40 +0800] Environment 2008: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:33:40 +0800] ==== Environment stats 2009 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2009/
+[2026-11-15 16:33:41 +0800] SAVED environment_stats/2009/index.html  73703 B  83ee2ebdeedd  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2009/
+[2026-11-15 16:33:41 +0800] Environment 2009: 4 index page(s)
+[2026-11-15 16:33:43 +0800] SAVED environment_stats/2009/index_1.html  74845 B  7650a9d1adbb  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2009/index_1.html
+[2026-11-15 16:33:44 +0800] SAVED environment_stats/2009/index_2.html  75517 B  2c1bd3ae54c2  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2009/index_2.html
+[2026-11-15 16:33:45 +0800] SAVED environment_stats/2009/index_3.html  75044 B  a930bede9251  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2009/index_3.html
+[2026-11-15 16:33:45 +0800] Environment 2009: saved 0 earthquake-disaster table page(s)
+[2026-11-15 16:33:45 +0800] ==== Environment stats 2010 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/
+[2026-11-15 16:33:46 +0800] SAVED environment_stats/2010/index.html  73695 B  167572a48651  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/
+[2026-11-15 16:33:46 +0800] Environment 2010: 17 index page(s)
+[2026-11-15 16:33:48 +0800] SAVED environment_stats/2010/index_1.html  74853 B  91e2eb7891dd  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_1.html
+[2026-11-15 16:33:49 +0800] SAVED environment_stats/2010/index_2.html  75352 B  3168b62e450e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_2.html
+[2026-11-15 16:33:50 +0800] SAVED environment_stats/2010/index_3.html  75155 B  a2afdf112b01  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_3.html
+[2026-11-15 16:33:51 +0800] SAVED environment_stats/2010/index_4.html  75714 B  5822c7f165c8  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_4.html
+[2026-11-15 16:33:52 +0800] SAVED environment_stats/2010/index_5.html  73685 B  522f8480f5b2  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_5.html
+[2026-11-15 16:33:53 +0800] SAVED environment_stats/2010/index_6.html  75200 B  b9c0bd6809ed  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_6.html
+[2026-11-15 16:33:54 +0800] SAVED environment_stats/2010/index_7.html  74189 B  d33b8b657586  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_7.html
+[2026-11-15 16:33:56 +0800] SAVED environment_stats/2010/index_8.html  74992 B  fe562c40a159  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_8.html
+[2026-11-15 16:33:57 +0800] SAVED environment_stats/2010/index_9.html  74891 B  1e55854c72d7  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_9.html
+[2026-11-15 16:33:58 +0800] SAVED environment_stats/2010/index_10.html  74798 B  4486b06ac33e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_10.html
+[2026-11-15 16:33:59 +0800] SAVED environment_stats/2010/index_11.html  74782 B  29463acd4dfd  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_11.html
+[2026-11-15 16:34:00 +0800] SAVED environment_stats/2010/index_12.html  74531 B  79d84bd13ba5  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_12.html
+[2026-11-15 16:34:01 +0800] SAVED environment_stats/2010/index_13.html  74622 B  93e766a5ffa2  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_13.html
+[2026-11-15 16:34:02 +0800] SAVED environment_stats/2010/index_14.html  75018 B  43f436965f00  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_14.html
+[2026-11-15 16:34:04 +0800] SAVED environment_stats/2010/index_15.html  74412 B  9e9750730420  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_15.html
+[2026-11-15 16:34:05 +0800] SAVED environment_stats/2010/index_16.html  66607 B  d0769bf6de90  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/index_16.html
+[2026-11-15 16:34:06 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2010/202303/t20230302_1921736.html  298336 B  88280c5b0d5d  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/202303/t20230302_1921736.html
+[2026-11-15 16:34:07 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/202303/t20230302_1921736.xls
+[2026-11-15 16:34:08 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2010/202303/t20230302_1921736.xlsx
+[2026-11-15 16:34:08 +0800] Environment 2010: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:34:08 +0800] ==== Environment stats 2011 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/
+[2026-11-15 16:34:09 +0800] SAVED environment_stats/2011/index.html  74042 B  45c8dc8a3f0e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/
+[2026-11-15 16:34:09 +0800] Environment 2011: 16 index page(s)
+[2026-11-15 16:34:10 +0800] SAVED environment_stats/2011/index_1.html  75269 B  c8a76742a4db  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_1.html
+[2026-11-15 16:34:12 +0800] SAVED environment_stats/2011/index_2.html  75279 B  ca343bcd1fc9  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_2.html
+[2026-11-15 16:34:13 +0800] SAVED environment_stats/2011/index_3.html  75819 B  4cdb6aa9835e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_3.html
+[2026-11-15 16:34:14 +0800] SAVED environment_stats/2011/index_4.html  74329 B  7338e7cd2b1d  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_4.html
+[2026-11-15 16:34:15 +0800] SAVED environment_stats/2011/index_5.html  74636 B  171f6a55bf6c  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_5.html
+[2026-11-15 16:34:17 +0800] SAVED environment_stats/2011/index_6.html  75084 B  66ac0bec6c53  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_6.html
+[2026-11-15 16:34:18 +0800] SAVED environment_stats/2011/index_7.html  75130 B  7c5250a54de6  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_7.html
+[2026-11-15 16:34:19 +0800] SAVED environment_stats/2011/index_8.html  75348 B  ff830b0aaa3e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_8.html
+[2026-11-15 16:34:20 +0800] SAVED environment_stats/2011/index_9.html  75454 B  969b4f1e8f7e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_9.html
+[2026-11-15 16:34:21 +0800] SAVED environment_stats/2011/index_10.html  75569 B  5f2f66d430cf  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_10.html
+[2026-11-15 16:34:22 +0800] SAVED environment_stats/2011/index_11.html  75417 B  63ee4386ea1e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_11.html
+[2026-11-15 16:34:24 +0800] SAVED environment_stats/2011/index_12.html  75639 B  94cd3a2974f4  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_12.html
+[2026-11-15 16:34:25 +0800] SAVED environment_stats/2011/index_13.html  76007 B  5478a85e1c3b  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_13.html
+[2026-11-15 16:34:26 +0800] SAVED environment_stats/2011/index_14.html  75679 B  afecea5dd25a  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_14.html
+[2026-11-15 16:34:27 +0800] SAVED environment_stats/2011/index_15.html  65716 B  774875804643  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/index_15.html
+[2026-11-15 16:34:29 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2011/202303/t20230302_1921503.html  286489 B  85a2925a4602  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/202303/t20230302_1921503.html
+[2026-11-15 16:34:30 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/202303/t20230302_1921503.xls
+[2026-11-15 16:34:30 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2011/202303/t20230302_1921503.xlsx
+[2026-11-15 16:34:30 +0800] Environment 2011: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:34:30 +0800] ==== Environment stats 2012 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/
+[2026-11-15 16:34:32 +0800] SAVED environment_stats/2012/index.html  73700 B  ea76220cdffb  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/
+[2026-11-15 16:34:32 +0800] Environment 2012: 16 index page(s)
+[2026-11-15 16:34:33 +0800] SAVED environment_stats/2012/index_1.html  75097 B  4fa62883f5b7  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_1.html
+[2026-11-15 16:34:34 +0800] SAVED environment_stats/2012/index_2.html  75454 B  64ad8adbfb53  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_2.html
+[2026-11-15 16:34:35 +0800] SAVED environment_stats/2012/index_3.html  75700 B  aea414cd6653  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_3.html
+[2026-11-15 16:34:36 +0800] SAVED environment_stats/2012/index_4.html  75402 B  bb1b4dd8c56a  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_4.html
+[2026-11-15 16:34:37 +0800] SAVED environment_stats/2012/index_5.html  74099 B  72737dfa57fa  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_5.html
+[2026-11-15 16:34:38 +0800] SAVED environment_stats/2012/index_6.html  75256 B  b99daa1a278d  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_6.html
+[2026-11-15 16:34:40 +0800] SAVED environment_stats/2012/index_7.html  74733 B  95cdd775dcde  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_7.html
+[2026-11-15 16:34:41 +0800] SAVED environment_stats/2012/index_8.html  75066 B  13cb5906bb28  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_8.html
+[2026-11-15 16:34:42 +0800] SAVED environment_stats/2012/index_9.html  75231 B  579790c37485  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_9.html
+[2026-11-15 16:34:43 +0800] SAVED environment_stats/2012/index_10.html  75741 B  a4444d599f1d  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_10.html
+[2026-11-15 16:34:44 +0800] SAVED environment_stats/2012/index_11.html  75760 B  e573e8ef6a53  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_11.html
+[2026-11-15 16:34:45 +0800] SAVED environment_stats/2012/index_12.html  72636 B  0d5005eb740c  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_12.html
+[2026-11-15 16:34:46 +0800] SAVED environment_stats/2012/index_13.html  73734 B  5dd625433023  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_13.html
+[2026-11-15 16:34:48 +0800] SAVED environment_stats/2012/index_14.html  73386 B  7eb99ec0db53  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_14.html
+[2026-11-15 16:34:49 +0800] SAVED environment_stats/2012/index_15.html  71248 B  ae08ee417011  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/index_15.html
+[2026-11-15 16:34:50 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2012/202303/t20230302_1921266.html  104373 B  50a60622f1dd  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/202303/t20230302_1921266.html
+[2026-11-15 16:34:51 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/202303/t20230302_1921266.xls
+[2026-11-15 16:34:52 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2012/202303/t20230302_1921266.xlsx
+[2026-11-15 16:34:52 +0800] Environment 2012: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:34:52 +0800] ==== Environment stats 2013 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/
+[2026-11-15 16:34:53 +0800] SAVED environment_stats/2013/index.html  73700 B  ddf9d73ffd3f  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/
+[2026-11-15 16:34:53 +0800] Environment 2013: 15 index page(s)
+[2026-11-15 16:34:54 +0800] SAVED environment_stats/2013/index_1.html  75097 B  5efb07eafd37  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_1.html
+[2026-11-15 16:34:56 +0800] SAVED environment_stats/2013/index_2.html  75454 B  05d90cb0ed97  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_2.html
+[2026-11-15 16:34:57 +0800] SAVED environment_stats/2013/index_3.html  75700 B  6ea7da851a50  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_3.html
+[2026-11-15 16:34:58 +0800] SAVED environment_stats/2013/index_4.html  75402 B  1fb2854f88bc  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_4.html
+[2026-11-15 16:35:00 +0800] SAVED environment_stats/2013/index_5.html  74173 B  629446e0d362  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_5.html
+[2026-11-15 16:35:01 +0800] SAVED environment_stats/2013/index_6.html  75424 B  78a497852c3e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_6.html
+[2026-11-15 16:35:02 +0800] SAVED environment_stats/2013/index_7.html  74835 B  7e5c6e24adb1  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_7.html
+[2026-11-15 16:35:03 +0800] SAVED environment_stats/2013/index_8.html  75099 B  add573c26f28  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_8.html
+[2026-11-15 16:35:05 +0800] SAVED environment_stats/2013/index_9.html  75267 B  bd828101861f  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_9.html
+[2026-11-15 16:35:06 +0800] SAVED environment_stats/2013/index_10.html  75672 B  c3cb121f3b66  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_10.html
+[2026-11-15 16:35:07 +0800] SAVED environment_stats/2013/index_11.html  75754 B  23b08a5bddd5  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_11.html
+[2026-11-15 16:35:08 +0800] SAVED environment_stats/2013/index_12.html  75261 B  978ebf0e8aa9  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_12.html
+[2026-11-15 16:35:09 +0800] SAVED environment_stats/2013/index_13.html  75919 B  14da0e115e2c  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_13.html
+[2026-11-15 16:35:10 +0800] SAVED environment_stats/2013/index_14.html  75797 B  eff88126c1f7  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/index_14.html
+[2026-11-15 16:35:11 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2013/202303/t20230302_1921032.html  108987 B  3cf14e9a0c15  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/202303/t20230302_1921032.html
+[2026-11-15 16:35:12 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/202303/t20230302_1921032.xls
+[2026-11-15 16:35:13 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2013/202303/t20230302_1921032.xlsx
+[2026-11-15 16:35:13 +0800] Environment 2013: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:35:13 +0800] ==== Environment stats 2014 https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/
+[2026-11-15 16:35:15 +0800] SAVED environment_stats/2014/index.html  74036 B  087ac0a98e03  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/
+[2026-11-15 16:35:15 +0800] Environment 2014: 15 index page(s)
+[2026-11-15 16:35:16 +0800] SAVED environment_stats/2014/index_1.html  75269 B  8f98c2594646  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_1.html
+[2026-11-15 16:35:17 +0800] SAVED environment_stats/2014/index_2.html  75425 B  d13422f625c7  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_2.html
+[2026-11-15 16:35:18 +0800] SAVED environment_stats/2014/index_3.html  75745 B  f25c5719e98f  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_3.html
+[2026-11-15 16:35:20 +0800] SAVED environment_stats/2014/index_4.html  75320 B  6b16162fcf7e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_4.html
+[2026-11-15 16:35:21 +0800] SAVED environment_stats/2014/index_5.html  74103 B  da747157ca5d  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_5.html
+[2026-11-15 16:35:22 +0800] SAVED environment_stats/2014/index_6.html  75346 B  51db2abde6c8  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_6.html
+[2026-11-15 16:35:23 +0800] SAVED environment_stats/2014/index_7.html  75038 B  ab22b4166074  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_7.html
+[2026-11-15 16:35:24 +0800] SAVED environment_stats/2014/index_8.html  75109 B  36051cae4e2f  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_8.html
+[2026-11-15 16:35:26 +0800] SAVED environment_stats/2014/index_9.html  75308 B  9f068612e0d9  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_9.html
+[2026-11-15 16:35:27 +0800] SAVED environment_stats/2014/index_10.html  75592 B  01b709d3620b  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_10.html
+[2026-11-15 16:35:28 +0800] SAVED environment_stats/2014/index_11.html  75853 B  6d5ce4d1fe1f  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_11.html
+[2026-11-15 16:35:29 +0800] SAVED environment_stats/2014/index_12.html  76054 B  b658f1e0a8f2  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_12.html
+[2026-11-15 16:35:31 +0800] SAVED environment_stats/2014/index_13.html  76563 B  4d3b3e06004e  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_13.html
+[2026-11-15 16:35:32 +0800] SAVED environment_stats/2014/index_14.html  75357 B  acb193b4fa79  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/index_14.html
+[2026-11-15 16:35:32 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/2014/202303/t20230303_1924049.html  106187 B  cf0524e42fdc  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/202303/t20230303_1924049.html
+[2026-11-15 16:35:33 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/202303/t20230303_1924049.xls
+[2026-11-15 16:35:34 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/2014/202303/t20230303_1924049.xlsx
+[2026-11-15 16:35:34 +0800] Environment 2014: saved 1 earthquake-disaster table page(s)
+[2026-11-15 16:35:34 +0800] Wrote /workspace/07_external/nbs/SOURCES.md
+[2026-11-15 16:35:34 +0800] Wrote /workspace/07_external/nbs/retrieval_manifest.json
+[2026-11-15 16:35:34 +0800] Appended pointer section to /workspace/07_external/SOURCES.md
+[2026-11-15 16:35:34 +0800] DONE files=435 inventory=116 failures=183 notes=14
+[2026-11-15 16:36:36 +0800] ==== Supplement yearbook 2006
+[2026-11-15 16:36:40 +0800] SAVED yearbook/sj/ndsj/2006/html/C0308C.HTM  47635 B  eb91d7187ca4  https://www.stats.gov.cn/sj/ndsj/2006/html/C0308C.HTM
+[2026-11-15 16:36:41 +0800] SAVED yearbook/sj/ndsj/2006/html/C0308C.xls  27648 B  7449b93de995  https://www.stats.gov.cn/sj/ndsj/2006/html/C0308C.xls
+[2026-11-15 16:36:42 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2006/html/C0308C.xlsx
+[2026-11-15 16:36:42 +0800] SUPPLEMENT 2006 regional_gdp 3-8地区生产总值和指数
+[2026-11-15 16:36:44 +0800] SAVED yearbook/sj/ndsj/2006/html/C0309C.HTM  71871 B  e08f5fb0cbd9  https://www.stats.gov.cn/sj/ndsj/2006/html/C0309C.HTM
+[2026-11-15 16:36:44 +0800] SAVED yearbook/sj/ndsj/2006/html/C0309C.xls  30720 B  2c704ddb97ce  https://www.stats.gov.cn/sj/ndsj/2006/html/C0309C.xls
+[2026-11-15 16:36:45 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2006/html/C0309C.xlsx
+[2026-11-15 16:36:45 +0800] SUPPLEMENT 2006 regional_gdp 3-9地区生产总值(2005年)
+[2026-11-15 16:36:46 +0800] SAVED yearbook/sj/ndsj/2006/html/D0403C.HTM  31222 B  5f78234806be  https://www.stats.gov.cn/sj/ndsj/2006/html/D0403C.HTM
+[2026-11-15 16:36:47 +0800] SAVED yearbook/sj/ndsj/2006/html/D0403C.xls  25088 B  b87ce97b4e61  https://www.stats.gov.cn/sj/ndsj/2006/html/D0403C.xls
+[2026-11-15 16:36:48 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2006/html/D0403C.xlsx
+[2026-11-15 16:36:48 +0800] SUPPLEMENT 2006 provincial_population 4-3各地区人口数和出生率、死亡率、自然增长率(2005年)
+[2026-11-15 16:36:49 +0800] SAVED yearbook/sj/ndsj/2006/html/L1229C.HTM  25891 B  743615fa0d90  https://www.stats.gov.cn/sj/ndsj/2006/html/L1229C.HTM
+[2026-11-15 16:36:50 +0800] SAVED yearbook/sj/ndsj/2006/html/L1229C.xls  22528 B  2ea60bfd1cae  https://www.stats.gov.cn/sj/ndsj/2006/html/L1229C.xls
+[2026-11-15 16:36:51 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2006/html/L1229C.xlsx
+[2026-11-15 16:36:51 +0800] SUPPLEMENT 2006 earthquake_disaster 12-29地震灾害情况
+[2026-11-15 16:36:51 +0800] ==== Supplement yearbook 2007 population
+[2026-11-15 16:36:52 +0800] SAVED yearbook/sj/ndsj/2007/html/D0403C.HTM  42512 B  ca7401736d90  https://www.stats.gov.cn/sj/ndsj/2007/html/D0403C.HTM
+[2026-11-15 16:36:53 +0800] SAVED yearbook/sj/ndsj/2007/html/D0403C.xls  25600 B  3d6f786f4ad8  https://www.stats.gov.cn/sj/ndsj/2007/html/D0403C.xls
+[2026-11-15 16:36:54 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2007/html/D0403C.xlsx
+[2026-11-15 16:36:54 +0800] SUPPLEMENT 2007 provincial_population 4-3各地区人口数和出生率、死亡率、自然增长率(2006年)
+[2026-11-15 16:36:54 +0800] ==== Supplement yearbook 2008 population
+[2026-11-15 16:36:55 +0800] SAVED yearbook/sj/ndsj/2008/html/D0303C.HTM  36240 B  71715a2be52e  https://www.stats.gov.cn/sj/ndsj/2008/html/D0303C.HTM
+[2026-11-15 16:36:56 +0800] SAVED yearbook/sj/ndsj/2008/html/D0303C.xls  18944 B  6ab24bf704e6  https://www.stats.gov.cn/sj/ndsj/2008/html/D0303C.xls
+[2026-11-15 16:36:56 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2008/html/D0303C.xlsx
+[2026-11-15 16:36:56 +0800] SUPPLEMENT 2008 provincial_population 3-3各地区人口数和出生率、死亡率、自然增长率(2007年)
+[2026-11-15 16:36:56 +0800] ==== Supplement yearbook 2009 population fallback
+[2026-11-15 16:36:58 +0800] SAVED yearbook/sj/ndsj/2009/html/D0304C.HTM  42907 B  148cb21a5510  https://www.stats.gov.cn/sj/ndsj/2009/html/D0304C.HTM
+[2026-11-15 16:36:58 +0800] SAVED yearbook/sj/ndsj/2009/html/D0304C.xls  22528 B  26509b7223f7  https://www.stats.gov.cn/sj/ndsj/2009/html/D0304C.xls
+[2026-11-15 16:36:59 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2009/html/D0304C.xlsx
+[2026-11-15 16:36:59 +0800] SUPPLEMENT 2009 provincial_population 3-4各地区人口的城乡构成和出生率、死亡率、自然增长率(2008年)
+[2026-11-15 16:36:59 +0800] ==== Supplement yearbook 2010 population fallback
+[2026-11-15 16:37:00 +0800] SAVED yearbook/sj/ndsj/2010/html/D0304C.HTM  36289 B  8f20ca8fd62e  https://www.stats.gov.cn/sj/ndsj/2010/html/D0304C.HTM
+[2026-11-15 16:37:01 +0800] SAVED yearbook/sj/ndsj/2010/html/D0304C.xls  22016 B  66ea317583f6  https://www.stats.gov.cn/sj/ndsj/2010/html/D0304C.xls
+[2026-11-15 16:37:02 +0800] MISS 404 555B  https://www.stats.gov.cn/sj/ndsj/2010/html/D0304C.xlsx
+[2026-11-15 16:37:02 +0800] SUPPLEMENT 2010 provincial_population 3-4各地区人口的城乡构成和出生率、死亡率、自然增长率(2009年)
+[2026-11-15 16:37:02 +0800] ==== Supplement environment 1999 count table
+[2026-11-15 16:37:06 +0800] SAVED environment_stats/zt_18555/ztsj/hjtjzl/1999/202303/t20230302_1923200.html  151598 B  bf4ec2ea25c8  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/202303/t20230302_1923200.html
+[2026-11-15 16:37:06 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/202303/t20230302_1923200.xls
+[2026-11-15 16:37:07 +0800] MISS 404 555B  https://www.stats.gov.cn/zt_18555/ztsj/hjtjzl/1999/202303/t20230302_1923200.xlsx
+[2026-11-15 16:37:07 +0800] Wrote /workspace/07_external/nbs/SOURCES.md
+[2026-11-15 16:37:07 +0800] Wrote /workspace/07_external/nbs/retrieval_manifest.json
+[2026-11-15 16:37:07 +0800] SUPPLEMENT DONE files=452 inventory=125

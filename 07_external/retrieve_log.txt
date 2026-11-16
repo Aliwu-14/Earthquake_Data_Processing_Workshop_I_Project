@@ -1,0 +1,409 @@
+[2026-11-15 12:34:24 CST] Start retrieval at 2026-11-15 12:34:24 CST (UTC+8)
+[2026-11-15 12:34:24 CST] USGS 2024-now endtime UTC = 2026-11-15T04:34:24
+[2026-11-15 12:34:24 CST] === Layer 1: USGS catalogs ===
+[2026-11-15 12:34:24 CST] Validated usgs_2022_2023_copy: rows=3503 time=2022-01-01T08:08:09.823Z .. 2023-12-30T17:16:23.833Z mag=5.0..7.8 types=['earthquake', 'volcanic eruption']
+[2026-11-15 12:34:24 CST] Copied 2022-2023 catalog sha256=2bbb2c6bd07817bdc8343db5089f9d6b26e1629f68e7a9b9a365c0626ff9b57f
+[2026-11-15 12:34:25 CST] USGS count minmag=5.0 2017-01-01 .. 2022-01-01 -> 8711 (raw={'count': 8711, 'maxAllowed': 20000})
+[2026-11-15 12:34:25 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.0, 'starttime': '2017-01-01', 'endtime': '2022-01-01'}
+[2026-11-15 12:34:29 CST] Validated usgs_m5_2017_2021: rows=8711 time=2017-01-01T00:13:25.380Z .. 2021-12-31T05:53:42.198Z mag=5.0..8.2 types=['earthquake', 'nuclear explosion', 'volcanic eruption']
+[2026-11-15 12:34:30 CST] USGS count minmag=5.0 2024-01-01 .. 2026-11-15T04:34:24 -> 5416 (raw={'count': 5416, 'maxAllowed': 20000})
+[2026-11-15 12:34:30 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.0, 'starttime': '2024-01-01', 'endtime': '2026-11-15T04:34:24'}
+[2026-11-15 12:34:33 CST] Validated usgs_m5_2024_now: rows=5416 time=2024-01-01T07:06:05.477Z .. 2026-11-14T09:26:13.073Z mag=5.0..8.8 types=['earthquake', 'landslide']
+[2026-11-15 12:34:34 CST] USGS count minmag=5.5 1965-01-01 .. 2017-01-01 -> 24692 (raw={'count': 24692, 'maxAllowed': 20000, 'error': '24692 matching events exceeds search limit of 20000. A query using these search parameters would fail. Modify the search to match fewer events.'})
+[2026-11-15 12:34:34 CST] m55_1965_2016: count 24692 exceeds 20,000 — splitting
+[2026-11-15 12:34:35 CST] USGS count minmag=5.5 1965-01-01 .. 1966-01-01 -> 522 (raw={'count': 522, 'maxAllowed': 20000})
+[2026-11-15 12:34:35 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1965-01-01', 'endtime': '1966-01-01'}
+[2026-11-15 12:34:37 CST] USGS count minmag=5.5 1966-01-01 .. 1967-01-01 -> 392 (raw={'count': 392, 'maxAllowed': 20000})
+[2026-11-15 12:34:37 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1966-01-01', 'endtime': '1967-01-01'}
+[2026-11-15 12:34:39 CST] USGS count minmag=5.5 1967-01-01 .. 1968-01-01 -> 411 (raw={'count': 411, 'maxAllowed': 20000})
+[2026-11-15 12:34:39 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1967-01-01', 'endtime': '1968-01-01'}
+[2026-11-15 12:34:41 CST] USGS count minmag=5.5 1968-01-01 .. 1969-01-01 -> 527 (raw={'count': 527, 'maxAllowed': 20000})
+[2026-11-15 12:34:41 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1968-01-01', 'endtime': '1969-01-01'}
+[2026-11-15 12:34:43 CST] USGS count minmag=5.5 1969-01-01 .. 1970-01-01 -> 480 (raw={'count': 480, 'maxAllowed': 20000})
+[2026-11-15 12:34:43 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1969-01-01', 'endtime': '1970-01-01'}
+[2026-11-15 12:34:45 CST] USGS count minmag=5.5 1970-01-01 .. 1971-01-01 -> 476 (raw={'count': 476, 'maxAllowed': 20000})
+[2026-11-15 12:34:45 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1970-01-01', 'endtime': '1971-01-01'}
+[2026-11-15 12:34:48 CST] USGS count minmag=5.5 1971-01-01 .. 1972-01-01 -> 501 (raw={'count': 501, 'maxAllowed': 20000})
+[2026-11-15 12:34:48 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1971-01-01', 'endtime': '1972-01-01'}
+[2026-11-15 12:34:50 CST] USGS count minmag=5.5 1972-01-01 .. 1973-01-01 -> 533 (raw={'count': 533, 'maxAllowed': 20000})
+[2026-11-15 12:34:50 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1972-01-01', 'endtime': '1973-01-01'}
+[2026-11-15 12:34:52 CST] USGS count minmag=5.5 1973-01-01 .. 1974-01-01 -> 406 (raw={'count': 406, 'maxAllowed': 20000})
+[2026-11-15 12:34:52 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1973-01-01', 'endtime': '1974-01-01'}
+[2026-11-15 12:34:54 CST] USGS count minmag=5.5 1974-01-01 .. 1975-01-01 -> 368 (raw={'count': 368, 'maxAllowed': 20000})
+[2026-11-15 12:34:54 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1974-01-01', 'endtime': '1975-01-01'}
+[2026-11-15 12:34:56 CST] USGS count minmag=5.5 1975-01-01 .. 1976-01-01 -> 420 (raw={'count': 420, 'maxAllowed': 20000})
+[2026-11-15 12:34:56 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1975-01-01', 'endtime': '1976-01-01'}
+[2026-11-15 12:34:58 CST] USGS count minmag=5.5 1976-01-01 .. 1977-01-01 -> 466 (raw={'count': 466, 'maxAllowed': 20000})
+[2026-11-15 12:34:58 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1976-01-01', 'endtime': '1977-01-01'}
+[2026-11-15 12:35:01 CST] USGS count minmag=5.5 1977-01-01 .. 1978-01-01 -> 433 (raw={'count': 433, 'maxAllowed': 20000})
+[2026-11-15 12:35:01 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1977-01-01', 'endtime': '1978-01-01'}
+[2026-11-15 12:35:03 CST] USGS count minmag=5.5 1978-01-01 .. 1979-01-01 -> 416 (raw={'count': 416, 'maxAllowed': 20000})
+[2026-11-15 12:35:03 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1978-01-01', 'endtime': '1979-01-01'}
+[2026-11-15 12:35:05 CST] USGS count minmag=5.5 1979-01-01 .. 1980-01-01 -> 358 (raw={'count': 358, 'maxAllowed': 20000})
+[2026-11-15 12:35:05 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1979-01-01', 'endtime': '1980-01-01'}
+[2026-11-15 12:35:08 CST] USGS count minmag=5.5 1980-01-01 .. 1981-01-01 -> 348 (raw={'count': 348, 'maxAllowed': 20000})
+[2026-11-15 12:35:08 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1980-01-01', 'endtime': '1981-01-01'}
+[2026-11-15 12:35:10 CST] USGS count minmag=5.5 1981-01-01 .. 1982-01-01 -> 322 (raw={'count': 322, 'maxAllowed': 20000})
+[2026-11-15 12:35:10 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1981-01-01', 'endtime': '1982-01-01'}
+[2026-11-15 12:35:13 CST] USGS count minmag=5.5 1982-01-01 .. 1983-01-01 -> 352 (raw={'count': 352, 'maxAllowed': 20000})
+[2026-11-15 12:35:13 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1982-01-01', 'endtime': '1983-01-01'}
+[2026-11-15 12:35:15 CST] USGS count minmag=5.5 1983-01-01 .. 1984-01-01 -> 451 (raw={'count': 451, 'maxAllowed': 20000})
+[2026-11-15 12:35:15 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1983-01-01', 'endtime': '1984-01-01'}
+[2026-11-15 12:35:18 CST] USGS count minmag=5.5 1984-01-01 .. 1985-01-01 -> 479 (raw={'count': 479, 'maxAllowed': 20000})
+[2026-11-15 12:35:18 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1984-01-01', 'endtime': '1985-01-01'}
+[2026-11-15 12:35:21 CST] USGS count minmag=5.5 1985-01-01 .. 1986-01-01 -> 479 (raw={'count': 479, 'maxAllowed': 20000})
+[2026-11-15 12:35:21 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1985-01-01', 'endtime': '1986-01-01'}
+[2026-11-15 12:35:24 CST] USGS count minmag=5.5 1986-01-01 .. 1987-01-01 -> 486 (raw={'count': 486, 'maxAllowed': 20000})
+[2026-11-15 12:35:24 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1986-01-01', 'endtime': '1987-01-01'}
+[2026-11-15 12:35:26 CST] USGS count minmag=5.5 1987-01-01 .. 1988-01-01 -> 503 (raw={'count': 503, 'maxAllowed': 20000})
+[2026-11-15 12:35:26 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1987-01-01', 'endtime': '1988-01-01'}
+[2026-11-15 12:35:29 CST] USGS count minmag=5.5 1988-01-01 .. 1989-01-01 -> 488 (raw={'count': 488, 'maxAllowed': 20000})
+[2026-11-15 12:35:29 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1988-01-01', 'endtime': '1989-01-01'}
+[2026-11-15 12:35:31 CST] USGS count minmag=5.5 1989-01-01 .. 1990-01-01 -> 476 (raw={'count': 476, 'maxAllowed': 20000})
+[2026-11-15 12:35:31 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1989-01-01', 'endtime': '1990-01-01'}
+[2026-11-15 12:35:33 CST] USGS count minmag=5.5 1990-01-01 .. 1991-01-01 -> 528 (raw={'count': 528, 'maxAllowed': 20000})
+[2026-11-15 12:35:33 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1990-01-01', 'endtime': '1991-01-01'}
+[2026-11-15 12:35:36 CST] USGS count minmag=5.5 1991-01-01 .. 1992-01-01 -> 429 (raw={'count': 429, 'maxAllowed': 20000})
+[2026-11-15 12:35:36 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1991-01-01', 'endtime': '1992-01-01'}
+[2026-11-15 12:35:39 CST] USGS count minmag=5.5 1992-01-01 .. 1993-01-01 -> 531 (raw={'count': 531, 'maxAllowed': 20000})
+[2026-11-15 12:35:39 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1992-01-01', 'endtime': '1993-01-01'}
+[2026-11-15 12:35:42 CST] USGS count minmag=5.5 1993-01-01 .. 1994-01-01 -> 464 (raw={'count': 464, 'maxAllowed': 20000})
+[2026-11-15 12:35:42 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1993-01-01', 'endtime': '1994-01-01'}
+[2026-11-15 12:35:44 CST] USGS count minmag=5.5 1994-01-01 .. 1995-01-01 -> 501 (raw={'count': 501, 'maxAllowed': 20000})
+[2026-11-15 12:35:44 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1994-01-01', 'endtime': '1995-01-01'}
+[2026-11-15 12:35:47 CST] USGS count minmag=5.5 1995-01-01 .. 1996-01-01 -> 589 (raw={'count': 589, 'maxAllowed': 20000})
+[2026-11-15 12:35:47 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1995-01-01', 'endtime': '1996-01-01'}
+[2026-11-15 12:35:49 CST] USGS count minmag=5.5 1996-01-01 .. 1997-01-01 -> 540 (raw={'count': 540, 'maxAllowed': 20000})
+[2026-11-15 12:35:49 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1996-01-01', 'endtime': '1997-01-01'}
+[2026-11-15 12:35:52 CST] USGS count minmag=5.5 1997-01-01 .. 1998-01-01 -> 454 (raw={'count': 454, 'maxAllowed': 20000})
+[2026-11-15 12:35:52 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1997-01-01', 'endtime': '1998-01-01'}
+[2026-11-15 12:35:54 CST] USGS count minmag=5.5 1998-01-01 .. 1999-01-01 -> 387 (raw={'count': 387, 'maxAllowed': 20000})
+[2026-11-15 12:35:54 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1998-01-01', 'endtime': '1999-01-01'}
+[2026-11-15 12:35:56 CST] USGS count minmag=5.5 1999-01-01 .. 2000-01-01 -> 442 (raw={'count': 442, 'maxAllowed': 20000})
+[2026-11-15 12:35:56 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '1999-01-01', 'endtime': '2000-01-01'}
+[2026-11-15 12:35:59 CST] USGS count minmag=5.5 2000-01-01 .. 2001-01-01 -> 552 (raw={'count': 552, 'maxAllowed': 20000})
+[2026-11-15 12:35:59 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2000-01-01', 'endtime': '2001-01-01'}
+[2026-11-15 12:36:02 CST] USGS count minmag=5.5 2001-01-01 .. 2002-01-01 -> 442 (raw={'count': 442, 'maxAllowed': 20000})
+[2026-11-15 12:36:02 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2001-01-01', 'endtime': '2002-01-01'}
+[2026-11-15 12:36:04 CST] USGS count minmag=5.5 2002-01-01 .. 2003-01-01 -> 444 (raw={'count': 444, 'maxAllowed': 20000})
+[2026-11-15 12:36:04 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2002-01-01', 'endtime': '2003-01-01'}
+[2026-11-15 12:36:07 CST] USGS count minmag=5.5 2003-01-01 .. 2004-01-01 -> 483 (raw={'count': 483, 'maxAllowed': 20000})
+[2026-11-15 12:36:07 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2003-01-01', 'endtime': '2004-01-01'}
+[2026-11-15 12:36:09 CST] USGS count minmag=5.5 2004-01-01 .. 2005-01-01 -> 570 (raw={'count': 570, 'maxAllowed': 20000})
+[2026-11-15 12:36:09 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2004-01-01', 'endtime': '2005-01-01'}
+[2026-11-15 12:36:12 CST] USGS count minmag=5.5 2005-01-01 .. 2006-01-01 -> 531 (raw={'count': 531, 'maxAllowed': 20000})
+[2026-11-15 12:36:12 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2005-01-01', 'endtime': '2006-01-01'}
+[2026-11-15 12:36:14 CST] USGS count minmag=5.5 2006-01-01 .. 2007-01-01 -> 507 (raw={'count': 507, 'maxAllowed': 20000})
+[2026-11-15 12:36:14 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2006-01-01', 'endtime': '2007-01-01'}
+[2026-11-15 12:36:16 CST] USGS count minmag=5.5 2007-01-01 .. 2008-01-01 -> 607 (raw={'count': 607, 'maxAllowed': 20000})
+[2026-11-15 12:36:16 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2007-01-01', 'endtime': '2008-01-01'}
+[2026-11-15 12:36:19 CST] USGS count minmag=5.5 2008-01-01 .. 2009-01-01 -> 508 (raw={'count': 508, 'maxAllowed': 20000})
+[2026-11-15 12:36:19 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2008-01-01', 'endtime': '2009-01-01'}
+[2026-11-15 12:36:21 CST] USGS count minmag=5.5 2009-01-01 .. 2010-01-01 -> 516 (raw={'count': 516, 'maxAllowed': 20000})
+[2026-11-15 12:36:21 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2009-01-01', 'endtime': '2010-01-01'}
+[2026-11-15 12:36:24 CST] USGS count minmag=5.5 2010-01-01 .. 2011-01-01 -> 559 (raw={'count': 559, 'maxAllowed': 20000})
+[2026-11-15 12:36:24 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2010-01-01', 'endtime': '2011-01-01'}
+[2026-11-15 12:36:26 CST] USGS count minmag=5.5 2011-01-01 .. 2012-01-01 -> 714 (raw={'count': 714, 'maxAllowed': 20000})
+[2026-11-15 12:36:26 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2011-01-01', 'endtime': '2012-01-01'}
+[2026-11-15 12:36:29 CST] USGS count minmag=5.5 2012-01-01 .. 2013-01-01 -> 444 (raw={'count': 444, 'maxAllowed': 20000})
+[2026-11-15 12:36:29 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2012-01-01', 'endtime': '2013-01-01'}
+[2026-11-15 12:36:32 CST] USGS count minmag=5.5 2013-01-01 .. 2014-01-01 -> 461 (raw={'count': 461, 'maxAllowed': 20000})
+[2026-11-15 12:36:32 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2013-01-01', 'endtime': '2014-01-01'}
+[2026-11-15 12:36:34 CST] USGS count minmag=5.5 2014-01-01 .. 2015-01-01 -> 480 (raw={'count': 480, 'maxAllowed': 20000})
+[2026-11-15 12:36:34 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2014-01-01', 'endtime': '2015-01-01'}
+[2026-11-15 12:36:37 CST] USGS count minmag=5.5 2015-01-01 .. 2016-01-01 -> 446 (raw={'count': 446, 'maxAllowed': 20000})
+[2026-11-15 12:36:37 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2015-01-01', 'endtime': '2016-01-01'}
+[2026-11-15 12:36:40 CST] USGS count minmag=5.5 2016-01-01 .. 2017-01-01 -> 470 (raw={'count': 470, 'maxAllowed': 20000})
+[2026-11-15 12:36:40 CST] USGS CSV {'format': 'csv', 'minmagnitude': 5.5, 'starttime': '2016-01-01', 'endtime': '2017-01-01'}
+[2026-11-15 12:36:42 CST] Validated usgs_m55_1965_2016: rows=24692 time=1965-01-01T21:38:31.360Z .. 2016-12-29T22:30:19.300Z mag=5.5..9.1 types=['earthquake', 'explosion', 'nuclear explosion']
+[2026-11-15 12:36:42 CST] === Layer 2: NCEI / Hazel impact catalogs ===
+[2026-11-15 12:36:42 CST] NCEI earthquakes page 1/34 got 200 running=200/6698
+[2026-11-15 12:36:43 CST] NCEI earthquakes page 2/34 got 200 running=400/6698
+[2026-11-15 12:36:44 CST] NCEI earthquakes page 3/34 got 200 running=600/6698
+[2026-11-15 12:36:44 CST] NCEI earthquakes page 4/34 got 200 running=800/6698
+[2026-11-15 12:36:45 CST] NCEI earthquakes page 5/34 got 200 running=1000/6698
+[2026-11-15 12:36:45 CST] NCEI earthquakes page 6/34 got 200 running=1200/6698
+[2026-11-15 12:36:46 CST] NCEI earthquakes page 7/34 got 200 running=1400/6698
+[2026-11-15 12:36:47 CST] NCEI earthquakes page 8/34 got 200 running=1600/6698
+[2026-11-15 12:36:48 CST] NCEI earthquakes page 9/34 got 200 running=1800/6698
+[2026-11-15 12:36:48 CST] NCEI earthquakes page 10/34 got 200 running=2000/6698
+[2026-11-15 12:36:49 CST] NCEI earthquakes page 11/34 got 200 running=2200/6698
+[2026-11-15 12:36:49 CST] NCEI earthquakes page 12/34 got 200 running=2400/6698
+[2026-11-15 12:36:50 CST] NCEI earthquakes page 13/34 got 200 running=2600/6698
+[2026-11-15 12:36:51 CST] NCEI earthquakes page 14/34 got 200 running=2800/6698
+[2026-11-15 12:36:51 CST] NCEI earthquakes page 15/34 got 200 running=3000/6698
+[2026-11-15 12:36:52 CST] NCEI earthquakes page 16/34 got 200 running=3200/6698
+[2026-11-15 12:36:53 CST] NCEI earthquakes page 17/34 got 200 running=3400/6698
+[2026-11-15 12:36:54 CST] NCEI earthquakes page 18/34 got 200 running=3600/6698
+[2026-11-15 12:36:54 CST] NCEI earthquakes page 19/34 got 200 running=3800/6698
+[2026-11-15 12:36:55 CST] NCEI earthquakes page 20/34 got 200 running=4000/6698
+[2026-11-15 12:36:56 CST] NCEI earthquakes page 21/34 got 200 running=4200/6698
+[2026-11-15 12:36:56 CST] NCEI earthquakes page 22/34 got 200 running=4400/6698
+[2026-11-15 12:36:57 CST] NCEI earthquakes page 23/34 got 200 running=4600/6698
+[2026-11-15 12:36:58 CST] NCEI earthquakes page 24/34 got 200 running=4800/6698
+[2026-11-15 12:36:59 CST] NCEI earthquakes page 25/34 got 200 running=5000/6698
+[2026-11-15 12:36:59 CST] NCEI earthquakes page 26/34 got 200 running=5200/6698
+[2026-11-15 12:37:00 CST] NCEI earthquakes page 27/34 got 200 running=5400/6698
+[2026-11-15 12:37:01 CST] NCEI earthquakes page 28/34 got 200 running=5600/6698
+[2026-11-15 12:37:01 CST] NCEI earthquakes page 29/34 got 200 running=5800/6698
+[2026-11-15 12:37:02 CST] NCEI earthquakes page 30/34 got 200 running=6000/6698
+[2026-11-15 12:37:03 CST] NCEI earthquakes page 31/34 got 200 running=6200/6698
+[2026-11-15 12:37:03 CST] NCEI earthquakes page 32/34 got 200 running=6400/6698
+[2026-11-15 12:37:04 CST] NCEI earthquakes page 33/34 got 200 running=6600/6698
+[2026-11-15 12:37:05 CST] NCEI earthquakes page 34/34 got 98 running=6698/6698
+[2026-11-15 12:37:05 CST] Wrote ncei_significant_earthquakes.csv: rows=6698 cols=49 years=-2150..2026
+[2026-11-15 12:37:06 CST] NCEI tsunamis/events page 1/16 got 200 running=200/3140
+[2026-11-15 12:37:07 CST] NCEI tsunamis/events page 2/16 got 200 running=400/3140
+[2026-11-15 12:37:07 CST] NCEI tsunamis/events page 3/16 got 200 running=600/3140
+[2026-11-15 12:37:08 CST] NCEI tsunamis/events page 4/16 got 200 running=800/3140
+[2026-11-15 12:37:09 CST] NCEI tsunamis/events page 5/16 got 200 running=1000/3140
+[2026-11-15 12:37:10 CST] NCEI tsunamis/events page 6/16 got 200 running=1200/3140
+[2026-11-15 12:37:11 CST] NCEI tsunamis/events page 7/16 got 200 running=1400/3140
+[2026-11-15 12:37:12 CST] NCEI tsunamis/events page 8/16 got 200 running=1600/3140
+[2026-11-15 12:37:13 CST] NCEI tsunamis/events page 9/16 got 200 running=1800/3140
+[2026-11-15 12:37:14 CST] NCEI tsunamis/events page 10/16 got 200 running=2000/3140
+[2026-11-15 12:37:15 CST] NCEI tsunamis/events page 11/16 got 200 running=2200/3140
+[2026-11-15 12:37:16 CST] NCEI tsunamis/events page 12/16 got 200 running=2400/3140
+[2026-11-15 12:37:17 CST] NCEI tsunamis/events page 13/16 got 200 running=2600/3140
+[2026-11-15 12:37:18 CST] NCEI tsunamis/events page 14/16 got 200 running=2800/3140
+[2026-11-15 12:37:19 CST] NCEI tsunamis/events page 15/16 got 200 running=3000/3140
+[2026-11-15 12:37:20 CST] NCEI tsunamis/events page 16/16 got 140 running=3140/3140
+[2026-11-15 12:37:20 CST] Wrote ncei_significant_tsunamis.csv: rows=3140 cols=52 years=-2000..2026
+[2026-11-15 12:37:21 CST] NCEI tsunamis/runups page 1/176 got 200 running=200/35141
+[2026-11-15 12:37:22 CST] NCEI tsunamis/runups page 2/176 got 200 running=400/35141
+[2026-11-15 12:37:22 CST] NCEI tsunamis/runups page 3/176 got 200 running=600/35141
+[2026-11-15 12:37:23 CST] NCEI tsunamis/runups page 4/176 got 200 running=800/35141
+[2026-11-15 12:37:24 CST] NCEI tsunamis/runups page 5/176 got 200 running=1000/35141
+[2026-11-15 12:37:25 CST] NCEI tsunamis/runups page 6/176 got 200 running=1200/35141
+[2026-11-15 12:37:26 CST] NCEI tsunamis/runups page 7/176 got 200 running=1400/35141
+[2026-11-15 12:37:26 CST] NCEI tsunamis/runups page 8/176 got 200 running=1600/35141
+[2026-11-15 12:37:27 CST] NCEI tsunamis/runups page 9/176 got 200 running=1800/35141
+[2026-11-15 12:37:28 CST] NCEI tsunamis/runups page 10/176 got 200 running=2000/35141
+[2026-11-15 12:37:28 CST] NCEI tsunamis/runups page 11/176 got 200 running=2200/35141
+[2026-11-15 12:37:29 CST] NCEI tsunamis/runups page 12/176 got 200 running=2400/35141
+[2026-11-15 12:37:30 CST] NCEI tsunamis/runups page 13/176 got 200 running=2600/35141
+[2026-11-15 12:37:31 CST] NCEI tsunamis/runups page 14/176 got 200 running=2800/35141
+[2026-11-15 12:37:32 CST] NCEI tsunamis/runups page 15/176 got 200 running=3000/35141
+[2026-11-15 12:37:32 CST] NCEI tsunamis/runups page 16/176 got 200 running=3200/35141
+[2026-11-15 12:37:33 CST] NCEI tsunamis/runups page 17/176 got 200 running=3400/35141
+[2026-11-15 12:37:34 CST] NCEI tsunamis/runups page 18/176 got 200 running=3600/35141
+[2026-11-15 12:37:35 CST] NCEI tsunamis/runups page 19/176 got 200 running=3800/35141
+[2026-11-15 12:37:35 CST] NCEI tsunamis/runups page 20/176 got 200 running=4000/35141
+[2026-11-15 12:37:36 CST] NCEI tsunamis/runups page 21/176 got 200 running=4200/35141
+[2026-11-15 12:37:37 CST] NCEI tsunamis/runups page 22/176 got 200 running=4400/35141
+[2026-11-15 12:37:37 CST] NCEI tsunamis/runups page 23/176 got 200 running=4600/35141
+[2026-11-15 12:37:38 CST] NCEI tsunamis/runups page 24/176 got 200 running=4800/35141
+[2026-11-15 12:37:39 CST] NCEI tsunamis/runups page 25/176 got 200 running=5000/35141
+[2026-11-15 12:37:39 CST] NCEI tsunamis/runups page 26/176 got 200 running=5200/35141
+[2026-11-15 12:37:40 CST] NCEI tsunamis/runups page 27/176 got 200 running=5400/35141
+[2026-11-15 12:37:41 CST] NCEI tsunamis/runups page 28/176 got 200 running=5600/35141
+[2026-11-15 12:37:42 CST] NCEI tsunamis/runups page 29/176 got 200 running=5800/35141
+[2026-11-15 12:37:43 CST] NCEI tsunamis/runups page 30/176 got 200 running=6000/35141
+[2026-11-15 12:37:44 CST] NCEI tsunamis/runups page 31/176 got 200 running=6200/35141
+[2026-11-15 12:37:44 CST] NCEI tsunamis/runups page 32/176 got 200 running=6400/35141
+[2026-11-15 12:37:45 CST] NCEI tsunamis/runups page 33/176 got 200 running=6600/35141
+[2026-11-15 12:37:46 CST] NCEI tsunamis/runups page 34/176 got 200 running=6800/35141
+[2026-11-15 12:37:47 CST] NCEI tsunamis/runups page 35/176 got 200 running=7000/35141
+[2026-11-15 12:37:47 CST] NCEI tsunamis/runups page 36/176 got 200 running=7200/35141
+[2026-11-15 12:37:48 CST] NCEI tsunamis/runups page 37/176 got 200 running=7400/35141
+[2026-11-15 12:37:49 CST] NCEI tsunamis/runups page 38/176 got 200 running=7600/35141
+[2026-11-15 12:37:49 CST] NCEI tsunamis/runups page 39/176 got 200 running=7800/35141
+[2026-11-15 12:37:50 CST] NCEI tsunamis/runups page 40/176 got 200 running=8000/35141
+[2026-11-15 12:37:51 CST] NCEI tsunamis/runups page 41/176 got 200 running=8200/35141
+[2026-11-15 12:37:52 CST] NCEI tsunamis/runups page 42/176 got 200 running=8400/35141
+[2026-11-15 12:37:52 CST] NCEI tsunamis/runups page 43/176 got 200 running=8600/35141
+[2026-11-15 12:37:53 CST] NCEI tsunamis/runups page 44/176 got 200 running=8800/35141
+[2026-11-15 12:37:54 CST] NCEI tsunamis/runups page 45/176 got 200 running=9000/35141
+[2026-11-15 12:37:55 CST] NCEI tsunamis/runups page 46/176 got 200 running=9200/35141
+[2026-11-15 12:37:55 CST] NCEI tsunamis/runups page 47/176 got 200 running=9400/35141
+[2026-11-15 12:37:56 CST] NCEI tsunamis/runups page 48/176 got 200 running=9600/35141
+[2026-11-15 12:37:57 CST] NCEI tsunamis/runups page 49/176 got 200 running=9800/35141
+[2026-11-15 12:37:58 CST] NCEI tsunamis/runups page 50/176 got 200 running=10000/35141
+[2026-11-15 12:37:59 CST] NCEI tsunamis/runups page 51/176 got 200 running=10200/35141
+[2026-11-15 12:37:59 CST] NCEI tsunamis/runups page 52/176 got 200 running=10400/35141
+[2026-11-15 12:38:00 CST] NCEI tsunamis/runups page 53/176 got 200 running=10600/35141
+[2026-11-15 12:38:01 CST] NCEI tsunamis/runups page 54/176 got 200 running=10800/35141
+[2026-11-15 12:38:02 CST] NCEI tsunamis/runups page 55/176 got 200 running=11000/35141
+[2026-11-15 12:38:02 CST] NCEI tsunamis/runups page 56/176 got 200 running=11200/35141
+[2026-11-15 12:38:03 CST] NCEI tsunamis/runups page 57/176 got 200 running=11400/35141
+[2026-11-15 12:38:04 CST] NCEI tsunamis/runups page 58/176 got 200 running=11600/35141
+[2026-11-15 12:38:05 CST] NCEI tsunamis/runups page 59/176 got 200 running=11800/35141
+[2026-11-15 12:38:05 CST] NCEI tsunamis/runups page 60/176 got 200 running=12000/35141
+[2026-11-15 12:38:06 CST] NCEI tsunamis/runups page 61/176 got 200 running=12200/35141
+[2026-11-15 12:38:07 CST] NCEI tsunamis/runups page 62/176 got 200 running=12400/35141
+[2026-11-15 12:38:08 CST] NCEI tsunamis/runups page 63/176 got 200 running=12600/35141
+[2026-11-15 12:38:09 CST] NCEI tsunamis/runups page 64/176 got 200 running=12800/35141
+[2026-11-15 12:38:09 CST] NCEI tsunamis/runups page 65/176 got 200 running=13000/35141
+[2026-11-15 12:38:10 CST] NCEI tsunamis/runups page 66/176 got 200 running=13200/35141
+[2026-11-15 12:38:11 CST] NCEI tsunamis/runups page 67/176 got 200 running=13400/35141
+[2026-11-15 12:38:12 CST] NCEI tsunamis/runups page 68/176 got 200 running=13600/35141
+[2026-11-15 12:38:13 CST] NCEI tsunamis/runups page 69/176 got 200 running=13800/35141
+[2026-11-15 12:38:13 CST] NCEI tsunamis/runups page 70/176 got 200 running=14000/35141
+[2026-11-15 12:38:14 CST] NCEI tsunamis/runups page 71/176 got 200 running=14200/35141
+[2026-11-15 12:38:15 CST] NCEI tsunamis/runups page 72/176 got 200 running=14400/35141
+[2026-11-15 12:38:16 CST] NCEI tsunamis/runups page 73/176 got 200 running=14600/35141
+[2026-11-15 12:38:17 CST] NCEI tsunamis/runups page 74/176 got 200 running=14800/35141
+[2026-11-15 12:38:17 CST] NCEI tsunamis/runups page 75/176 got 200 running=15000/35141
+[2026-11-15 12:38:18 CST] NCEI tsunamis/runups page 76/176 got 200 running=15200/35141
+[2026-11-15 12:38:19 CST] NCEI tsunamis/runups page 77/176 got 200 running=15400/35141
+[2026-11-15 12:38:20 CST] NCEI tsunamis/runups page 78/176 got 200 running=15600/35141
+[2026-11-15 12:38:20 CST] NCEI tsunamis/runups page 79/176 got 200 running=15800/35141
+[2026-11-15 12:38:21 CST] NCEI tsunamis/runups page 80/176 got 200 running=16000/35141
+[2026-11-15 12:38:22 CST] NCEI tsunamis/runups page 81/176 got 200 running=16200/35141
+[2026-11-15 12:38:23 CST] NCEI tsunamis/runups page 82/176 got 200 running=16400/35141
+[2026-11-15 12:38:23 CST] NCEI tsunamis/runups page 83/176 got 200 running=16600/35141
+[2026-11-15 12:38:24 CST] NCEI tsunamis/runups page 84/176 got 200 running=16800/35141
+[2026-11-15 12:38:25 CST] NCEI tsunamis/runups page 85/176 got 200 running=17000/35141
+[2026-11-15 12:38:26 CST] NCEI tsunamis/runups page 86/176 got 200 running=17200/35141
+[2026-11-15 12:38:27 CST] NCEI tsunamis/runups page 87/176 got 200 running=17400/35141
+[2026-11-15 12:38:27 CST] NCEI tsunamis/runups page 88/176 got 200 running=17600/35141
+[2026-11-15 12:38:28 CST] NCEI tsunamis/runups page 89/176 got 200 running=17800/35141
+[2026-11-15 12:38:29 CST] NCEI tsunamis/runups page 90/176 got 200 running=18000/35141
+[2026-11-15 12:38:30 CST] NCEI tsunamis/runups page 91/176 got 200 running=18200/35141
+[2026-11-15 12:38:30 CST] NCEI tsunamis/runups page 92/176 got 200 running=18400/35141
+[2026-11-15 12:38:31 CST] NCEI tsunamis/runups page 93/176 got 200 running=18600/35141
+[2026-11-15 12:38:32 CST] NCEI tsunamis/runups page 94/176 got 200 running=18800/35141
+[2026-11-15 12:38:33 CST] NCEI tsunamis/runups page 95/176 got 200 running=19000/35141
+[2026-11-15 12:38:34 CST] NCEI tsunamis/runups page 96/176 got 200 running=19200/35141
+[2026-11-15 12:38:35 CST] NCEI tsunamis/runups page 97/176 got 200 running=19400/35141
+[2026-11-15 12:38:36 CST] NCEI tsunamis/runups page 98/176 got 200 running=19600/35141
+[2026-11-15 12:38:36 CST] NCEI tsunamis/runups page 99/176 got 200 running=19800/35141
+[2026-11-15 12:38:37 CST] NCEI tsunamis/runups page 100/176 got 200 running=20000/35141
+[2026-11-15 12:38:38 CST] NCEI tsunamis/runups page 101/176 got 200 running=20200/35141
+[2026-11-15 12:38:39 CST] NCEI tsunamis/runups page 102/176 got 200 running=20400/35141
+[2026-11-15 12:38:39 CST] NCEI tsunamis/runups page 103/176 got 200 running=20600/35141
+[2026-11-15 12:38:40 CST] NCEI tsunamis/runups page 104/176 got 200 running=20800/35141
+[2026-11-15 12:38:42 CST] NCEI tsunamis/runups page 105/176 got 200 running=21000/35141
+[2026-11-15 12:38:43 CST] NCEI tsunamis/runups page 106/176 got 200 running=21200/35141
+[2026-11-15 12:38:44 CST] NCEI tsunamis/runups page 107/176 got 200 running=21400/35141
+[2026-11-15 12:38:45 CST] NCEI tsunamis/runups page 108/176 got 200 running=21600/35141
+[2026-11-15 12:38:45 CST] NCEI tsunamis/runups page 109/176 got 200 running=21800/35141
+[2026-11-15 12:38:46 CST] NCEI tsunamis/runups page 110/176 got 200 running=22000/35141
+[2026-11-15 12:38:47 CST] NCEI tsunamis/runups page 111/176 got 200 running=22200/35141
+[2026-11-15 12:38:48 CST] NCEI tsunamis/runups page 112/176 got 200 running=22400/35141
+[2026-11-15 12:38:49 CST] NCEI tsunamis/runups page 113/176 got 200 running=22600/35141
+[2026-11-15 12:38:50 CST] NCEI tsunamis/runups page 114/176 got 200 running=22800/35141
+[2026-11-15 12:38:50 CST] NCEI tsunamis/runups page 115/176 got 200 running=23000/35141
+[2026-11-15 12:38:51 CST] NCEI tsunamis/runups page 116/176 got 200 running=23200/35141
+[2026-11-15 12:38:52 CST] NCEI tsunamis/runups page 117/176 got 200 running=23400/35141
+[2026-11-15 12:38:52 CST] NCEI tsunamis/runups page 118/176 got 200 running=23600/35141
+[2026-11-15 12:38:53 CST] NCEI tsunamis/runups page 119/176 got 200 running=23800/35141
+[2026-11-15 12:38:54 CST] NCEI tsunamis/runups page 120/176 got 200 running=24000/35141
+[2026-11-15 12:38:55 CST] NCEI tsunamis/runups page 121/176 got 200 running=24200/35141
+[2026-11-15 12:38:55 CST] NCEI tsunamis/runups page 122/176 got 200 running=24400/35141
+[2026-11-15 12:38:56 CST] NCEI tsunamis/runups page 123/176 got 200 running=24600/35141
+[2026-11-15 12:38:57 CST] NCEI tsunamis/runups page 124/176 got 200 running=24800/35141
+[2026-11-15 12:38:58 CST] NCEI tsunamis/runups page 125/176 got 200 running=25000/35141
+[2026-11-15 12:38:59 CST] NCEI tsunamis/runups page 126/176 got 200 running=25200/35141
+[2026-11-15 12:38:59 CST] NCEI tsunamis/runups page 127/176 got 200 running=25400/35141
+[2026-11-15 12:39:00 CST] NCEI tsunamis/runups page 128/176 got 200 running=25600/35141
+[2026-11-15 12:39:01 CST] NCEI tsunamis/runups page 129/176 got 200 running=25800/35141
+[2026-11-15 12:39:02 CST] NCEI tsunamis/runups page 130/176 got 200 running=26000/35141
+[2026-11-15 12:39:03 CST] NCEI tsunamis/runups page 131/176 got 200 running=26200/35141
+[2026-11-15 12:39:04 CST] NCEI tsunamis/runups page 132/176 got 200 running=26400/35141
+[2026-11-15 12:39:05 CST] NCEI tsunamis/runups page 133/176 got 200 running=26600/35141
+[2026-11-15 12:39:05 CST] NCEI tsunamis/runups page 134/176 got 200 running=26800/35141
+[2026-11-15 12:39:06 CST] NCEI tsunamis/runups page 135/176 got 200 running=27000/35141
+[2026-11-15 12:39:07 CST] NCEI tsunamis/runups page 136/176 got 200 running=27200/35141
+[2026-11-15 12:39:08 CST] NCEI tsunamis/runups page 137/176 got 200 running=27400/35141
+[2026-11-15 12:39:09 CST] NCEI tsunamis/runups page 138/176 got 200 running=27600/35141
+[2026-11-15 12:39:09 CST] NCEI tsunamis/runups page 139/176 got 200 running=27800/35141
+[2026-11-15 12:39:10 CST] NCEI tsunamis/runups page 140/176 got 200 running=28000/35141
+[2026-11-15 12:39:11 CST] NCEI tsunamis/runups page 141/176 got 200 running=28200/35141
+[2026-11-15 12:39:12 CST] NCEI tsunamis/runups page 142/176 got 200 running=28400/35141
+[2026-11-15 12:39:13 CST] NCEI tsunamis/runups page 143/176 got 200 running=28600/35141
+[2026-11-15 12:39:13 CST] NCEI tsunamis/runups page 144/176 got 200 running=28800/35141
+[2026-11-15 12:39:14 CST] NCEI tsunamis/runups page 145/176 got 200 running=29000/35141
+[2026-11-15 12:39:15 CST] NCEI tsunamis/runups page 146/176 got 200 running=29200/35141
+[2026-11-15 12:39:16 CST] NCEI tsunamis/runups page 147/176 got 200 running=29400/35141
+[2026-11-15 12:39:17 CST] NCEI tsunamis/runups page 148/176 got 200 running=29600/35141
+[2026-11-15 12:39:17 CST] NCEI tsunamis/runups page 149/176 got 200 running=29800/35141
+[2026-11-15 12:39:18 CST] NCEI tsunamis/runups page 150/176 got 200 running=30000/35141
+[2026-11-15 12:39:19 CST] NCEI tsunamis/runups page 151/176 got 200 running=30200/35141
+[2026-11-15 12:39:20 CST] NCEI tsunamis/runups page 152/176 got 200 running=30400/35141
+[2026-11-15 12:39:21 CST] NCEI tsunamis/runups page 153/176 got 200 running=30600/35141
+[2026-11-15 12:39:22 CST] NCEI tsunamis/runups page 154/176 got 200 running=30800/35141
+[2026-11-15 12:39:23 CST] NCEI tsunamis/runups page 155/176 got 200 running=31000/35141
+[2026-11-15 12:39:24 CST] NCEI tsunamis/runups page 156/176 got 200 running=31200/35141
+[2026-11-15 12:39:24 CST] NCEI tsunamis/runups page 157/176 got 200 running=31400/35141
+[2026-11-15 12:39:25 CST] NCEI tsunamis/runups page 158/176 got 200 running=31600/35141
+[2026-11-15 12:39:26 CST] NCEI tsunamis/runups page 159/176 got 200 running=31800/35141
+[2026-11-15 12:39:27 CST] NCEI tsunamis/runups page 160/176 got 200 running=32000/35141
+[2026-11-15 12:39:27 CST] NCEI tsunamis/runups page 161/176 got 200 running=32200/35141
+[2026-11-15 12:39:28 CST] NCEI tsunamis/runups page 162/176 got 200 running=32400/35141
+[2026-11-15 12:39:29 CST] NCEI tsunamis/runups page 163/176 got 200 running=32600/35141
+[2026-11-15 12:39:30 CST] NCEI tsunamis/runups page 164/176 got 200 running=32800/35141
+[2026-11-15 12:39:31 CST] NCEI tsunamis/runups page 165/176 got 200 running=33000/35141
+[2026-11-15 12:39:32 CST] NCEI tsunamis/runups page 166/176 got 200 running=33200/35141
+[2026-11-15 12:39:32 CST] NCEI tsunamis/runups page 167/176 got 200 running=33400/35141
+[2026-11-15 12:39:33 CST] NCEI tsunamis/runups page 168/176 got 200 running=33600/35141
+[2026-11-15 12:39:34 CST] NCEI tsunamis/runups page 169/176 got 200 running=33800/35141
+[2026-11-15 12:39:35 CST] NCEI tsunamis/runups page 170/176 got 200 running=34000/35141
+[2026-11-15 12:39:36 CST] NCEI tsunamis/runups page 171/176 got 200 running=34200/35141
+[2026-11-15 12:39:37 CST] NCEI tsunamis/runups page 172/176 got 200 running=34400/35141
+[2026-11-15 12:39:38 CST] NCEI tsunamis/runups page 173/176 got 200 running=34600/35141
+[2026-11-15 12:39:38 CST] NCEI tsunamis/runups page 174/176 got 200 running=34800/35141
+[2026-11-15 12:39:39 CST] NCEI tsunamis/runups page 175/176 got 200 running=35000/35141
+[2026-11-15 12:39:40 CST] NCEI tsunamis/runups page 176/176 got 141 running=35141/35141
+[2026-11-15 12:39:41 CST] Wrote ncei_tsunami_runups.csv: rows=35141 cols=52 years=-2000..2026
+[2026-11-15 12:39:41 CST] NCEI tsunamis/deposits page 1/7 got 200 running=200/1400
+[2026-11-15 12:39:42 CST] NCEI tsunamis/deposits page 2/7 got 200 running=400/1400
+[2026-11-15 12:39:43 CST] NCEI tsunamis/deposits page 3/7 got 200 running=600/1400
+[2026-11-15 12:39:43 CST] NCEI tsunamis/deposits page 4/7 got 200 running=800/1400
+[2026-11-15 12:39:44 CST] NCEI tsunamis/deposits page 5/7 got 200 running=1000/1400
+[2026-11-15 12:39:44 CST] NCEI tsunamis/deposits page 6/7 got 200 running=1200/1400
+[2026-11-15 12:39:45 CST] NCEI tsunamis/deposits page 7/7 got 200 running=1400/1400
+[2026-11-15 12:39:45 CST] Wrote ncei_tsunami_deposits.csv: rows=1400 cols=19 years=1845..2026
+[2026-11-15 12:39:45 CST] NCEI tsunamis/marigrams page 1/18 got 200 running=200/3483
+[2026-11-15 12:39:46 CST] NCEI tsunamis/marigrams page 2/18 got 200 running=400/3483
+[2026-11-15 12:39:47 CST] NCEI tsunamis/marigrams page 3/18 got 200 running=600/3483
+[2026-11-15 12:39:48 CST] NCEI tsunamis/marigrams page 4/18 got 200 running=800/3483
+[2026-11-15 12:39:48 CST] NCEI tsunamis/marigrams page 5/18 got 200 running=1000/3483
+[2026-11-15 12:39:49 CST] NCEI tsunamis/marigrams page 6/18 got 200 running=1200/3483
+[2026-11-15 12:39:49 CST] NCEI tsunamis/marigrams page 7/18 got 200 running=1400/3483
+[2026-11-15 12:39:50 CST] NCEI tsunamis/marigrams page 8/18 got 200 running=1600/3483
+[2026-11-15 12:39:50 CST] NCEI tsunamis/marigrams page 9/18 got 200 running=1800/3483
+[2026-11-15 12:39:51 CST] NCEI tsunamis/marigrams page 10/18 got 200 running=2000/3483
+[2026-11-15 12:39:51 CST] NCEI tsunamis/marigrams page 11/18 got 200 running=2200/3483
+[2026-11-15 12:39:52 CST] NCEI tsunamis/marigrams page 12/18 got 200 running=2400/3483
+[2026-11-15 12:39:53 CST] NCEI tsunamis/marigrams page 13/18 got 200 running=2600/3483
+[2026-11-15 12:39:53 CST] NCEI tsunamis/marigrams page 14/18 got 200 running=2800/3483
+[2026-11-15 12:39:54 CST] NCEI tsunamis/marigrams page 15/18 got 200 running=3000/3483
+[2026-11-15 12:39:54 CST] NCEI tsunamis/marigrams page 16/18 got 200 running=3200/3483
+[2026-11-15 12:39:55 CST] NCEI tsunamis/marigrams page 17/18 got 200 running=3400/3483
+[2026-11-15 12:39:55 CST] NCEI tsunamis/marigrams page 18/18 got 83 running=3483/3483
+[2026-11-15 12:39:55 CST] Wrote ncei_tsunami_marigrams.csv: rows=3483 cols=23 years=1854..1994
+[2026-11-15 12:39:55 CST] === Layer 3: tectonic / mechanism context ===
+[2026-11-15 12:39:55 CST] === Layer 3a: Bird 2003 PB2002 plate boundaries (fraxen/tectonicplates) ===
+[2026-11-15 12:39:58 CST] GeoJSON PB2002_boundaries.json: {'geojson_type': 'FeatureCollection', 'feature_count': 241, 'geometry_types': {'LineString': 241}}
+[2026-11-15 12:39:58 CST] GeoJSON PB2002_plates.json: {'geojson_type': 'FeatureCollection', 'feature_count': 54, 'geometry_types': {'Polygon': 52, 'MultiPolygon': 2}}
+[2026-11-15 12:39:58 CST] GeoJSON PB2002_orogens.json: {'geojson_type': 'FeatureCollection', 'feature_count': 13, 'geometry_types': {'Polygon': 12, 'MultiPolygon': 1}}
+[2026-11-15 12:39:58 CST] GeoJSON PB2002_steps.json: {'geojson_type': 'FeatureCollection', 'feature_count': 5824, 'geometry_types': {'LineString': 5824}}
+[2026-11-15 12:39:58 CST] Shapefile PB2002_boundaries.shp: records=241
+[2026-11-15 12:39:58 CST] Shapefile PB2002_plates.shp: records=54
+[2026-11-15 12:39:58 CST] Shapefile PB2002_orogens.shp: records=13
+[2026-11-15 12:39:58 CST] Shapefile PB2002_steps.shp: records=5824
+[2026-11-15 12:39:58 CST] === Layer 3b: GEM Global Active Faults ===
+[2026-11-15 12:39:58 CST] GEM GET https://raw.githubusercontent.com/GEMScienceTools/gem-global-active-faults/master/geojson/gem_active_faults.geojson
+[2026-11-15 12:40:00 CST] GEM gem_active_faults.geojson: 16195 features
+[2026-11-15 12:40:00 CST] GEM GET https://raw.githubusercontent.com/GEMScienceTools/gem-global-active-faults/master/geojson/gem_active_faults_harmonized.geojson
+[2026-11-15 12:40:01 CST] GEM gem_active_faults_harmonized.geojson: 13696 features
+[2026-11-15 12:40:01 CST] GEM GET https://raw.githubusercontent.com/GEMScienceTools/gem-global-active-faults/master/LICENSE.txt
+[2026-11-15 12:40:01 CST] GEM GET https://raw.githubusercontent.com/GEMScienceTools/gem-global-active-faults/master/README.md
+[2026-11-15 12:40:01 CST] === Layer 3c: Global CMT NDK catalog ===
+[2026-11-15 12:40:06 CST] Downloading official historical NDK https://www.ldeo.columbia.edu/~gcmt/projects/CMT/catalog/jan76_dec25.ndk
+[2026-11-15 12:40:11 CST] jan76_dec25.ndk events=70044 lines=350220
+[2026-11-15 12:40:12 CST] 2026 monthly NDK files listed: ['jan26.ndk', 'feb26.ndk', 'mar26.ndk', 'apr26.ndk', 'may26.ndk', 'jun26.ndk']
+[2026-11-15 12:40:12 CST] jan26.ndk: events=232 lines=1160
+[2026-11-15 12:40:13 CST] feb26.ndk: events=173 lines=865
+[2026-11-15 12:40:14 CST] mar26.ndk: events=224 lines=1120
+[2026-11-15 12:40:16 CST] apr26.ndk: events=208 lines=1040
+[2026-11-15 12:40:17 CST] may26.ndk: events=200 lines=1000
+[2026-11-15 12:40:18 CST] jun26.ndk: events=198 lines=990
+[2026-11-15 12:40:18 CST] gcmt_1976_latest.ndk events=71279 (sum of parts=71279) lines=356395
+[2026-11-15 12:40:19 CST] deep_1962-1976.ndk: events=104 lines=520
+[2026-11-15 12:40:20 CST] intdep_1962-1975.ndk: events=76 lines=380
+[2026-11-15 12:40:22 CST] qcmt.ndk events=441 lines=2205
+[2026-11-15 12:40:22 CST] Wrote /workspace/07_external/retrieval_manifest.json
+[2026-11-15 12:40:22 CST] Removed /workspace/07_external/_tmp_download
+[2026-11-15 12:40:22 CST] All layers completed successfully.

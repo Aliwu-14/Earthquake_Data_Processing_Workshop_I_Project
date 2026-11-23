@@ -53,6 +53,7 @@ USGS 只作对照和延伸，不与本地目录简单拼接：
 
 在精细清洗结果上做样本界定和时空格局，新开笔记本，不覆盖旧的升级图。
 
+- [`interactive/`](07_analysis/interactive/)：中国及周边离线三维震源图。请下载 [`07_china_region_hypocenter_3d.html`](07_analysis/interactive/07_china_region_hypocenter_3d.html) 到本地后用浏览器打开；GitHub 文件页不是运行预览。Plotly 已内嵌。范围是 1965–2016、70–145°E / 10–60°N，3515 个事件；真实深度向下，水平垂直 1:1 与深度夸大 5 倍可切换。
 - `07_earthquake_analysis_sample.ipynb`：样本界定与质量清点
 - `07_earthquake_analysis_sample.csv`：本地主样本（23,232 条）
 - `07_analysis_sample_quality.csv`：清点表

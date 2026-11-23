@@ -86,6 +86,8 @@ python -m pip install -r requirements.txt
 python earthquake_cleaning.py
 ```
 
+组内原有练习脚本 `earthquake_cleaning.py` 的 19 步说明，是队友当时写在根 README 里的原文，现原样保存在 [`docs/earthquake_cleaning_19_steps.md`](docs/earthquake_cleaning_19_steps.md)。那份文档只描述该清洗脚本当时的范围；其中列出的未做事项不等于整个项目的当前进度。
+
 精细清洗与分析笔记本在 `07_fine_clean/` 和 `07_analysis/` 中，需额外安装 `geopandas`、`matplotlib`、`seaborn`、`pyproj`。地图基于 Natural Earth 50m，立体图使用 matplotlib 的三维坐标。读取 `Date_parsed` 时请使用：
 
 ```python

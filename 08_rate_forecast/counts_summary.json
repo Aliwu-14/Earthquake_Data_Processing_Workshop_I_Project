@@ -1,0 +1,358 @@
+{
+  "locked_main_counts_verified": {
+    "all": 28044,
+    "china_rectangle": 4220,
+    "PB_Pacific": 2188,
+    "overlap": 74,
+    "union": 6334
+  },
+  "holdout_verified": {
+    "all": 949,
+    "union": 190
+  },
+  "main_id_list_sha256": "73b0417e8edc2bd794ecf7f5462e4426ee47cbd4f66c4629cb19f4e2489df852",
+  "official_table_sha256_documented": "1018e3856fcf15c791f4136fb833f0b4937868e3e6c1f54ead6503529289f265",
+  "official_table_present_on_box": false,
+  "grid": {
+    "degree": 2,
+    "window_days": 30,
+    "time_origin": "1965-01-01 00:00:00+00:00",
+    "holdout_end": "2026-11-26 07:43:30+00:00",
+    "n_cells_union": 3594,
+    "n_cells_rectangle": 988,
+    "n_cells_pacific": 2632,
+    "n_cells_overlap_geometry": 26,
+    "n_hist_active_union": 538,
+    "n_hist_active_rectangle": 327,
+    "n_hist_active_pacific": 224
+  },
+  "windows": {
+    "n_generated": 754,
+    "by_split": {
+      "holdout": 22,
+      "none": 4,
+      "test": 96,
+      "train": 535,
+      "val": 97
+    },
+    "by_boundary_note": {
+      "holdout": 22,
+      "incomplete_holdout": 1,
+      "straddle_test_holdout": 1,
+      "straddle_train_val": 1,
+      "straddle_val_test": 1,
+      "test": 96,
+      "train": 535,
+      "val": 97
+    },
+    "straddle_or_incomplete": [
+      {
+        "window_id": 535,
+        "window_start": "2008-12-11 00:00:00+00:00",
+        "window_end": "2009-01-10 00:00:00+00:00",
+        "boundary_note": "straddle_train_val"
+      },
+      {
+        "window_id": 633,
+        "window_start": "2016-12-29 00:00:00+00:00",
+        "window_end": "2017-01-28 00:00:00+00:00",
+        "boundary_note": "straddle_val_test"
+      },
+      {
+        "window_id": 730,
+        "window_start": "2024-12-17 00:00:00+00:00",
+        "window_end": "2025-01-16 00:00:00+00:00",
+        "boundary_note": "straddle_test_holdout"
+      },
+      {
+        "window_id": 753,
+        "window_start": "2026-11-07 00:00:00+00:00",
+        "window_end": "2026-12-07 00:00:00+00:00",
+        "boundary_note": "incomplete_holdout"
+      }
+    ]
+  },
+  "kernel": {
+    "tau_days": 1095.75,
+    "sigma_km": 200.0,
+    "cutoff_km": 800.0,
+    "alpha": {
+      "china_rectangle": 0.005277177216286247,
+      "pacific": 0.006539107132027748,
+      "union": 0.005506486521694776
+    },
+    "n_train_events": {
+      "china_rectangle": 3056,
+      "pacific": 1526,
+      "union": 4553
+    }
+  },
+  "probability_floor": 1e-06,
+  "prevalence": [
+    {
+      "region": "china_rectangle",
+      "split": "train",
+      "n_cells_all": 988,
+      "n_windows": 535,
+      "n_cell_windows_all": 528580,
+      "n_events_in_complete_windows": 3056,
+      "n_positive_cell_windows_all": 2385,
+      "prevalence_all": 0.004512088993151462,
+      "n_cells_hist_active": 327,
+      "n_cell_windows_hist_active": 174945,
+      "n_positive_cell_windows_hist_active": 2385,
+      "prevalence_hist_active": 0.013632856040469862,
+      "n_unique_positive_cells_in_split": 327
+    },
+    {
+      "region": "china_rectangle",
+      "split": "val",
+      "n_cells_all": 988,
+      "n_windows": 97,
+      "n_cell_windows_all": 95836,
+      "n_events_in_complete_windows": 725,
+      "n_positive_cell_windows_all": 427,
+      "prevalence_all": 0.00445552819399808,
+      "n_cells_hist_active": 327,
+      "n_cell_windows_hist_active": 31719,
+      "n_positive_cell_windows_hist_active": 413,
+      "prevalence_hist_active": 0.013020587029855922,
+      "n_unique_positive_cells_in_split": 142
+    },
+    {
+      "region": "china_rectangle",
+      "split": "test",
+      "n_cells_all": 988,
+      "n_windows": 96,
+      "n_cell_windows_all": 94848,
+      "n_events_in_complete_windows": 430,
+      "n_positive_cell_windows_all": 357,
+      "prevalence_all": 0.003763917004048583,
+      "n_cells_hist_active": 327,
+      "n_cell_windows_hist_active": 31392,
+      "n_positive_cell_windows_hist_active": 339,
+      "prevalence_hist_active": 0.010798929663608563,
+      "n_unique_positive_cells_in_split": 135
+    },
+    {
+      "region": "china_rectangle",
+      "split": "holdout",
+      "n_cells_all": 988,
+      "n_windows": 22,
+      "n_cell_windows_all": 21736,
+      "n_events_in_complete_windows": 120,
+      "n_positive_cell_windows_all": 93,
+      "prevalence_all": 0.004278616120721384,
+      "n_cells_hist_active": 327,
+      "n_cell_windows_hist_active": 7194,
+      "n_positive_cell_windows_hist_active": 90,
+      "prevalence_hist_active": 0.012510425354462052,
+      "n_unique_positive_cells_in_split": 57
+    },
+    {
+      "region": "pacific",
+      "split": "train",
+      "n_cells_all": 2632,
+      "n_windows": 535,
+      "n_cell_windows_all": 1408120,
+      "n_events_in_complete_windows": 1526,
+      "n_positive_cell_windows_all": 1152,
+      "prevalence_all": 0.0008181120927193706,
+      "n_cells_hist_active": 224,
+      "n_cell_windows_hist_active": 119840,
+      "n_positive_cell_windows_hist_active": 1152,
+      "prevalence_hist_active": 0.009612817089452604,
+      "n_unique_positive_cells_in_split": 224
+    },
+    {
+      "region": "pacific",
+      "split": "val",
+      "n_cells_all": 2632,
+      "n_windows": 97,
+      "n_cell_windows_all": 255304,
+      "n_events_in_complete_windows": 435,
+      "n_positive_cell_windows_all": 270,
+      "prevalence_all": 0.0010575627487230909,
+      "n_cells_hist_active": 224,
+      "n_cell_windows_hist_active": 21728,
+      "n_positive_cell_windows_hist_active": 249,
+      "prevalence_hist_active": 0.011459867452135493,
+      "n_unique_positive_cells_in_split": 108
+    },
+    {
+      "region": "pacific",
+      "split": "test",
+      "n_cells_all": 2632,
+      "n_windows": 96,
+      "n_cell_windows_all": 252672,
+      "n_events_in_complete_windows": 218,
+      "n_positive_cell_windows_all": 199,
+      "prevalence_all": 0.0007875823201621074,
+      "n_cells_hist_active": 224,
+      "n_cell_windows_hist_active": 21504,
+      "n_positive_cell_windows_hist_active": 171,
+      "prevalence_hist_active": 0.007952008928571428,
+      "n_unique_positive_cells_in_split": 106
+    },
+    {
+      "region": "pacific",
+      "split": "holdout",
+      "n_cells_all": 2632,
+      "n_windows": 22,
+      "n_cell_windows_all": 57904,
+      "n_events_in_complete_windows": 59,
+      "n_positive_cell_windows_all": 54,
+      "prevalence_all": 0.0009325780602376347,
+      "n_cells_hist_active": 224,
+      "n_cell_windows_hist_active": 4928,
+      "n_positive_cell_windows_hist_active": 49,
+      "prevalence_hist_active": 0.009943181818181818,
+      "n_unique_positive_cells_in_split": 40
+    },
+    {
+      "region": "union",
+      "split": "train",
+      "n_cells_all": 3594,
+      "n_windows": 535,
+      "n_cell_windows_all": 1922790,
+      "n_events_in_complete_windows": 4553,
+      "n_positive_cell_windows_all": 3509,
+      "prevalence_all": 0.0018249522828806058,
+      "n_cells_hist_active": 538,
+      "n_cell_windows_hist_active": 287830,
+      "n_positive_cell_windows_hist_active": 3509,
+      "prevalence_hist_active": 0.01219122398638085,
+      "n_unique_positive_cells_in_split": 538
+    },
+    {
+      "region": "union",
+      "split": "val",
+      "n_cells_all": 3594,
+      "n_windows": 97,
+      "n_cell_windows_all": 348618,
+      "n_events_in_complete_windows": 1130,
+      "n_positive_cell_windows_all": 683,
+      "prevalence_all": 0.001959164472287719,
+      "n_cells_hist_active": 538,
+      "n_cell_windows_hist_active": 52186,
+      "n_positive_cell_windows_hist_active": 651,
+      "prevalence_hist_active": 0.012474610048672058,
+      "n_unique_positive_cells_in_split": 244
+    },
+    {
+      "region": "union",
+      "split": "test",
+      "n_cells_all": 3594,
+      "n_windows": 96,
+      "n_cell_windows_all": 345024,
+      "n_events_in_complete_windows": 633,
+      "n_positive_cell_windows_all": 544,
+      "prevalence_all": 0.001576701910591727,
+      "n_cells_hist_active": 538,
+      "n_cell_windows_hist_active": 51648,
+      "n_positive_cell_windows_hist_active": 503,
+      "prevalence_hist_active": 0.009739002478314746,
+      "n_unique_positive_cells_in_split": 233
+    },
+    {
+      "region": "union",
+      "split": "holdout",
+      "n_cells_all": 3594,
+      "n_windows": 22,
+      "n_cell_windows_all": 79068,
+      "n_events_in_complete_windows": 178,
+      "n_positive_cell_windows_all": 146,
+      "prevalence_all": 0.001846511863206354,
+      "n_cells_hist_active": 538,
+      "n_cell_windows_hist_active": 11836,
+      "n_positive_cell_windows_hist_active": 139,
+      "prevalence_hist_active": 0.011743832375802636,
+      "n_unique_positive_cells_in_split": 96
+    }
+  ],
+  "boundary_events": [
+    {
+      "boundary_note": "holdout",
+      "n_union_events": 178,
+      "n_rectangle": 120,
+      "n_pacific": 59,
+      "window_ids": "731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752"
+    },
+    {
+      "boundary_note": "incomplete_holdout",
+      "n_union_events": 7,
+      "n_rectangle": 5,
+      "n_pacific": 2,
+      "window_ids": "753"
+    },
+    {
+      "boundary_note": "straddle_test_holdout",
+      "n_union_events": 7,
+      "n_rectangle": 6,
+      "n_pacific": 1,
+      "window_ids": "730"
+    },
+    {
+      "boundary_note": "straddle_train_val",
+      "n_union_events": 8,
+      "n_rectangle": 5,
+      "n_pacific": 3,
+      "window_ids": "535"
+    },
+    {
+      "boundary_note": "straddle_val_test",
+      "n_union_events": 8,
+      "n_rectangle": 2,
+      "n_pacific": 6,
+      "window_ids": "633"
+    },
+    {
+      "boundary_note": "test",
+      "n_union_events": 633,
+      "n_rectangle": 430,
+      "n_pacific": 218,
+      "window_ids": "634,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729"
+    },
+    {
+      "boundary_note": "train",
+      "n_union_events": 4553,
+      "n_rectangle": 3056,
+      "n_pacific": 1526,
+      "window_ids": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534"
+    },
+    {
+      "boundary_note": "val",
+      "n_union_events": 1130,
+      "n_rectangle": 725,
+      "n_pacific": 435,
+      "window_ids": "536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632"
+    }
+  ],
+  "methodology": {
+    "target": "For each 2-degree x 30-day cell, P(at least one M>=5.5 earthquake in the study region subset assigned to that cell-window).",
+    "main_catalog": "Reconstructed USGS 1965-2024 M>=5.5 earthquakes from local four-window files, flags from usgs2024_event_membership.csv. Official B table sha256 1018e3856fcf15c791f4136fb833f0b4937868e3e6c1f54ead6503529289f265 was not present as a file on the box; counts were required to match 28044/4220/2188/74/6334.",
+    "study_region": "Union of closed rectangle 70<=lon<=145, 10<=lat<=60 and PB2002 Pacific point-in-polygon (within only, no nearest fill). Intersection events counted once.",
+    "spatial_grid": "Global 2-degree grid aligned to even degrees. lon wrapped to [-180, 180). Cell [2k, 2k+2) x [2m, 2m+2). Cells [178,180) and [-180,-178) remain distinct; dateline adjacency is handled in the spherical kernel, not by merging cells. Mask = cells that can receive at least one union-region point (rectangle assignment rule and/or half-open intersection with Pacific polygon parts already split at the dateline).",
+    "time_windows": "Fixed 30-day bins starting 1965-01-01T00:00:00Z, not calendar months. A window belongs to a split only if [start,end) lies entirely inside the split interval. Events assigned by origin time in [window_start, window_end).",
+    "splits": {
+      "train": "[1965-01-01, 2009-01-01)",
+      "val": "[2009-01-01, 2017-01-01)",
+      "test": "[2017-01-01, 2025-01-01)",
+      "holdout": "[2025-01-01, 2026-11-26T07:43:30Z] official fetch end"
+    },
+    "historical_activity": "A cell is historically active for a region if at least one region event has origin time in [1965-01-01, 2009-01-01) and is assigned to that cell (includes events in the train/val straddling window that still fall before 2009-01-01).",
+    "baseline_1_longterm": "Per-cell empirical fraction of complete train windows with >=1 region event, p = n_pos_windows / n_train_windows. Secondary Poisson diagnostic p = 1-exp(-lambda) with lambda = n_train_events / n_train_windows. Both use train windows only. No 2025-2026 data enter these estimates.",
+    "baseline_2_recent": {
+      "formula": "s_c(T)=sum_{e: t_e < T.start} exp(-(T.start-t_e)/tau) * exp(-d_gc(c,e)^2 / (2 sigma^2)); lambda=alpha*s; P=1-exp(-lambda). d_gc is haversine distance to the cell center with wrapped longitude (not Euclidean lon/lat; no StandardScaler).",
+      "tau_days": 1095.75,
+      "sigma_km": 200.0,
+      "cutoff_km": 800.0,
+      "alpha": "Single Poisson scale per region, MLE on complete train windows: alpha = N_train / sum_{c,T in train} s_c(T). Not refit on val/test/holdout.",
+      "leakage": "For window T, only events with origin time strictly before T.start. Scoring val may use train history; test may use train+val+earlier test; holdout may use everything before T including 2017-2024 and earlier holdout windows."
+    },
+    "constant_baseline": "Global-constant prevalence estimated on the same train cell-windows as the evaluation set (all mask cells, or historically active cells). Same p for every cell and window in that evaluation.",
+    "probability_floor": "Metrics clip p to [1e-06, 0.999999] so log-loss is finite when a baseline predicts 0.",
+    "evaluation": "Never report accuracy as a headline metric. Metrics: Brier, log-likelihood and mean log-loss, relative log-likelihood vs the constant prevalence baseline, PR-AUC (sklearn average_precision_score), plus a quantile-bin calibration table.",
+    "region_scoring": "China rectangle, Pacific, and union are scored separately: region mask cells, region events as labels, and baselines estimated from that region's train events/cells."
+  }
+}

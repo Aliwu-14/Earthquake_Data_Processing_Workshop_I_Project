@@ -1,0 +1,28 @@
+{
+  "target": "For each 2-degree x 30-day cell, P(at least one M>=5.5 earthquake in the study region subset assigned to that cell-window).",
+  "main_catalog": "Reconstructed USGS 1965-2024 M>=5.5 earthquakes from local four-window files, flags from usgs2024_event_membership.csv. Official B table sha256 1018e3856fcf15c791f4136fb833f0b4937868e3e6c1f54ead6503529289f265 was not present as a file on the box; counts were required to match 28044/4220/2188/74/6334. Year-2025 and year-2026 events are taken from 07_usgs_quakes_m55_2025_2026_holdout_flags.csv and are not appended to the 1965-2024 main table files. Origin year 2025 is assigned to the TEST period; origin year 2026 to HOLDOUT only.",
+  "study_region": "Union of closed rectangle 70<=lon<=145, 10<=lat<=60 and PB2002 Pacific point-in-polygon (within only, no nearest fill). Intersection events counted once.",
+  "spatial_grid": "Global 2-degree grid aligned to even degrees. lon wrapped to [-180, 180). Cell [2k, 2k+2) x [2m, 2m+2). Cells [178,180) and [-180,-178) remain distinct; dateline adjacency is handled in the spherical kernel, not by merging cells. Mask = cells that can receive at least one union-region point (rectangle assignment rule and/or half-open intersection with Pacific polygon parts already split at the dateline).",
+  "time_windows": "Fixed 30-day bins starting 1965-01-01T00:00:00Z, not calendar months. A window belongs to a split only if [start,end) lies entirely inside the split interval. Events assigned by origin time in [window_start, window_end).",
+  "splits": {
+    "train": "[1965-01-01, 2009-01-01)",
+    "val": "[2009-01-01, 2017-01-01)",
+    "test": "[2017-01-01, 2026-01-01)  — 2017-2025 inclusive",
+    "holdout": "[2026-01-01, 2026-11-26T07:43:30Z] official fetch end"
+  },
+  "protocol_2025_already_seen": "2025 events were previously scored as part of the 2025-2026 later holdout, and those baseline numbers were already shown to the user. Under this locked split, 2025 is inside the test period and is no longer an unseen later check.",
+  "historical_activity": "A cell is historically active for a region if at least one region event has origin time in [1965-01-01, 2009-01-01) and is assigned to that cell (includes events in the train/val straddling window that still fall before 2009-01-01).",
+  "baseline_1_longterm": "Per-cell empirical fraction of complete train windows with >=1 region event, p = n_pos_windows / n_train_windows. Secondary Poisson diagnostic p = 1-exp(-lambda) with lambda = n_train_events / n_train_windows. Both use train windows only. No 2025-2026 data enter these estimates.",
+  "baseline_2_recent": {
+    "formula": "s_c(T)=sum_{e: t_e < T.start} exp(-(T.start-t_e)/tau) * exp(-d_gc(c,e)^2 / (2 sigma^2)); lambda=alpha*s; P=1-exp(-lambda). d_gc is haversine distance to the cell center with wrapped longitude (not Euclidean lon/lat; no StandardScaler).",
+    "tau_days": 1095.75,
+    "sigma_km": 200.0,
+    "cutoff_km": 800.0,
+    "alpha": "Single Poisson scale per region, MLE on complete train windows: alpha = N_train / sum_{c,T in train} s_c(T). Not refit on val/test/holdout.",
+    "leakage": "For window T, only events with origin time strictly before T.start. Scoring val may use train history; test may use train+val+earlier test; holdout may use everything before T including 2017-2024 and earlier holdout windows."
+  },
+  "constant_baseline": "Global-constant prevalence estimated on the same train cell-windows as the evaluation set (all mask cells, or historically active cells). Same p for every cell and window in that evaluation.",
+  "probability_floor": "Metrics clip p to [1e-06, 0.999999] so log-loss is finite when a baseline predicts 0.",
+  "evaluation": "Never report accuracy as a headline metric. Metrics: Brier, log-likelihood and mean log-loss, relative log-likelihood vs the constant prevalence baseline, PR-AUC (sklearn average_precision_score), plus a quantile-bin calibration table.",
+  "region_scoring": "China rectangle, Pacific, and union are scored separately: region mask cells, region events as labels, and baselines estimated from that region's train events/cells."
+}

@@ -1,0 +1,303 @@
+{
+  "split_dir": "/workspace/08_rate_forecast/split_2017_2025",
+  "parent_snapshot_untouched": "/workspace/08_rate_forecast",
+  "plate_boundary_distance_included": true,
+  "plate_boundary_file": "/workspace/07_external/context/tectonicplates/PB2002_boundaries.shp",
+  "feature_columns": [
+    "lat_center",
+    "lon_sin",
+    "lon_cos",
+    "in_china_rectangle",
+    "in_pacific",
+    "in_overlap",
+    "region_label",
+    "p_empirical_train",
+    "historically_active",
+    "dist_to_plate_boundary_km",
+    "n_m55_cell_30d",
+    "n_m55_cell_90d",
+    "n_m55_cell_365d",
+    "kernel_s",
+    "kernel_lambda",
+    "days_since_last_m55_cell",
+    "no_prior_m55_in_cell",
+    "any_m6_800km_365d",
+    "n_m6_800km_365d"
+  ],
+  "identifier_label_diagnostic_columns": [
+    "cell_id",
+    "window_id",
+    "window_start",
+    "window_end",
+    "split",
+    "y",
+    "diag_n_events_in_window",
+    "lon_center"
+  ],
+  "n_feature_columns": 19,
+  "row_counts": {
+    "all_mask": {
+      "holdout": {
+        "n_rows": 35940,
+        "n_cells": 3594,
+        "n_windows": 10,
+        "n_positive": 67,
+        "prevalence": 0.0018642181413466889
+      },
+      "test": {
+        "n_rows": 388152,
+        "n_cells": 3594,
+        "n_windows": 108,
+        "n_positive": 620,
+        "prevalence": 0.001597312393083122
+      },
+      "train": {
+        "n_rows": 1922790,
+        "n_cells": 3594,
+        "n_windows": 535,
+        "n_positive": 3509,
+        "prevalence": 0.0018249522828806058
+      },
+      "val": {
+        "n_rows": 348618,
+        "n_cells": 3594,
+        "n_windows": 97,
+        "n_positive": 683,
+        "prevalence": 0.001959164472287719
+      },
+      "total": 2695500
+    },
+    "hist_active": {
+      "holdout": {
+        "n_rows": 5380,
+        "n_cells": 538,
+        "n_windows": 10,
+        "n_positive": 62,
+        "prevalence": 0.011524163568773234
+      },
+      "test": {
+        "n_rows": 58104,
+        "n_cells": 538,
+        "n_windows": 108,
+        "n_positive": 577,
+        "prevalence": 0.009930469502960209
+      },
+      "train": {
+        "n_rows": 287830,
+        "n_cells": 538,
+        "n_windows": 535,
+        "n_positive": 3509,
+        "prevalence": 0.01219122398638085
+      },
+      "val": {
+        "n_rows": 52186,
+        "n_cells": 538,
+        "n_windows": 97,
+        "n_positive": 651,
+        "prevalence": 0.012474610048672058
+      },
+      "total": 403500
+    },
+    "region_cell_counts": {
+      "n_cells_union": 3594,
+      "n_rectangle": 988,
+      "n_pacific": 2632,
+      "n_overlap": 26,
+      "n_hist_active": 538
+    }
+  },
+  "prevalence_matches_locked_baseline": {
+    "passed": true,
+    "rows": [
+      {
+        "split": "train",
+        "eval_set": "all_mask_cells",
+        "n_rows": 1922790,
+        "n_positive": 3509,
+        "prevalence": 0.0018249522828806058,
+        "locked_n_rows": 1922790,
+        "locked_n_positive": 3509,
+        "locked_prevalence": 0.0018249522828806058,
+        "match": true
+      },
+      {
+        "split": "train",
+        "eval_set": "historically_active",
+        "n_rows": 287830,
+        "n_positive": 3509,
+        "prevalence": 0.01219122398638085,
+        "locked_n_rows": 287830,
+        "locked_n_positive": 3509,
+        "locked_prevalence": 0.01219122398638085,
+        "match": true
+      },
+      {
+        "split": "val",
+        "eval_set": "all_mask_cells",
+        "n_rows": 348618,
+        "n_positive": 683,
+        "prevalence": 0.001959164472287719,
+        "locked_n_rows": 348618,
+        "locked_n_positive": 683,
+        "locked_prevalence": 0.001959164472287719,
+        "match": true
+      },
+      {
+        "split": "val",
+        "eval_set": "historically_active",
+        "n_rows": 52186,
+        "n_positive": 651,
+        "prevalence": 0.012474610048672058,
+        "locked_n_rows": 52186,
+        "locked_n_positive": 651,
+        "locked_prevalence": 0.012474610048672058,
+        "match": true
+      },
+      {
+        "split": "test",
+        "eval_set": "all_mask_cells",
+        "n_rows": 388152,
+        "n_positive": 620,
+        "prevalence": 0.001597312393083122,
+        "locked_n_rows": 388152,
+        "locked_n_positive": 620,
+        "locked_prevalence": 0.001597312393083122,
+        "match": true
+      },
+      {
+        "split": "test",
+        "eval_set": "historically_active",
+        "n_rows": 58104,
+        "n_positive": 577,
+        "prevalence": 0.009930469502960209,
+        "locked_n_rows": 58104,
+        "locked_n_positive": 577,
+        "locked_prevalence": 0.009930469502960209,
+        "match": true
+      },
+      {
+        "split": "holdout",
+        "eval_set": "all_mask_cells",
+        "n_rows": 35940,
+        "n_positive": 67,
+        "prevalence": 0.0018642181413466889,
+        "locked_n_rows": 35940,
+        "locked_n_positive": 67,
+        "locked_prevalence": 0.0018642181413466889,
+        "match": true
+      },
+      {
+        "split": "holdout",
+        "eval_set": "historically_active",
+        "n_rows": 5380,
+        "n_positive": 62,
+        "prevalence": 0.011524163568773234,
+        "locked_n_rows": 5380,
+        "locked_n_positive": 62,
+        "locked_prevalence": 0.011524163568773234,
+        "match": true
+      }
+    ]
+  },
+  "missingness": {
+    "holdout": {
+      "n_rows": 35940,
+      "n_no_prior_m55_in_cell": 30028,
+      "frac_no_prior": 0.8355036171396772,
+      "days_since_na_consistent_with_flag": true,
+      "n_days_since_exactly_zero_with_prior": 0,
+      "days_since_min_among_observed": 0.2514026463031769
+    },
+    "test": {
+      "n_rows": 388152,
+      "n_no_prior_m55_in_cell": 325764,
+      "frac_no_prior": 0.8392691522908551,
+      "days_since_na_consistent_with_flag": true,
+      "n_days_since_exactly_zero_with_prior": 0,
+      "days_since_min_among_observed": 0.03195546194911003
+    },
+    "train": {
+      "n_rows": 1922790,
+      "n_no_prior_m55_in_cell": 1721775,
+      "frac_no_prior": 0.8954566021250371,
+      "days_since_na_consistent_with_flag": true,
+      "n_days_since_exactly_zero_with_prior": 0,
+      "days_since_min_among_observed": 0.002699652686715126
+    },
+    "val": {
+      "n_rows": 348618,
+      "n_no_prior_m55_in_cell": 295256,
+      "frac_no_prior": 0.8469327458708386,
+      "days_since_na_consistent_with_flag": true,
+      "n_days_since_exactly_zero_with_prior": 0,
+      "days_since_min_among_observed": 0.01229814812541008
+    },
+    "first_train_window_id": 0,
+    "first_train_window_frac_no_prior": 1.0,
+    "any_other_nulls_in_feature_cols": {}
+  },
+  "leakage_check": {
+    "windows_spot_checked": [
+      0,
+      267,
+      534,
+      223,
+      515,
+      447,
+      536,
+      584,
+      632,
+      576,
+      565,
+      596,
+      634,
+      688,
+      741,
+      693,
+      711,
+      700,
+      743,
+      748,
+      752,
+      748,
+      743,
+      749
+    ],
+    "n_feature_value_checks": 720,
+    "n_mismatches": 0,
+    "kernel_recomputed": 30,
+    "kernel_mismatches": 0,
+    "events_in_scored_windows_with_time_before_window_start": 0,
+    "mismatch_examples": [],
+    "passed": true
+  },
+  "kernel": {
+    "tau_days": 1095.75,
+    "sigma_km": 200.0,
+    "cutoff_km": 800.0,
+    "alpha_train_only": 0.005506486521694776
+  },
+  "files": {
+    "all_mask": {
+      "path": "/workspace/08_rate_forecast/split_2017_2025/features_all_mask.parquet",
+      "bytes": 23777131,
+      "sha256": "1c5ee7666711cae4c191029eb2a1a4fde5715efcb7439ce168bb23dca78ebbed"
+    },
+    "hist_active": {
+      "path": "/workspace/08_rate_forecast/split_2017_2025/features_hist_active.parquet",
+      "bytes": 6793001,
+      "sha256": "81d8b9aece08a8f897d81d6128a2458d5c8e40127a4c1bb6a83d817df448c890"
+    },
+    "feature_dictionary_md": {
+      "path": "/workspace/08_rate_forecast/split_2017_2025/feature_dictionary.md",
+      "bytes": 4483,
+      "sha256": "e24cd81e8d7abaae2b2096914f84c61f3c5f5252e96367d27e9be2bd1d3d8a46"
+    },
+    "feature_dictionary_json": {
+      "path": "/workspace/08_rate_forecast/split_2017_2025/feature_dictionary.json",
+      "bytes": 5803,
+      "sha256": "421bb7a2ecdbf3ee68175c67bfe864f34451146ddf7d34c3d700aec425be5b05"
+    }
+  },
+  "no_training": true
+}

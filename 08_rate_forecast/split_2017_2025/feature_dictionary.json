@@ -1,0 +1,164 @@
+[
+  {
+    "column": "cell_id",
+    "role": "identifier",
+    "dtype": "category",
+    "definition": "2-degree cell id from even-degree half-open edges, C{lon_west}_{lat_south}."
+  },
+  {
+    "column": "window_id",
+    "role": "identifier",
+    "dtype": "int16",
+    "definition": "Index of the 30-day bin starting 1965-01-01T00:00:00Z."
+  },
+  {
+    "column": "window_start",
+    "role": "identifier",
+    "dtype": "datetime64[ns, UTC]",
+    "definition": "Window start (UTC). History features use only origin times strictly earlier than this instant."
+  },
+  {
+    "column": "window_end",
+    "role": "identifier",
+    "dtype": "datetime64[ns, UTC]",
+    "definition": "Window end (UTC, exclusive)."
+  },
+  {
+    "column": "split",
+    "role": "identifier",
+    "dtype": "category",
+    "definition": "train / val / test / holdout for complete in-split windows only."
+  },
+  {
+    "column": "y",
+    "role": "label",
+    "dtype": "int8",
+    "definition": "1 if at least one union-region M>=5.5 earthquake has origin time in [window_start, window_end) and is assigned to this cell. Not a feature."
+  },
+  {
+    "column": "diag_n_events_in_window",
+    "role": "diagnostic_not_a_feature",
+    "dtype": "int16",
+    "definition": "Count of union M>=5.5 events in this cell-window. Uses events inside T, so it must not be used as a model feature."
+  },
+  {
+    "column": "lon_center",
+    "role": "cell_metadata_not_euclidean_feature",
+    "dtype": "float32",
+    "definition": "Cell-center longitude in [-180, 180). Stored for maps and distance checks. Do not treat raw lon/lat as Euclidean ML features; use lon_sin and lon_cos."
+  },
+  {
+    "column": "lat_center",
+    "role": "feature",
+    "dtype": "float32",
+    "definition": "Cell-center latitude in degrees. Time-invariant."
+  },
+  {
+    "column": "lon_sin",
+    "role": "feature",
+    "dtype": "float32",
+    "definition": "sin(lon_center in radians), spherical longitude encoding. Time-invariant."
+  },
+  {
+    "column": "lon_cos",
+    "role": "feature",
+    "dtype": "float32",
+    "definition": "cos(lon_center in radians), spherical longitude encoding so cells near +/-180 stay close. Time-invariant."
+  },
+  {
+    "column": "in_china_rectangle",
+    "role": "feature",
+    "dtype": "bool",
+    "definition": "Cell intersects the closed 70-145E, 10-60N rectangle under the assignment rule."
+  },
+  {
+    "column": "in_pacific",
+    "role": "feature",
+    "dtype": "bool",
+    "definition": "Cell half-open box intersects a PB2002 Pacific polygon part."
+  },
+  {
+    "column": "in_overlap",
+    "role": "feature",
+    "dtype": "bool",
+    "definition": "in_china_rectangle and in_pacific."
+  },
+  {
+    "column": "region_label",
+    "role": "feature",
+    "dtype": "category",
+    "definition": "rectangle_only, pacific_only, or overlap."
+  },
+  {
+    "column": "p_empirical_train",
+    "role": "feature",
+    "dtype": "float32",
+    "definition": "Baseline 1 union long-term empirical P(N>=1): fraction of the 535 complete train windows with at least one union event in this cell. Static, train windows only. No 2025-2026 data."
+  },
+  {
+    "column": "historically_active",
+    "role": "feature",
+    "dtype": "bool",
+    "definition": "True if at least one union event in this cell has origin time in [1965-01-01, 2009-01-01). Same rule as the baseline historically-active evaluation set."
+  },
+  {
+    "column": "dist_to_plate_boundary_km",
+    "role": "feature",
+    "dtype": "float32",
+    "definition": "Great-circle distance (km, R=6371.0) from the cell center to the nearest point on PB2002_boundaries.shp, after densifying lines at 2.0 km along the sphere. Time-invariant. Source: /workspace/07_external/context/tectonicplates/PB2002_boundaries.shp."
+  },
+  {
+    "column": "n_m55_cell_30d",
+    "role": "feature",
+    "dtype": "int16",
+    "definition": "Count of union M>=5.5 events assigned to this cell with origin time in [T.start-30d, T.start)."
+  },
+  {
+    "column": "n_m55_cell_90d",
+    "role": "feature",
+    "dtype": "int16",
+    "definition": "Same as n_m55_cell_30d with a 90-day lookback."
+  },
+  {
+    "column": "n_m55_cell_365d",
+    "role": "feature",
+    "dtype": "int16",
+    "definition": "Same as n_m55_cell_30d with a 365-day lookback."
+  },
+  {
+    "column": "kernel_s",
+    "role": "feature",
+    "dtype": "float32",
+    "definition": "Neighborhood recent-activity kernel at T.start, identical to baseline 2: sum over union events with t_e < T.start of exp(-(T.start-t_e)/tau) * exp(-d_gc^2 / (2 sigma^2)) for d_gc <= cutoff. tau=1095.75 d, sigma=200.0 km, cutoff=800.0 km, haversine with wrapped longitude. Not refit on val/test."
+  },
+  {
+    "column": "kernel_lambda",
+    "role": "feature",
+    "dtype": "float32",
+    "definition": "alpha * kernel_s, with alpha=0.005506486521694776 estimated by Poisson MLE on complete train windows only (same as the baseline)."
+  },
+  {
+    "column": "days_since_last_m55_cell",
+    "role": "feature",
+    "dtype": "float32",
+    "definition": "Days from the most recent union M>=5.5 in this cell with t < T.start, to T.start. Null (not 0) if no such prior event."
+  },
+  {
+    "column": "no_prior_m55_in_cell",
+    "role": "feature",
+    "dtype": "bool",
+    "definition": "Censored/missing flag: True when no union M>=5.5 in this cell exists before T.start. Use together with days_since_last_m55_cell; do not silently fill the delay with 0."
+  },
+  {
+    "column": "any_m6_800km_365d",
+    "role": "feature",
+    "dtype": "bool",
+    "definition": "True if at least one union event with mag>=6 occurred within 800 km (haversine to the cell center) in [T.start-365d, T.start)."
+  },
+  {
+    "column": "n_m6_800km_365d",
+    "role": "feature",
+    "dtype": "int16",
+    "definition": "Count of those mag>=6 union events within 800 km in the previous 365 days."
+  }
+]
